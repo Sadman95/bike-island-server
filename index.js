@@ -3,6 +3,8 @@ const app = express();
 const cors = require('cors');
 require('dotenv').config();
 const { MongoClient } = require('mongodb');
+const ObjectId = require("mongodb").ObjectId;
+
 
 
 /* Middleware */
@@ -16,6 +18,11 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 
 const database = client.db("bike-island");
 const servicesCollection = database.collection("services");
+const cyclesCollection = database.collection('cycles');
+
+
+
+
 
 
 
@@ -29,6 +36,27 @@ async function server(){
             const result = await cursor.toArray();
             res.send(result);
         })
+
+        //get cycles:
+        app.get('/cycles', async(req, res) =>{
+            const cursor = cyclesCollection.find({});
+            const result = await cursor.toArray();
+            res.send(result);
+        })
+
+        //post cycle:
+        app.post('/cycles', async(req, res) =>{
+            const product = req.body;
+            const result = await cyclesCollection.insertOne(product);
+            res.json(result);
+        })
+        //get cycle by id:
+        app.get("/cycles/:id", async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const result = await cyclesCollection.findOne(query);
+            res.json(result);
+          });
     }
     finally{
         // await client.close();
