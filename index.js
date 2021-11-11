@@ -19,6 +19,8 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 const database = client.db("bike-island");
 const servicesCollection = database.collection("services");
 const cyclesCollection = database.collection('cycles');
+const usersCollection = database.collection('users');
+const ordersCollection = database.collection('orders')
 
 
 
@@ -57,6 +59,20 @@ async function server(){
             const result = await cyclesCollection.findOne(query);
             res.json(result);
           });
+        
+        //post user:
+         app.post('/users', async(req, res) =>{
+            const user = req.body;
+            const result = await usersCollection.insertOne(user);
+            res.json(result);
+        }) 
+        //post orders:
+        app.post('/orders', async(req, res) =>{
+            const order = req.body;
+            const result = await ordersCollection.insertOne(order);
+            res.json(result);
+        })
+
     }
     finally{
         // await client.close();
