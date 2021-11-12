@@ -60,6 +60,28 @@ async function server(){
             const result = await cyclesCollection.findOne(query);
             res.json(result);
           });
+
+          /* update cycle by id */
+          app.put("/cycles/:id", async (req, res) => {
+            const id = req.params.id;
+            const filter = { _id: ObjectId(id) };
+            const options = { upsert: true };
+            const updateCycleDoc = {
+              $set: {
+                productTitle: req.body.name,
+                productDesc: req.body.description,
+                productPrice: req.body.price,
+                productImg: req.body.image,
+              },
+            };
+            const result = await cyclesCollection.updateOne(
+              filter,
+              updateCycleDoc,
+              options
+            );
+            res.json(result);
+          });
+
         
         //post user:
          app.post('/users', async(req, res) =>{
@@ -87,6 +109,25 @@ async function server(){
             const id = req.params.id;
             const query = {_id: ObjectId(id)};
             const result = await ordersCollection.deleteOne(query);
+            res.json(result);
+        })
+        //delete order by admin:
+        app.delete('/allOrders/:id', async(req, res)=>{
+            const id = req.params.id;
+            const query = {_id: ObjectId(id)};
+            const result = await ordersCollection.deleteOne(query);
+            res.json(result);
+        })
+        //update order status by user:(baki)
+        app.put('/orders', async(req, res)=>{
+            const id = req.params.id;
+            const email = req.params.email;
+            const query = {_id: ObjectId(id), userEmail: email};
+            const options = {upsert: true};
+            const updateDoc = {
+                $set: {status: 'pending'}
+            }
+            const result = await ordersCollection.updateOne(query, updateDoc, options);
             res.json(result);
         })
         // post review:
@@ -128,6 +169,14 @@ async function server(){
             }
             res.send({admin: isAdmin});
         })
+        //load all orders:
+        app.get('/allOrders', async(req, res) =>{
+            const cursor = ordersCollection.find({});
+            const result = await cursor.toArray();
+            res.send(result);
+        })
+
+        
 
        
 
