@@ -76,6 +76,14 @@ async function server() {
       res.json(result);
     });
 
+    //delete cycle by id:
+    app.delete("/cycles/:id", async (req, res) => {
+        const id = req.params.id;
+        const query = { _id: ObjectId(id) };
+        const result = await cyclesCollection.deleteOne(query);
+        res.json(result);
+      });
+
     //post user:
     app.post("/users", async (req, res) => {
       const user = req.body;
