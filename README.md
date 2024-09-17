@@ -1,6 +1,6 @@
 # Bike Island Server Site
 
-Live Server Site : [https://polar-bastion-89865.herokuapp.com//](https://polar-bastion-89865.herokuapp.com/).
+Live Server Site : [Bike Island Server](https://bike-island-server.onrender.com/).
 
 ## Server Site Tasks:
 
