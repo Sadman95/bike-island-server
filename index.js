@@ -26,7 +26,7 @@ const reviewsCollection = database.collection("reviews");
 async function server() {
   try {
     await client.connect();
-
+    console.log('db connected')
     //get services:
     app.get("/services", async (req, res) => {
       const cursor = servicesCollection.find({});
@@ -40,6 +40,13 @@ async function server() {
       const result = await cursor.toArray();
       res.send(result);
     });
+    //get service By id:
+    app.get("/services/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id)}
+      const result = await servicesCollection.findOne(query);
+      res.json(result)
+    })
 
     //post cycle:
     app.post("/cycles", async (req, res) => {
