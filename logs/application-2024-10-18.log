@@ -1,0 +1,381 @@
+2024-10-18T04:35:51.389Z info: Bike Island server running on port 5000
+2024-10-18T04:35:55.617Z info: MongoDB connected
+2024-10-18T04:41:15.000Z info: Bike Island server running on port 5000
+2024-10-18T04:41:20.616Z info: MongoDB connected
+2024-10-18T04:44:07.669Z info: Bike Island server running on port 5000
+2024-10-18T04:44:12.010Z info: MongoDB connected
+2024-10-18T04:44:56.815Z info: Bike Island server running on port 5000
+2024-10-18T04:45:01.201Z info: MongoDB connected
+2024-10-18T04:45:52.956Z info: Bike Island server running on port 5000
+2024-10-18T04:45:55.737Z info: MongoDB connected
+2024-10-18T04:48:12.611Z info: Bike Island server running on port 5000
+2024-10-18T04:48:15.384Z info: MongoDB connected
+2024-10-18T04:52:05.423Z info: Bike Island server running on port 5000
+2024-10-18T04:52:08.349Z info: MongoDB connected
+2024-10-18T05:01:19.855Z info: Bike Island server running on port 5000
+2024-10-18T05:01:22.638Z info: MongoDB connected
+2024-10-18T05:02:25.999Z info: Bike Island server running on port 5000
+2024-10-18T05:02:26.358Z error: MongoDB connection failed: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-10-18T05:02:32.365Z info: Bike Island server running on port 5000
+2024-10-18T05:02:36.215Z info: MongoDB connected
+2024-10-18T05:03:14.491Z info: Bike Island server running on port 5000
+2024-10-18T05:03:17.389Z info: MongoDB connected
+2024-10-18T05:05:52.189Z info: Bike Island server running on port 5000
+2024-10-18T05:05:56.548Z info: MongoDB connected
+2024-10-18T05:06:17.152Z info: Bike Island server running on port 5000
+2024-10-18T05:06:20.757Z info: MongoDB connected
+2024-10-18T05:08:24.131Z info: Bike Island server running on port 5000
+2024-10-18T05:08:27.011Z info: MongoDB connected
+2024-10-18T05:08:50.224Z info: Bike Island server running on port 5000
+2024-10-18T05:08:54.422Z info: MongoDB connected
+2024-10-18T05:09:09.402Z info: Bike Island server running on port 5000
+2024-10-18T05:09:12.455Z info: MongoDB connected
+2024-10-18T05:09:40.474Z info: Bike Island server running on port 5000
+2024-10-18T05:09:43.758Z info: MongoDB connected
+2024-10-18T05:09:53.806Z info: Bike Island server running on port 5000
+2024-10-18T05:09:56.623Z info: MongoDB connected
+2024-10-18T05:12:03.251Z info: Bike Island server running on port 5000
+2024-10-18T05:12:10.146Z info: Bike Island server running on port 5000
+2024-10-18T05:12:13.127Z info: MongoDB connected
+2024-10-18T05:13:45.319Z info: Bike Island server running on port 5000
+2024-10-18T05:13:48.235Z info: MongoDB connected
+2024-10-18T05:14:02.778Z info: Bike Island server running on port 5000
+2024-10-18T05:14:18.373Z info: Bike Island server running on port 5000
+2024-10-18T05:14:24.857Z info: Bike Island server running on port 5000
+2024-10-18T05:14:29.139Z info: MongoDB connected
+2024-10-18T05:14:45.283Z info: Bike Island server running on port 5000
+2024-10-18T05:14:48.194Z info: MongoDB connected
+2024-10-18T05:15:24.057Z info: Bike Island server running on port 5000
+2024-10-18T05:15:26.799Z info: MongoDB connected
+2024-10-18T05:16:05.071Z info: Bike Island server running on port 5000
+2024-10-18T05:16:13.203Z info: Bike Island server running on port 5000
+2024-10-18T05:16:16.008Z info: MongoDB connected
+2024-10-18T05:16:25.401Z info: Bike Island server running on port 5000
+2024-10-18T05:16:35.163Z info: Bike Island server running on port 5000
+2024-10-18T05:16:37.835Z info: MongoDB connected
+2024-10-18T05:16:48.623Z info: Bike Island server running on port 5000
+2024-10-18T05:16:51.578Z info: MongoDB connected
+2024-10-18T05:17:04.380Z info: Bike Island server running on port 5000
+2024-10-18T05:17:07.278Z info: MongoDB connected
+2024-10-18T05:17:45.842Z info: Bike Island server running on port 5000
+2024-10-18T05:17:48.575Z info: MongoDB connected
+2024-10-18T05:47:23.851Z info: Bike Island server running on port 5000
+2024-10-18T05:47:26.766Z info: MongoDB connected
+2024-10-18T05:48:12.244Z info: Bike Island server running on port 5000
+2024-10-18T05:48:15.193Z info: MongoDB connected
+2024-10-18T05:48:22.296Z info: Bike Island server running on port 5000
+2024-10-18T05:48:31.800Z info: Bike Island server running on port 5000
+2024-10-18T05:48:36.119Z info: MongoDB connected
+2024-10-18T05:48:43.758Z info: Bike Island server running on port 5000
+2024-10-18T05:48:48.087Z info: MongoDB connected
+2024-10-18T05:48:57.334Z info: Bike Island server running on port 5000
+2024-10-18T05:49:01.934Z info: MongoDB connected
+2024-10-18T05:49:16.640Z info: Bike Island server running on port 5000
+2024-10-18T05:49:19.375Z info: MongoDB connected
+2024-10-18T05:49:41.822Z info: Bike Island server running on port 5000
+2024-10-18T05:49:44.736Z info: MongoDB connected
+2024-10-18T05:51:18.844Z info: Bike Island server running on port 5000
+2024-10-18T05:51:23.277Z info: MongoDB connected
+2024-10-18T05:52:38.891Z info: Bike Island server running on port 5000
+2024-10-18T05:52:41.666Z info: MongoDB connected
+2024-10-18T05:54:13.489Z info: Bike Island server running on port 5000
+2024-10-18T05:54:54.986Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:54:55.027Z info: MongoDB connected
+2024-10-18T05:54:59.990Z info: MongoDB connected
+2024-10-18T05:55:16.540Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:55:16.614Z info: MongoDB connected
+2024-10-18T05:55:16.625Z info: Bike Island server running on port 5000
+2024-10-18T05:55:21.467Z info: MongoDB connected
+2024-10-18T05:55:45.794Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:55:45.852Z info: MongoDB connected
+2024-10-18T05:55:45.962Z info: Bike Island server running on port 5000
+2024-10-18T05:55:49.101Z info: MongoDB connected
+2024-10-18T05:55:49.172Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:55:49.188Z info: MongoDB connected
+2024-10-18T05:55:51.958Z info: MongoDB connected
+2024-10-18T05:56:26.400Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:56:26.408Z info: MongoDB connected
+2024-10-18T05:56:26.429Z info: Bike Island server running on port 5000
+2024-10-18T05:56:29.317Z info: MongoDB connected
+2024-10-18T05:56:47.983Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:56:47.991Z info: MongoDB connected
+2024-10-18T05:56:48.013Z info: Bike Island server running on port 5000
+2024-10-18T05:56:50.860Z info: MongoDB connected
+2024-10-18T05:57:09.968Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:57:09.972Z info: MongoDB connected
+2024-10-18T05:57:10.000Z info: Bike Island server running on port 5000
+2024-10-18T05:57:12.834Z info: MongoDB connected
+2024-10-18T05:57:55.075Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:57:55.080Z info: MongoDB connected
+2024-10-18T05:57:55.099Z info: Bike Island server running on port 5000
+2024-10-18T05:57:59.516Z info: MongoDB connected
+2024-10-18T05:58:14.738Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:58:14.742Z info: MongoDB connected
+2024-10-18T05:58:14.767Z info: Bike Island server running on port 5000
+2024-10-18T05:58:17.577Z info: MongoDB connected
+2024-10-18T05:58:37.185Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:58:37.189Z info: MongoDB connected
+2024-10-18T05:58:37.211Z info: Bike Island server running on port 5000
+2024-10-18T05:58:40.191Z info: MongoDB connected
+2024-10-18T05:58:56.620Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T05:58:56.624Z info: MongoDB connected
+2024-10-18T05:58:56.655Z info: Bike Island server running on port 5000
+2024-10-18T05:59:00.547Z info: MongoDB connected
+2024-10-18T06:01:21.507Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:01:21.523Z info: MongoDB connected
+2024-10-18T06:01:23.905Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:01:23.922Z info: MongoDB connected
+2024-10-18T06:01:23.928Z info: Bike Island server running on port 5000
+2024-10-18T06:01:24.497Z info: MongoDB connected
+2024-10-18T06:01:26.667Z info: MongoDB connected
+2024-10-18T06:02:33.382Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:02:33.413Z info: MongoDB connected
+2024-10-18T06:02:33.492Z info: Bike Island server running on port 5001
+2024-10-18T06:02:36.378Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:02:36.397Z info: MongoDB connected
+2024-10-18T06:02:36.533Z info: MongoDB connected
+2024-10-18T06:02:40.704Z info: MongoDB connected
+2024-10-18T06:03:11.257Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:03:11.290Z info: MongoDB connected
+2024-10-18T06:03:11.338Z info: Bike Island server running on port 5001
+2024-10-18T06:03:14.231Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:03:14.247Z info: MongoDB connected
+2024-10-18T06:03:15.690Z info: MongoDB connected
+2024-10-18T06:03:17.849Z info: MongoDB connected
+2024-10-18T06:03:40.543Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:03:40.552Z info: MongoDB connected
+2024-10-18T06:03:40.588Z info: Bike Island server running on port 5001
+2024-10-18T06:03:43.582Z info: MongoDB connected
+2024-10-18T06:06:41.096Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:06:41.127Z info: MongoDB connected
+2024-10-18T06:06:44.446Z info: MongoDB connected
+2024-10-18T06:06:44.895Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:06:44.912Z info: MongoDB connected
+2024-10-18T06:06:44.918Z info: Bike Island server running on port 5000
+2024-10-18T06:06:47.844Z info: MongoDB connected
+2024-10-18T06:07:45.235Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:07:45.240Z info: MongoDB connected
+2024-10-18T06:07:45.254Z info: Bike Island server running on port 5000
+2024-10-18T06:07:49.352Z info: MongoDB connected
+2024-10-18T06:08:15.742Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:08:15.747Z info: MongoDB connected
+2024-10-18T06:08:15.757Z info: Bike Island server running on port 5000
+2024-10-18T06:08:17.652Z error: MongoDB connection failed: Topology is closed
+2024-10-18T06:08:55.725Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:08:55.729Z info: MongoDB connected
+2024-10-18T06:08:55.756Z info: Bike Island server running on port 5000
+2024-10-18T06:08:58.671Z info: MongoDB connected
+2024-10-18T06:11:50.059Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:11:50.079Z info: MongoDB connected
+2024-10-18T06:11:50.094Z info: Bike Island server running on port 5000
+2024-10-18T06:11:52.508Z error: MongoDB connection failed: connection establishment was cancelled
+2024-10-18T06:12:17.071Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:12:17.147Z info: MongoDB connected
+2024-10-18T06:12:17.270Z info: Bike Island server running on port 5000
+2024-10-18T06:12:20.528Z info: MongoDB connected
+2024-10-18T06:12:21.615Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:12:21.685Z info: MongoDB connected
+2024-10-18T06:12:55.827Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:12:55.880Z info: MongoDB connected
+2024-10-18T06:12:55.968Z info: Bike Island server running on port 5000
+2024-10-18T06:12:59.721Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:12:59.747Z info: MongoDB connected
+2024-10-18T06:13:00.577Z info: MongoDB connected
+2024-10-18T06:13:02.621Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:14:37.602Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:14:37.685Z info: MongoDB connected
+2024-10-18T06:14:37.795Z info: Bike Island server running on port 5000
+2024-10-18T06:14:41.435Z info: MongoDB connected
+2024-10-18T06:14:43.588Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:14:43.628Z info: MongoDB connected
+2024-10-18T06:14:43.643Z info: Bike Island server running on port undefined
+2024-10-18T06:14:43.651Z info: Bike Island server running on port undefined
+2024-10-18T06:14:47.867Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:14:50.069Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:14:50.086Z info: MongoDB connected
+2024-10-18T06:14:50.092Z info: Bike Island server running on port undefined
+2024-10-18T06:14:50.093Z info: Bike Island server running on port undefined
+2024-10-18T06:15:08.280Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:15:08.302Z info: MongoDB connected
+2024-10-18T06:15:08.313Z info: Bike Island server running on port undefined
+2024-10-18T06:15:08.316Z info: Bike Island server running on port undefined
+2024-10-18T06:15:08.381Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:15:08.404Z info: MongoDB connected
+2024-10-18T06:15:08.448Z info: Bike Island server running on port undefined
+2024-10-18T06:15:08.450Z info: Bike Island server running on port undefined
+2024-10-18T06:15:10.348Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:15:10.381Z info: MongoDB connected
+2024-10-18T06:15:10.388Z info: Bike Island server running on port undefined
+2024-10-18T06:15:10.390Z info: Bike Island server running on port undefined
+2024-10-18T06:15:11.931Z error: MongoDB connection failed: Topology is closed
+2024-10-18T06:15:21.601Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:15:21.613Z info: MongoDB connected
+2024-10-18T06:15:21.636Z info: Bike Island server running on port undefined
+2024-10-18T06:15:21.662Z info: Bike Island server running on port undefined
+2024-10-18T06:15:26.215Z info: MongoDB connected
+2024-10-18T06:15:40.562Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:15:40.567Z info: MongoDB connected
+2024-10-18T06:15:40.597Z info: Bike Island server running on port undefined
+2024-10-18T06:15:40.598Z info: Bike Island server running on port undefined
+2024-10-18T06:15:43.398Z info: MongoDB connected
+2024-10-18T06:17:22.488Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:17:22.494Z info: MongoDB connected
+2024-10-18T06:17:22.505Z info: Bike Island server running on port undefined
+2024-10-18T06:17:22.506Z info: Bike Island server running on port undefined
+2024-10-18T06:17:25.078Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:19:14.672Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:19:14.677Z info: MongoDB connected
+2024-10-18T06:19:14.688Z info: Bike Island server running on port undefined
+2024-10-18T06:19:14.689Z info: Bike Island server running on port undefined
+2024-10-18T06:19:16.423Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:19:17.004Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:19:17.040Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:19:17.072Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:19:18.616Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:19:40.370Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:19:40.379Z info: MongoDB connected
+2024-10-18T06:19:40.399Z info: Bike Island server running on port undefined
+2024-10-18T06:19:40.402Z info: Bike Island server running on port undefined
+2024-10-18T06:19:41.946Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:19:42.028Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:19:42.167Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:19:42.211Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:19:42.254Z error: MongoDB connection failed: Topology is closed
+2024-10-18T06:20:37.892Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:20:37.951Z info: MongoDB connected
+2024-10-18T06:20:37.962Z info: Bike Island server running on port undefined
+2024-10-18T06:20:37.968Z info: Bike Island server running on port undefined
+2024-10-18T06:20:37.962Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:20:37.989Z info: MongoDB connected
+2024-10-18T06:20:38.074Z info: Bike Island server running on port undefined
+2024-10-18T06:20:38.076Z info: Bike Island server running on port undefined
+2024-10-18T06:20:40.955Z info: MongoDB connected
+2024-10-18T06:20:41.140Z info: MongoDB connected
+2024-10-18T06:20:43.655Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:20:43.732Z info: MongoDB connected
+2024-10-18T06:20:43.755Z info: Bike Island server running on port undefined
+2024-10-18T06:20:43.759Z info: Bike Island server running on port undefined
+2024-10-18T06:20:45.779Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:20:45.866Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:20:45.902Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:20:45.932Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:20:46.514Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:21:10.583Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:21:10.619Z info: MongoDB connected
+2024-10-18T06:21:10.670Z info: Bike Island server running on port undefined
+2024-10-18T06:21:10.673Z info: Bike Island server running on port undefined
+2024-10-18T06:21:10.992Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:21:11.017Z info: MongoDB connected
+2024-10-18T06:21:11.048Z info: Bike Island server running on port undefined
+2024-10-18T06:21:11.051Z info: Bike Island server running on port undefined
+2024-10-18T06:21:15.112Z info: MongoDB connected
+2024-10-18T06:21:15.637Z info: MongoDB connected
+2024-10-18T06:21:15.730Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:21:15.769Z info: MongoDB connected
+2024-10-18T06:21:15.786Z info: Bike Island server running on port undefined
+2024-10-18T06:21:15.788Z info: Bike Island server running on port undefined
+2024-10-18T06:21:18.764Z info: MongoDB connected
+2024-10-18T06:21:19.315Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:21:19.422Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:21:19.461Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:21:19.491Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:21:45.478Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:21:45.506Z info: MongoDB connected
+2024-10-18T06:21:45.519Z info: Bike Island server running on port undefined
+2024-10-18T06:21:45.523Z info: Bike Island server running on port undefined
+2024-10-18T06:21:45.722Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:21:45.743Z info: MongoDB connected
+2024-10-18T06:21:45.790Z info: Bike Island server running on port undefined
+2024-10-18T06:21:45.793Z info: Bike Island server running on port undefined
+2024-10-18T06:21:47.710Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:21:47.740Z info: MongoDB connected
+2024-10-18T06:21:47.758Z info: Bike Island server running on port undefined
+2024-10-18T06:21:47.762Z info: Bike Island server running on port undefined
+2024-10-18T06:21:49.910Z info: MongoDB connected
+2024-10-18T06:21:50.062Z info: MongoDB connected
+2024-10-18T06:21:50.266Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:21:50.346Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:21:50.393Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:21:50.429Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:22:14.589Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:22:14.626Z info: MongoDB connected
+2024-10-18T06:22:14.658Z info: Bike Island server running on port undefined
+2024-10-18T06:22:14.666Z info: Bike Island server running on port undefined
+2024-10-18T06:22:14.550Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:22:14.621Z info: MongoDB connected
+2024-10-18T06:22:14.701Z info: Bike Island server running on port undefined
+2024-10-18T06:22:14.704Z info: Bike Island server running on port undefined
+2024-10-18T06:22:17.620Z info: MongoDB connected
+2024-10-18T06:22:17.831Z info: MongoDB connected
+2024-10-18T06:22:19.288Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:22:19.351Z info: MongoDB connected
+2024-10-18T06:22:19.371Z info: Bike Island server running on port undefined
+2024-10-18T06:22:19.376Z info: Bike Island server running on port undefined
+2024-10-18T06:22:21.541Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:22:21.624Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:22:21.785Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:22:21.834Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:22:35.846Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:22:35.851Z info: MongoDB connected
+2024-10-18T06:22:35.861Z info: Bike Island server running on port undefined
+2024-10-18T06:22:35.862Z info: Bike Island server running on port undefined
+2024-10-18T06:22:37.490Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:22:37.568Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:22:37.619Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:22:37.681Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:22:37.732Z info: Mongo DB disconnected!
+2024-10-18T06:22:38.362Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:23:00.285Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:23:00.296Z info: MongoDB connected
+2024-10-18T06:23:00.308Z info: Bike Island server running on port undefined
+2024-10-18T06:23:00.309Z info: Bike Island server running on port undefined
+2024-10-18T06:23:02.592Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:23:02.652Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:23:02.708Z info: Mongo DB disconnected!
+2024-10-18T06:23:03.006Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:23:24.157Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:23:24.163Z info: MongoDB connected
+2024-10-18T06:23:24.173Z info: Bike Island server running on port undefined
+2024-10-18T06:23:24.174Z info: Bike Island server running on port undefined
+2024-10-18T06:23:25.947Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:23:26.019Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:23:26.061Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:23:26.111Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:23:26.137Z info: Mongo DB disconnected!
+2024-10-18T06:23:26.818Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:23:51.115Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:23:51.120Z info: MongoDB connected
+2024-10-18T06:23:51.132Z info: Bike Island server running on port undefined
+2024-10-18T06:23:51.133Z info: Bike Island server running on port undefined
+2024-10-18T06:23:52.966Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:23:53.052Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:23:53.101Z info: Mongo DB disconnected!
+2024-10-18T06:23:53.639Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:24:45.548Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:24:45.556Z info: MongoDB connected
+2024-10-18T06:24:45.565Z info: Bike Island server running on port undefined
+2024-10-18T06:24:45.569Z info: Bike Island server running on port undefined
+2024-10-18T06:24:47.161Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:24:47.227Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:24:47.307Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:24:47.344Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:24:47.375Z error: MongoDB connection failed: Topology is closed
+2024-10-18T06:24:47.378Z info: Mongo DB disconnected!
+2024-10-18T06:25:09.225Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:25:09.235Z info: MongoDB connected
+2024-10-18T06:25:09.249Z info: Bike Island server running on port undefined
+2024-10-18T06:25:09.250Z info: Bike Island server running on port undefined
+2024-10-18T06:25:11.088Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:25:11.158Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:25:11.231Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:25:11.259Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:25:11.280Z info: Mongo DB disconnected!
+2024-10-18T06:25:11.788Z error: MongoDB connection failed: Attempted to check out a connection from closed connection pool
+2024-10-18T06:25:32.064Z error: Failed to connect to Redis: Socket already opened
+2024-10-18T06:25:32.068Z info: MongoDB connected
+2024-10-18T06:25:32.081Z info: Bike Island server running on port undefined
+2024-10-18T06:25:32.082Z info: Bike Island server running on port undefined
+2024-10-18T06:25:33.837Z error: MongoDB connection failed: Can't call `openUri()` on an active connection with different connection strings. Make sure you aren't calling `mongoose.connect()` multiple times. See: https://mongoosejs.com/docs/connections.html#multiple_connections
+2024-10-18T06:25:33.921Z error: {"success":false,"statusCode":404,"message":"Not Found","errorMessages":[{"path":"","message":"Not Found"}],"status":"failed","stack":{}}
+2024-10-18T06:25:34.059Z error: MongoDB connection failed: Topology is closed
+2024-10-18T06:25:34.064Z info: Mongo DB disconnected!

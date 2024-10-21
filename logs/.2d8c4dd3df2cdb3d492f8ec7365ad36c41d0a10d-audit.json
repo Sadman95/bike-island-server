@@ -1,0 +1,45 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\.2d8c4dd3df2cdb3d492f8ec7365ad36c41d0a10d-audit.json",
+    "files": [
+        {
+            "date": 1728991662391,
+            "name": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\application-2024-10-15.log",
+            "hash": "dcb454905154afcfa2c048377ec9d7e2876e604847010715d82b02b21d278ef5"
+        },
+        {
+            "date": 1729154956607,
+            "name": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\application-2024-10-17.log",
+            "hash": "84c91e182cac9535c43e2964f0fc138fa5a4c04dcd74f95c693ee3e8eabd307a"
+        },
+        {
+            "date": 1729226128557,
+            "name": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\application-2024-10-18.log",
+            "hash": "659c9140b036c043820ee66dd4b02738ccfa9dacc2355f4b91b9d5c6dbdce348"
+        },
+        {
+            "date": 1729277088695,
+            "name": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\application-2024-10-19.log",
+            "hash": "cf8bf6e7b18aefb99bd2a28d37be0df1037f4634988185d71e4bc359a0f78d55"
+        },
+        {
+            "date": 1729365397493,
+            "name": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\application-2024-10-20.log",
+            "hash": "54a4586064829dec41103c69c8f1066b101586228ad85d0af6e838d19a0f413b"
+        },
+        {
+            "date": 1729447774142,
+            "name": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\application-2024-10-21.log",
+            "hash": "60944e629f814d5cf37c96ad6226b38697163b55ab59bbf8f9f5874f1bcf2518"
+        },
+        {
+            "date": 1729534517654,
+            "name": "E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\logs\\application-2024-10-22.log",
+            "hash": "43797a7c87a091301c4f34f99b74a79e1108e0396286ff03070fad4f36a9bab4"
+        }
+    ],
+    "hashType": "sha256"
+}

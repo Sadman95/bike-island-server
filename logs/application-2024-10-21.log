@@ -1,0 +1,1385 @@
+2024-10-20T18:09:46.644Z info: POST /api/v2/auth/login 400 399ms
+2024-10-20T18:09:46.647Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:09:46.720Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T18:09:46.721Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:09:47.648Z info: POST /api/v2/auth/signup 201 4364ms
+2024-10-20T18:09:49.859Z info: POST /api/v2/auth/get-otp 500 3120ms
+2024-10-20T18:09:49.859Z error: {"success":false,"statusCode":500,"message":"OTP validation failed: userId: Path `userId` is required.","errorMessages":[],"status":"failed","stack":{}}
+2024-10-20T18:09:49.897Z info: GET /api/v2/auth/own-otp 404 16ms
+2024-10-20T18:09:49.898Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-20T18:09:53.623Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-20T18:09:53.624Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:09:53.645Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T18:09:53.647Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:09:56.940Z info: POST /api/v2/auth/forgot-password 200 3261ms
+2024-10-20T18:09:56.991Z info: POST /api/v2/auth/logout 404 12ms
+2024-10-20T18:09:56.992Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:10:43.184Z info: POST /api/v2/auth/login 400 429ms
+2024-10-20T18:10:43.187Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:10:43.249Z info: POST /api/v2/auth/refresh 404 14ms
+2024-10-20T18:10:43.250Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:10:43.773Z info: POST /api/v2/auth/signup 201 4036ms
+2024-10-20T18:10:46.316Z info: POST /api/v2/auth/get-otp 500 3049ms
+2024-10-20T18:10:46.317Z error: {"success":false,"statusCode":500,"message":"OTP validation failed: userId: Path `userId` is required.","errorMessages":[],"status":"failed","stack":{}}
+2024-10-20T18:10:46.365Z info: GET /api/v2/auth/own-otp 404 18ms
+2024-10-20T18:10:46.367Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-20T18:10:48.868Z info: POST /api/v2/auth/verify-otp 404 6ms
+2024-10-20T18:10:48.869Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:10:48.896Z info: PATCH /api/v2/auth/change-password 404 4ms
+2024-10-20T18:10:48.898Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:10:51.427Z info: POST /api/v2/auth/forgot-password 200 2505ms
+2024-10-20T18:10:51.474Z info: POST /api/v2/auth/logout 404 14ms
+2024-10-20T18:10:51.476Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:11:44.952Z info: POST /api/v2/auth/signup 201 3304ms
+2024-10-20T18:11:45.018Z info: POST /api/v2/auth/login 400 426ms
+2024-10-20T18:11:45.019Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:11:45.074Z info: POST /api/v2/auth/refresh 404 15ms
+2024-10-20T18:11:45.075Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:11:50.089Z info: POST /api/v2/auth/get-otp 500 4987ms
+2024-10-20T18:11:50.089Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:11:50.138Z info: GET /api/v2/auth/own-otp 500 19ms
+2024-10-20T18:11:50.139Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:11:53.563Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-20T18:11:53.566Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:11:53.589Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T18:11:53.590Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:11:57.034Z info: POST /api/v2/auth/forgot-password 200 3413ms
+2024-10-20T18:11:57.087Z info: POST /api/v2/auth/logout 404 14ms
+2024-10-20T18:11:57.088Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:12:33.943Z info: POST /api/v2/auth/signup 201 3274ms
+2024-10-20T18:12:34.458Z info: POST /api/v2/auth/login 400 447ms
+2024-10-20T18:12:34.459Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:12:34.498Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T18:12:34.499Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:12:36.998Z info: POST /api/v2/auth/get-otp 500 2482ms
+2024-10-20T18:12:36.999Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:12:37.048Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-20T18:12:37.049Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:12:40.312Z info: POST /api/v2/auth/verify-otp 404 12ms
+2024-10-20T18:12:40.313Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:12:40.333Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T18:12:40.334Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:12:42.831Z info: POST /api/v2/auth/forgot-password 200 2480ms
+2024-10-20T18:12:42.875Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-20T18:12:42.876Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:13:11.277Z info: POST /api/v2/auth/signup 201 3228ms
+2024-10-20T18:13:11.774Z info: POST /api/v2/auth/login 400 416ms
+2024-10-20T18:13:11.775Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:13:11.832Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-20T18:13:11.834Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:13:14.227Z info: POST /api/v2/auth/get-otp 500 2373ms
+2024-10-20T18:13:14.228Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:13:14.275Z info: GET /api/v2/auth/own-otp 500 18ms
+2024-10-20T18:13:14.282Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:13:16.824Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-20T18:13:16.825Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:13:16.856Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T18:13:16.857Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:13:20.127Z info: POST /api/v2/auth/forgot-password 200 3243ms
+2024-10-20T18:13:20.169Z info: POST /api/v2/auth/logout 404 12ms
+2024-10-20T18:13:20.170Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:14:39.301Z info: POST /api/v2/auth/signup 201 3895ms
+2024-10-20T18:14:39.750Z info: POST /api/v2/auth/login 400 394ms
+2024-10-20T18:14:39.751Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:14:39.787Z info: POST /api/v2/auth/refresh 404 12ms
+2024-10-20T18:14:39.788Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:14:42.343Z info: POST /api/v2/auth/get-otp 500 2531ms
+2024-10-20T18:14:42.344Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:14:42.384Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T18:14:42.385Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:14:45.652Z info: POST /api/v2/auth/verify-otp 404 16ms
+2024-10-20T18:14:45.653Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:14:45.672Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T18:14:45.672Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:14:48.254Z info: POST /api/v2/auth/forgot-password 200 2565ms
+2024-10-20T18:14:48.297Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-20T18:14:48.297Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:15:16.796Z info: POST /api/v2/auth/signup 201 3257ms
+2024-10-20T18:15:17.281Z info: POST /api/v2/auth/login 400 408ms
+2024-10-20T18:15:17.282Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:15:17.335Z info: POST /api/v2/auth/refresh 404 16ms
+2024-10-20T18:15:17.336Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:15:19.867Z info: POST /api/v2/auth/get-otp 500 2503ms
+2024-10-20T18:15:19.867Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:15:19.916Z info: GET /api/v2/auth/own-otp 500 19ms
+2024-10-20T18:15:19.916Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:15:23.133Z info: POST /api/v2/auth/verify-otp 404 16ms
+2024-10-20T18:15:23.134Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:15:23.164Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T18:15:23.165Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:15:26.556Z info: POST /api/v2/auth/forgot-password 200 3355ms
+2024-10-20T18:15:26.592Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-20T18:15:26.593Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:16:17.755Z info: POST /api/v2/auth/signup 201 3072ms
+2024-10-20T18:16:18.210Z info: POST /api/v2/auth/login 400 398ms
+2024-10-20T18:16:18.212Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:16:18.253Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-20T18:16:18.254Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:16:20.748Z info: POST /api/v2/auth/get-otp 500 2475ms
+2024-10-20T18:16:20.749Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:16:20.785Z info: GET /api/v2/auth/own-otp 500 8ms
+2024-10-20T18:16:20.785Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:16:23.343Z info: POST /api/v2/auth/verify-otp 404 8ms
+2024-10-20T18:16:23.344Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:16:23.364Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T18:16:23.364Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:16:25.972Z info: POST /api/v2/auth/forgot-password 200 2591ms
+2024-10-20T18:16:26.047Z info: POST /api/v2/auth/logout 404 11ms
+2024-10-20T18:16:26.048Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:16:54.679Z info: POST /api/v2/auth/signup 201 3090ms
+2024-10-20T18:16:55.116Z info: POST /api/v2/auth/login 400 376ms
+2024-10-20T18:16:55.117Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:16:55.150Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T18:16:55.150Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:16:57.644Z info: POST /api/v2/auth/get-otp 500 2476ms
+2024-10-20T18:16:57.645Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:16:57.681Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-20T18:16:57.681Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:17:00.744Z info: POST /api/v2/auth/verify-otp 404 12ms
+2024-10-20T18:17:00.745Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:17:00.766Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T18:17:00.770Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:17:04.096Z info: POST /api/v2/auth/forgot-password 200 3302ms
+2024-10-20T18:17:04.129Z info: POST /api/v2/auth/logout 404 5ms
+2024-10-20T18:17:04.130Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:18:25.409Z info: GET /api/v2/docs/ 304 6ms
+2024-10-20T18:18:26.680Z info: GET /api/v2/docs/swagger-ui-init.js 304 1ms
+2024-10-20T18:18:26.993Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 300ms
+2024-10-20T18:18:27.063Z info: GET /api/v2/docs/swagger-ui.css 304 377ms
+2024-10-20T18:18:27.069Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 379ms
+2024-10-20T18:19:10.805Z info: POST /api/v2/auth/login 200 723ms
+2024-10-20T18:21:04.463Z info: POST /api/v2/cycles 201 363ms
+2024-10-20T18:22:20.148Z info: GET /api/v2/cycles/67154a10714450971901bd13 200 282ms
+2024-10-20T18:22:37.194Z info: DELETE /api/v2/cycles/67154a10714450971901bd13 200 289ms
+2024-10-20T18:23:15.745Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 289ms
+2024-10-20T18:56:32.301Z info: GET /api/health 200 8ms
+2024-10-20T18:56:40.754Z info: POST /api/v2/cycles 201 372ms
+2024-10-20T18:56:41.303Z info: GET /api/v2/cycles 200 425ms
+2024-10-20T18:56:41.424Z info: DELETE /api/v2/cycles/6715526825e5eac22c2fc53c 200 100ms
+2024-10-20T18:56:45.359Z info: POST /api/v2/auth/signup 201 4982ms
+2024-10-20T18:56:45.948Z info: POST /api/v2/auth/login 400 466ms
+2024-10-20T18:56:45.969Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:56:46.012Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-20T18:56:46.014Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:56:49.538Z info: POST /api/v2/auth/get-otp 500 3494ms
+2024-10-20T18:56:49.541Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:56:49.572Z info: GET /api/v2/auth/own-otp 500 10ms
+2024-10-20T18:56:49.575Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:56:52.043Z info: POST /api/v2/auth/verify-otp 404 17ms
+2024-10-20T18:56:52.048Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:56:52.068Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T18:56:52.071Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:56:54.521Z info: POST /api/v2/auth/forgot-password 200 2433ms
+2024-10-20T18:56:54.571Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-20T18:56:54.574Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:56:59.009Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 329ms
+2024-10-20T18:57:14.671Z info: GET /api/health 200 4ms
+2024-10-20T18:57:18.724Z info: POST /api/v2/cycles 201 170ms
+2024-10-20T18:57:18.885Z info: GET /api/v2/cycles 200 50ms
+2024-10-20T18:57:18.920Z info: DELETE /api/v2/cycles/6715528efcbdfdc4b583d547 200 14ms
+2024-10-20T18:57:22.679Z info: POST /api/v2/auth/signup 201 4156ms
+2024-10-20T18:57:23.114Z info: POST /api/v2/auth/login 400 369ms
+2024-10-20T18:57:23.118Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T18:57:23.151Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T18:57:23.153Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T18:57:26.300Z info: POST /api/v2/auth/get-otp 500 3128ms
+2024-10-20T18:57:26.303Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:57:26.344Z info: GET /api/v2/auth/own-otp 500 10ms
+2024-10-20T18:57:26.346Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T18:57:29.424Z info: POST /api/v2/auth/verify-otp 404 13ms
+2024-10-20T18:57:29.426Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T18:57:29.446Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T18:57:29.448Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T18:57:32.646Z info: POST /api/v2/auth/forgot-password 200 3183ms
+2024-10-20T18:57:32.677Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-20T18:57:32.681Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:00:19.706Z info: GET /api/health 200 6ms
+2024-10-20T19:00:23.527Z info: POST /api/v2/cycles 201 325ms
+2024-10-20T19:00:23.744Z info: GET /api/v2/cycles 200 53ms
+2024-10-20T19:00:23.776Z info: DELETE /api/v2/cycles/671553477a058dce2ae6792b 200 13ms
+2024-10-20T19:00:27.855Z info: POST /api/v2/auth/signup 201 4462ms
+2024-10-20T19:00:28.353Z info: POST /api/v2/auth/login 400 398ms
+2024-10-20T19:00:28.358Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:00:28.388Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T19:00:28.390Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:00:31.662Z info: POST /api/v2/auth/get-otp 500 3255ms
+2024-10-20T19:00:31.664Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:00:31.697Z info: GET /api/v2/auth/own-otp 500 9ms
+2024-10-20T19:00:31.699Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:00:34.223Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-20T19:00:34.225Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:00:34.244Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:00:34.245Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:00:37.656Z info: POST /api/v2/auth/forgot-password 200 3397ms
+2024-10-20T19:00:37.691Z info: POST /api/v2/auth/logout 404 10ms
+2024-10-20T19:00:37.693Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:00:54.697Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 507ms
+2024-10-20T19:00:59.496Z info: GET /api/health 200 4ms
+2024-10-20T19:01:02.994Z info: POST /api/v2/cycles 201 193ms
+2024-10-20T19:01:03.210Z info: GET /api/v2/cycles 200 52ms
+2024-10-20T19:01:03.255Z info: DELETE /api/v2/cycles/6715536e4392da43b5a133a2 200 22ms
+2024-10-20T19:01:06.194Z info: POST /api/v2/auth/signup 201 3428ms
+2024-10-20T19:01:06.654Z info: POST /api/v2/auth/login 400 391ms
+2024-10-20T19:01:06.658Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:01:06.693Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T19:01:06.695Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:01:09.973Z info: POST /api/v2/auth/get-otp 500 3260ms
+2024-10-20T19:01:09.976Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:01:10.008Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T19:01:10.010Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:01:12.503Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-20T19:01:12.506Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:01:12.527Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:01:12.530Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:01:15.168Z info: POST /api/v2/auth/forgot-password 200 2621ms
+2024-10-20T19:01:15.195Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T19:01:15.197Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:06:50.929Z info: GET /api/health 200 7ms
+2024-10-20T19:06:57.192Z info: POST /api/v2/auth/signup 201 4042ms
+2024-10-20T19:06:58.217Z info: POST /api/v2/auth/login 400 875ms
+2024-10-20T19:06:58.228Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:06:58.329Z info: POST /api/v2/auth/refresh 404 33ms
+2024-10-20T19:06:58.337Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:07:00.404Z info: POST /api/v2/cycles 201 171ms
+2024-10-20T19:07:00.597Z info: GET /api/v2/cycles 200 55ms
+2024-10-20T19:07:00.639Z info: DELETE /api/v2/cycles/671554d49d506f98ce577585 200 18ms
+2024-10-20T19:07:00.918Z info: POST /api/v2/auth/get-otp 500 2536ms
+2024-10-20T19:07:00.921Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:07:00.965Z info: GET /api/v2/auth/own-otp 500 16ms
+2024-10-20T19:07:00.970Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:07:04.392Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-20T19:07:04.395Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:07:04.415Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:07:04.418Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:07:06.924Z info: POST /api/v2/auth/forgot-password 200 2465ms
+2024-10-20T19:07:06.953Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-20T19:07:06.955Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:07:23.735Z info: GET /api/health 200 5ms
+2024-10-20T19:07:28.558Z info: POST /api/v2/cycles 201 135ms
+2024-10-20T19:07:28.792Z info: GET /api/v2/cycles 200 42ms
+2024-10-20T19:07:28.823Z info: DELETE /api/v2/cycles/671554f0fecddd1d522ff323 200 14ms
+2024-10-20T19:07:32.649Z info: POST /api/v2/auth/signup 201 4141ms
+2024-10-20T19:07:33.113Z info: POST /api/v2/auth/login 400 395ms
+2024-10-20T19:07:33.117Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:07:33.150Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T19:07:33.154Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:07:36.495Z info: POST /api/v2/auth/get-otp 500 3322ms
+2024-10-20T19:07:36.501Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:07:36.573Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-20T19:07:36.579Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:07:39.814Z info: POST /api/v2/auth/verify-otp 404 9ms
+2024-10-20T19:07:39.816Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:07:39.833Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:07:39.835Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:07:42.330Z info: POST /api/v2/auth/forgot-password 200 2482ms
+2024-10-20T19:07:42.370Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T19:07:42.371Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:07:58.876Z info: GET /api/health 200 5ms
+2024-10-20T19:08:02.496Z info: POST /api/v2/cycles 201 113ms
+2024-10-20T19:08:02.663Z info: GET /api/v2/cycles 200 47ms
+2024-10-20T19:08:02.702Z info: DELETE /api/v2/cycles/67155512a8c56f3e51064027 200 18ms
+2024-10-20T19:08:06.306Z info: POST /api/v2/auth/signup 201 3726ms
+2024-10-20T19:08:06.748Z info: POST /api/v2/auth/login 400 372ms
+2024-10-20T19:08:06.752Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:08:06.786Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T19:08:06.788Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:08:09.839Z info: POST /api/v2/auth/get-otp 500 3033ms
+2024-10-20T19:08:09.842Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:08:09.879Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-20T19:08:09.881Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:08:13.203Z info: POST /api/v2/auth/verify-otp 404 8ms
+2024-10-20T19:08:13.205Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:08:13.220Z info: PATCH /api/v2/auth/change-password 404 0ms
+2024-10-20T19:08:13.222Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:08:15.686Z info: POST /api/v2/auth/forgot-password 200 2452ms
+2024-10-20T19:08:15.746Z info: POST /api/v2/auth/logout 404 12ms
+2024-10-20T19:08:15.747Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:08:44.144Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 334ms
+2024-10-20T19:10:33.968Z info: GET /api/health 200 3ms
+2024-10-20T19:10:37.136Z info: POST /api/v2/cycles 201 212ms
+2024-10-20T19:10:37.383Z info: GET /api/v2/cycles 200 61ms
+2024-10-20T19:10:37.421Z info: DELETE /api/v2/cycles/671555aca01d64ac7d4b3e39 200 16ms
+2024-10-20T19:10:41.774Z info: POST /api/v2/auth/signup 201 4766ms
+2024-10-20T19:10:42.248Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 310ms
+2024-10-20T19:10:42.445Z info: POST /api/v2/auth/login 400 557ms
+2024-10-20T19:10:42.451Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:10:42.500Z info: POST /api/v2/auth/refresh 404 14ms
+2024-10-20T19:10:42.503Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:10:45.764Z info: POST /api/v2/auth/get-otp 500 3232ms
+2024-10-20T19:10:45.769Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:10:45.809Z info: GET /api/v2/auth/own-otp 500 10ms
+2024-10-20T19:10:45.811Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:10:48.948Z info: POST /api/v2/auth/verify-otp 404 12ms
+2024-10-20T19:10:48.951Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:10:48.970Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:10:48.972Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:10:51.613Z info: POST /api/v2/auth/forgot-password 200 2628ms
+2024-10-20T19:10:51.679Z info: POST /api/v2/auth/logout 404 12ms
+2024-10-20T19:10:51.682Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:11:12.932Z info: GET /api/health 200 4ms
+2024-10-20T19:11:16.860Z info: POST /api/v2/cycles 201 136ms
+2024-10-20T19:11:16.978Z info: GET /api/v2/cycles 200 32ms
+2024-10-20T19:11:17.014Z info: DELETE /api/v2/cycles/671555d4136e92165efe6b2e 200 16ms
+2024-10-20T19:11:19.643Z info: POST /api/v2/auth/signup 201 3286ms
+2024-10-20T19:11:20.070Z info: POST /api/v2/auth/login 400 365ms
+2024-10-20T19:11:20.074Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:11:20.128Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-20T19:11:20.130Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:11:22.576Z info: POST /api/v2/auth/get-otp 500 2427ms
+2024-10-20T19:11:22.578Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:11:22.609Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-20T19:11:22.612Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:11:25.026Z info: POST /api/v2/auth/verify-otp 404 8ms
+2024-10-20T19:11:25.028Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:11:25.049Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T19:11:25.052Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:11:28.377Z info: POST /api/v2/auth/forgot-password 200 3312ms
+2024-10-20T19:11:28.422Z info: POST /api/v2/auth/logout 404 5ms
+2024-10-20T19:11:28.424Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:12:17.298Z info: GET /api/health 200 6ms
+2024-10-20T19:12:21.128Z info: POST /api/v2/cycles 201 197ms
+2024-10-20T19:12:21.263Z info: GET /api/v2/cycles 200 39ms
+2024-10-20T19:12:21.297Z info: DELETE /api/v2/cycles/67155614b593985c5c41aedf 200 15ms
+2024-10-20T19:12:24.066Z info: POST /api/v2/auth/signup 201 3270ms
+2024-10-20T19:12:24.526Z info: POST /api/v2/auth/login 400 392ms
+2024-10-20T19:12:24.532Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:12:24.566Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T19:12:24.568Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:12:27.117Z info: POST /api/v2/auth/get-otp 500 2533ms
+2024-10-20T19:12:27.121Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:12:27.183Z info: GET /api/v2/auth/own-otp 500 16ms
+2024-10-20T19:12:27.189Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:12:30.415Z info: POST /api/v2/auth/verify-otp 404 24ms
+2024-10-20T19:12:30.419Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:12:30.443Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:12:30.446Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:12:33.776Z info: POST /api/v2/auth/forgot-password 200 3310ms
+2024-10-20T19:12:33.815Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T19:12:33.818Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:12:58.398Z info: GET /api/health 200 5ms
+2024-10-20T19:13:01.278Z info: POST /api/v2/cycles 201 236ms
+2024-10-20T19:13:01.537Z info: GET /api/v2/cycles 200 53ms
+2024-10-20T19:13:01.593Z info: DELETE /api/v2/cycles/6715563d3488783c4dc12f9f 200 19ms
+2024-10-20T19:13:04.507Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 333ms
+2024-10-20T19:13:05.538Z info: POST /api/v2/auth/signup 201 4068ms
+2024-10-20T19:13:06.562Z info: POST /api/v2/auth/login 400 555ms
+2024-10-20T19:13:06.569Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:13:06.609Z info: POST /api/v2/auth/refresh 404 11ms
+2024-10-20T19:13:06.613Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:13:09.902Z info: POST /api/v2/auth/get-otp 500 3269ms
+2024-10-20T19:13:09.905Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:13:09.941Z info: GET /api/v2/auth/own-otp 500 10ms
+2024-10-20T19:13:09.943Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:13:12.450Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-20T19:13:12.453Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:13:12.473Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:13:12.475Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:13:15.394Z info: POST /api/v2/auth/forgot-password 200 2905ms
+2024-10-20T19:13:15.432Z info: POST /api/v2/auth/logout 404 10ms
+2024-10-20T19:13:15.434Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:13:31.655Z info: GET /api/health 200 5ms
+2024-10-20T19:13:35.063Z info: POST /api/v2/cycles 201 218ms
+2024-10-20T19:13:35.231Z info: GET /api/v2/cycles 200 36ms
+2024-10-20T19:13:35.267Z info: DELETE /api/v2/cycles/6715565ee3d27dbdaf4ca401 200 17ms
+2024-10-20T19:13:38.101Z info: POST /api/v2/auth/signup 201 3246ms
+2024-10-20T19:13:38.579Z info: POST /api/v2/auth/login 400 404ms
+2024-10-20T19:13:38.594Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:13:38.632Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-20T19:13:38.634Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:13:41.680Z info: POST /api/v2/auth/get-otp 500 3028ms
+2024-10-20T19:13:41.682Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:13:41.719Z info: GET /api/v2/auth/own-otp 500 13ms
+2024-10-20T19:13:41.722Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:13:44.222Z info: POST /api/v2/auth/verify-otp 404 15ms
+2024-10-20T19:13:44.224Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:13:44.242Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:13:44.244Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:13:46.806Z info: POST /api/v2/auth/forgot-password 200 2546ms
+2024-10-20T19:13:46.857Z info: POST /api/v2/auth/logout 404 10ms
+2024-10-20T19:13:46.859Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:26:55.742Z info: GET /api/health 200 4ms
+2024-10-20T19:26:58.779Z info: POST /api/v2/cycles 201 203ms
+2024-10-20T19:26:58.931Z info: GET /api/v2/cycles 200 43ms
+2024-10-20T19:26:58.983Z info: DELETE /api/v2/cycles/67155982c6c8d325ddd075b1 200 21ms
+2024-10-20T19:27:02.557Z info: POST /api/v2/auth/signup 201 3970ms
+2024-10-20T19:27:03.039Z info: POST /api/v2/auth/login 400 382ms
+2024-10-20T19:27:03.044Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:27:03.093Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T19:27:03.094Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:27:06.398Z info: POST /api/v2/auth/get-otp 500 3287ms
+2024-10-20T19:27:06.401Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:27:06.432Z info: GET /api/v2/auth/own-otp 500 8ms
+2024-10-20T19:27:06.435Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:27:08.919Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-20T19:27:08.924Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:27:08.950Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:27:08.953Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:27:11.386Z info: POST /api/v2/auth/forgot-password 200 2421ms
+2024-10-20T19:27:11.421Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T19:27:11.423Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:28:00.227Z info: GET /api/health 200 14ms
+2024-10-20T19:28:03.073Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 392ms
+2024-10-20T19:28:04.533Z info: POST /api/v2/cycles 201 187ms
+2024-10-20T19:28:04.807Z info: GET /api/v2/cycles 200 66ms
+2024-10-20T19:28:04.847Z info: DELETE /api/v2/cycles/671559c4f9eb3f4853466af5 200 18ms
+2024-10-20T19:28:08.010Z info: POST /api/v2/auth/signup 201 3974ms
+2024-10-20T19:28:08.475Z info: POST /api/v2/auth/login 400 387ms
+2024-10-20T19:28:08.479Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:28:08.513Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T19:28:08.514Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:28:11.921Z info: POST /api/v2/auth/get-otp 500 3390ms
+2024-10-20T19:28:11.925Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:28:11.965Z info: GET /api/v2/auth/own-otp 500 13ms
+2024-10-20T19:28:11.968Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:28:15.375Z info: POST /api/v2/auth/verify-otp 404 14ms
+2024-10-20T19:28:15.378Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:28:15.400Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:28:15.402Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:28:18.770Z info: POST /api/v2/auth/forgot-password 200 3354ms
+2024-10-20T19:28:18.809Z info: POST /api/v2/auth/logout 404 11ms
+2024-10-20T19:28:18.813Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:28:47.607Z info: GET /api/health 200 4ms
+2024-10-20T19:28:50.802Z info: POST /api/v2/cycles 201 240ms
+2024-10-20T19:28:51.010Z info: GET /api/v2/cycles 200 86ms
+2024-10-20T19:28:51.138Z info: DELETE /api/v2/cycles/671559f280c02bcb9c9eea31 200 102ms
+2024-10-20T19:28:55.541Z info: POST /api/v2/auth/signup 201 4992ms
+2024-10-20T19:28:55.987Z info: POST /api/v2/auth/login 400 376ms
+2024-10-20T19:28:55.991Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:28:56.025Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T19:28:56.027Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:28:59.325Z info: POST /api/v2/auth/get-otp 500 3282ms
+2024-10-20T19:28:59.327Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:28:59.365Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T19:28:59.369Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:29:01.864Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-20T19:29:01.867Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:29:01.889Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:29:01.891Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:29:04.319Z info: POST /api/v2/auth/forgot-password 200 2413ms
+2024-10-20T19:29:04.369Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-20T19:29:04.370Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:29:32.770Z info: GET /api/health 200 6ms
+2024-10-20T19:29:40.833Z info: POST /api/v2/cycles 201 250ms
+2024-10-20T19:29:41.106Z info: GET /api/v2/cycles 200 64ms
+2024-10-20T19:29:41.169Z info: DELETE /api/v2/cycles/67155a248ddb97c974995dae 200 41ms
+2024-10-20T19:29:44.210Z info: POST /api/v2/auth/signup 201 3846ms
+2024-10-20T19:29:44.843Z info: POST /api/v2/auth/login 400 512ms
+2024-10-20T19:29:44.850Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:29:44.909Z info: POST /api/v2/auth/refresh 404 15ms
+2024-10-20T19:29:44.913Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:29:47.392Z info: POST /api/v2/auth/get-otp 500 2448ms
+2024-10-20T19:29:47.395Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:29:47.433Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T19:29:47.436Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:29:49.986Z info: POST /api/v2/auth/verify-otp 404 9ms
+2024-10-20T19:29:49.990Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:29:50.008Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:29:50.010Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:29:52.461Z info: POST /api/v2/auth/forgot-password 200 2434ms
+2024-10-20T19:29:52.492Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T19:29:52.494Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:30:09.912Z info: GET /api/health 200 5ms
+2024-10-20T19:30:13.265Z info: POST /api/v2/cycles 201 540ms
+2024-10-20T19:30:13.495Z info: GET /api/v2/cycles 200 34ms
+2024-10-20T19:30:13.536Z info: DELETE /api/v2/cycles/67155a44eeeb2269fb3d0a63 200 21ms
+2024-10-20T19:30:16.306Z info: POST /api/v2/auth/signup 201 3611ms
+2024-10-20T19:30:16.805Z info: POST /api/v2/auth/login 400 382ms
+2024-10-20T19:30:16.809Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:30:16.842Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T19:30:16.843Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:30:20.072Z info: POST /api/v2/auth/get-otp 500 3213ms
+2024-10-20T19:30:20.074Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:30:20.103Z info: GET /api/v2/auth/own-otp 500 9ms
+2024-10-20T19:30:20.105Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:30:22.560Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-20T19:30:22.564Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:30:22.585Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:30:22.587Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:30:25.089Z info: POST /api/v2/auth/forgot-password 200 2481ms
+2024-10-20T19:30:25.129Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-20T19:30:25.133Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:30:41.816Z info: GET /api/health 200 5ms
+2024-10-20T19:30:45.495Z info: POST /api/v2/cycles 201 238ms
+2024-10-20T19:30:45.661Z info: GET /api/v2/cycles 200 42ms
+2024-10-20T19:30:45.700Z info: DELETE /api/v2/cycles/67155a6545372f6615f81b1a 200 18ms
+2024-10-20T19:30:49.304Z info: POST /api/v2/auth/signup 201 3997ms
+2024-10-20T19:30:49.754Z info: POST /api/v2/auth/login 400 370ms
+2024-10-20T19:30:49.759Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:30:49.791Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T19:30:49.794Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:30:52.273Z info: POST /api/v2/auth/get-otp 500 2463ms
+2024-10-20T19:30:52.276Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:30:52.305Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-20T19:30:52.307Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:30:55.452Z info: POST /api/v2/auth/verify-otp 404 13ms
+2024-10-20T19:30:55.455Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:30:55.474Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:30:55.478Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:30:58.734Z info: POST /api/v2/auth/forgot-password 200 3241ms
+2024-10-20T19:30:58.784Z info: POST /api/v2/auth/logout 404 11ms
+2024-10-20T19:30:58.786Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:32:15.840Z info: GET /api/health 200 6ms
+2024-10-20T19:32:18.573Z info: POST /api/v2/cycles 201 172ms
+2024-10-20T19:32:18.774Z info: GET /api/v2/cycles 200 51ms
+2024-10-20T19:32:18.817Z info: DELETE /api/v2/cycles/67155ac28a875ed6d5f97ba6 200 20ms
+2024-10-20T19:32:22.035Z info: POST /api/v2/auth/signup 201 3491ms
+2024-10-20T19:32:22.465Z info: POST /api/v2/auth/login 400 365ms
+2024-10-20T19:32:22.469Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:32:22.501Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T19:32:22.503Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:32:25.006Z info: POST /api/v2/auth/get-otp 500 2488ms
+2024-10-20T19:32:25.009Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:32:25.047Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-20T19:32:25.050Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:32:28.294Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-20T19:32:28.296Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:32:28.312Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:32:28.313Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:32:31.604Z info: POST /api/v2/auth/forgot-password 200 3277ms
+2024-10-20T19:32:31.638Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T19:32:31.642Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:32:38.495Z info: PUT /api/v2/cycles/67154a10714450971901bd13 201 367ms
+2024-10-20T19:32:52.196Z info: GET /api/health 200 4ms
+2024-10-20T19:32:57.021Z info: POST /api/v2/cycles 201 174ms
+2024-10-20T19:32:57.208Z info: GET /api/v2/cycles 200 44ms
+2024-10-20T19:32:57.246Z info: DELETE /api/v2/cycles/67155ae8c3b0781ea09dc26a 200 15ms
+2024-10-20T19:33:00.977Z info: POST /api/v2/auth/signup 201 4177ms
+2024-10-20T19:33:01.413Z info: POST /api/v2/auth/login 400 367ms
+2024-10-20T19:33:01.418Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:33:01.459Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T19:33:01.461Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:33:03.889Z info: POST /api/v2/auth/get-otp 500 2413ms
+2024-10-20T19:33:03.892Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:33:03.919Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-20T19:33:03.922Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:33:07.346Z info: POST /api/v2/auth/verify-otp 404 42ms
+2024-10-20T19:33:07.361Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:33:07.447Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T19:33:07.454Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:33:10.124Z info: POST /api/v2/auth/forgot-password 200 2612ms
+2024-10-20T19:33:10.208Z info: POST /api/v2/auth/logout 404 15ms
+2024-10-20T19:33:10.211Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:33:56.606Z info: GET /api/health 200 11ms
+2024-10-20T19:34:02.319Z info: POST /api/v2/cycles 201 253ms
+2024-10-20T19:34:02.549Z info: GET /api/v2/cycles 200 116ms
+2024-10-20T19:34:02.584Z info: DELETE /api/v2/cycles/67155b2a733b84616fe4a36d 200 15ms
+2024-10-20T19:34:05.630Z info: POST /api/v2/auth/signup 201 3777ms
+2024-10-20T19:34:06.531Z info: POST /api/v2/auth/login 400 714ms
+2024-10-20T19:34:06.548Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:34:06.687Z info: POST /api/v2/auth/refresh 404 35ms
+2024-10-20T19:34:06.690Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:34:09.943Z info: POST /api/v2/auth/get-otp 500 3227ms
+2024-10-20T19:34:09.947Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:34:09.991Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T19:34:09.995Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:34:12.696Z info: POST /api/v2/auth/verify-otp 404 58ms
+2024-10-20T19:34:12.700Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:34:12.726Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:34:12.729Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:34:16.845Z info: POST /api/v2/auth/forgot-password 200 4094ms
+2024-10-20T19:34:16.911Z info: POST /api/v2/auth/logout 404 31ms
+2024-10-20T19:34:16.914Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:34:38.269Z info: GET /api/health 200 5ms
+2024-10-20T19:34:41.960Z info: PUT /api/v2/cycles/67154a10714450971901bd13 404 377ms
+2024-10-20T19:34:42.008Z error: {"success":false,"statusCode":404,"message":"Item not found!","errorMessages":[{"path":"","message":"Item not found!"}],"status":"failed","stack":"Error: Item not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:138:22\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:42:7"}
+2024-10-20T19:34:42.451Z info: POST /api/v2/cycles 201 199ms
+2024-10-20T19:34:42.614Z info: GET /api/v2/cycles 200 42ms
+2024-10-20T19:34:42.650Z info: DELETE /api/v2/cycles/67155b526dc522017c64b757 200 17ms
+2024-10-20T19:34:46.486Z info: POST /api/v2/auth/signup 201 4341ms
+2024-10-20T19:34:46.918Z info: POST /api/v2/auth/login 400 375ms
+2024-10-20T19:34:46.923Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T19:34:46.956Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T19:34:46.958Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T19:34:49.544Z info: POST /api/v2/auth/get-otp 500 2570ms
+2024-10-20T19:34:49.549Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:34:49.593Z info: GET /api/v2/auth/own-otp 500 17ms
+2024-10-20T19:34:49.596Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T19:34:52.069Z info: POST /api/v2/auth/verify-otp 404 7ms
+2024-10-20T19:34:52.071Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:34:52.086Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T19:34:52.088Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T19:34:55.446Z info: POST /api/v2/auth/forgot-password 200 3341ms
+2024-10-20T19:34:55.510Z info: POST /api/v2/auth/logout 404 35ms
+2024-10-20T19:34:55.513Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T19:37:55.692Z info: POST /api/v2/cycles 201 434ms
+2024-10-20T20:11:56.956Z info: GET /api/health 200 6ms
+2024-10-20T20:12:05.425Z info: POST /api/v2/auth/signup 201 4247ms
+2024-10-20T20:12:05.659Z info: POST /api/v2/cycles 201 122ms
+2024-10-20T20:12:05.800Z info: GET /api/v2/cycles 200 42ms
+2024-10-20T20:12:05.833Z info: DELETE /api/v2/cycles/6715641584f06d2db4017faa 200 16ms
+2024-10-20T20:12:06.117Z info: POST /api/v2/auth/login 400 600ms
+2024-10-20T20:12:06.124Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:12:06.181Z info: POST /api/v2/auth/refresh 404 18ms
+2024-10-20T20:12:06.185Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:12:09.536Z info: POST /api/v2/auth/get-otp 500 3328ms
+2024-10-20T20:12:09.537Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:12:09.566Z info: GET /api/v2/auth/own-otp 500 9ms
+2024-10-20T20:12:09.569Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:12:12.119Z info: POST /api/v2/auth/verify-otp 404 8ms
+2024-10-20T20:12:12.123Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:12:12.146Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T20:12:12.148Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:12:14.767Z info: POST /api/v2/auth/forgot-password 200 2604ms
+2024-10-20T20:12:14.815Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-20T20:12:14.817Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:12:39.081Z info: GET /api/health 200 5ms
+2024-10-20T20:12:45.425Z info: POST /api/v2/cycles 201 146ms
+2024-10-20T20:12:45.608Z info: GET /api/v2/cycles 200 46ms
+2024-10-20T20:12:45.654Z info: DELETE /api/v2/cycles/6715643d7d4564bf5a9ac310 200 15ms
+2024-10-20T20:12:48.468Z info: POST /api/v2/auth/signup 201 3488ms
+2024-10-20T20:12:48.925Z info: POST /api/v2/auth/login 400 387ms
+2024-10-20T20:12:48.930Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:12:48.963Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T20:12:48.967Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:12:52.246Z info: POST /api/v2/auth/get-otp 500 3261ms
+2024-10-20T20:12:52.250Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:12:52.292Z info: GET /api/v2/auth/own-otp 500 16ms
+2024-10-20T20:12:52.296Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:12:54.815Z info: POST /api/v2/auth/verify-otp 404 30ms
+2024-10-20T20:12:54.819Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:12:54.844Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T20:12:54.847Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:12:58.140Z info: POST /api/v2/auth/forgot-password 200 3270ms
+2024-10-20T20:12:58.298Z info: POST /api/v2/auth/logout 404 77ms
+2024-10-20T20:12:58.301Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:20:29.336Z info: POST /api/v2/cycles 201 115ms
+2024-10-20T20:20:29.425Z info: GET /api/v2/cycles 200 23ms
+2024-10-20T20:20:29.449Z info: DELETE /api/v2/cycles/6715660da30f3cc5564592cb 200 10ms
+2024-10-20T20:20:50.659Z info: GET /api/health 200 4ms
+2024-10-20T20:20:54.314Z info: POST /api/v2/cycles 201 191ms
+2024-10-20T20:20:54.538Z info: GET /api/v2/cycles 200 61ms
+2024-10-20T20:20:54.595Z info: DELETE /api/v2/cycles/67156626b97b4d3f9bd0c542 200 30ms
+2024-10-20T20:20:57.757Z info: POST /api/v2/auth/signup 201 3324ms
+2024-10-20T20:20:58.200Z info: POST /api/v2/auth/login 400 379ms
+2024-10-20T20:20:58.206Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:20:58.241Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T20:20:58.242Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:21:00.801Z info: POST /api/v2/auth/get-otp 500 2539ms
+2024-10-20T20:21:00.806Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:21:00.855Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T20:21:00.860Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:21:03.717Z info: POST /api/v2/auth/verify-otp 404 333ms
+2024-10-20T20:21:03.722Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:21:03.748Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T20:21:03.751Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:21:06.488Z info: POST /api/v2/auth/forgot-password 200 2695ms
+2024-10-20T20:21:06.701Z info: POST /api/v2/auth/logout 404 123ms
+2024-10-20T20:21:06.705Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:32:49.004Z info: GET /api/health 200 13ms
+2024-10-20T20:32:54.814Z info: POST /api/v2/cycles 201 120ms
+2024-10-20T20:32:54.906Z info: GET /api/v2/cycles 200 25ms
+2024-10-20T20:32:54.937Z info: DELETE /api/v2/cycles/671568f666b27ac500871f16 200 15ms
+2024-10-20T20:32:56.228Z info: POST /api/v2/auth/signup 201 4291ms
+2024-10-20T20:32:56.666Z info: POST /api/v2/auth/login 400 372ms
+2024-10-20T20:32:56.671Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:32:56.703Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T20:32:56.706Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:33:00.018Z info: POST /api/v2/auth/get-otp 500 3294ms
+2024-10-20T20:33:00.024Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:33:00.064Z info: GET /api/v2/auth/own-otp 500 9ms
+2024-10-20T20:33:00.066Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:33:02.631Z info: POST /api/v2/auth/verify-otp 404 9ms
+2024-10-20T20:33:02.635Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:33:02.664Z info: PATCH /api/v2/auth/change-password 404 0ms
+2024-10-20T20:33:02.665Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:33:06.272Z info: POST /api/v2/auth/forgot-password 200 3593ms
+2024-10-20T20:33:06.298Z info: POST /api/v2/auth/logout 404 5ms
+2024-10-20T20:33:06.300Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:33:23.650Z info: GET /api/health 200 5ms
+2024-10-20T20:33:27.129Z info: POST /api/v2/cycles 201 206ms
+2024-10-20T20:33:27.286Z info: GET /api/v2/cycles 200 35ms
+2024-10-20T20:33:27.324Z info: DELETE /api/v2/cycles/67156916ba18085f26bc73d2 200 18ms
+2024-10-20T20:33:31.016Z info: POST /api/v2/auth/signup 201 4056ms
+2024-10-20T20:33:31.478Z info: POST /api/v2/auth/login 400 379ms
+2024-10-20T20:33:31.484Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:33:31.518Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-20T20:33:31.519Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:33:34.626Z info: POST /api/v2/auth/get-otp 500 3090ms
+2024-10-20T20:33:34.630Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:33:34.665Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-20T20:33:34.667Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:33:37.161Z info: POST /api/v2/auth/verify-otp 404 7ms
+2024-10-20T20:33:37.163Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:33:37.178Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T20:33:37.181Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:33:40.334Z info: POST /api/v2/auth/forgot-password 200 3140ms
+2024-10-20T20:33:40.392Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-20T20:33:40.394Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:34:07.862Z info: GET /api/v2/docs/ 304 5ms
+2024-10-20T20:34:08.995Z info: GET /api/v2/docs/swagger-ui.css 304 7ms
+2024-10-20T20:34:09.000Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 10ms
+2024-10-20T20:34:09.008Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 17ms
+2024-10-20T20:34:09.016Z info: GET /api/v2/docs/swagger-ui-init.js 304 1ms
+2024-10-20T20:34:11.164Z info: GET /api/v2/docs/favicon-32x32.png 304 120ms
+2024-10-20T20:34:59.199Z info: POST /api/v2/auth/login 200 750ms
+2024-10-20T20:35:31.630Z info: GET /api/v2/users 200 555ms
+2024-10-20T20:43:11.898Z info: GET /api/v2/docs/ 304 8ms
+2024-10-20T20:43:13.412Z info: GET /api/v2/docs/swagger-ui.css 304 5ms
+2024-10-20T20:43:13.465Z info: GET /api/v2/docs/swagger-ui-init.js 200 2ms
+2024-10-20T20:43:13.494Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 69ms
+2024-10-20T20:43:13.828Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 346ms
+2024-10-20T20:43:15.719Z info: GET /api/v2/docs/favicon-32x32.png 304 1ms
+2024-10-20T20:48:00.677Z info: GET /api/v2/docs/ 304 5ms
+2024-10-20T20:48:01.810Z info: GET /api/v2/docs/swagger-ui.css 304 5ms
+2024-10-20T20:48:01.840Z info: GET /api/v2/docs/swagger-ui-init.js 200 1ms
+2024-10-20T20:48:01.884Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 48ms
+2024-10-20T20:48:01.919Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 97ms
+2024-10-20T20:48:02.722Z info: GET /api/v2/docs/favicon-32x32.png 304 3ms
+2024-10-20T20:49:07.373Z info: GET /api/v2/users?page=1&limit=5&sortBy=firstName&sortOrder=desc 401 2ms
+2024-10-20T20:49:07.377Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-token.js:19:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-10-20T20:50:31.782Z info: POST /api/v2/auth/login 200 732ms
+2024-10-20T20:50:53.121Z info: GET /api/v2/users?page=1&limit=5&sortBy=firstName&sortOrder=desc 200 568ms
+2024-10-20T20:53:28.380Z info: GET /api/health 200 8ms
+2024-10-20T20:53:31.785Z info: POST /api/v2/cycles 201 229ms
+2024-10-20T20:53:32.115Z info: GET /api/v2/cycles 200 102ms
+2024-10-20T20:53:32.190Z info: DELETE /api/v2/cycles/67156dcbac0860e9b2a40ecf 200 56ms
+2024-10-20T20:53:36.426Z info: POST /api/v2/auth/signup 201 4820ms
+2024-10-20T20:53:37.602Z info: POST /api/v2/auth/login 400 1014ms
+2024-10-20T20:53:37.612Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:53:37.696Z info: POST /api/v2/auth/refresh 404 17ms
+2024-10-20T20:53:37.712Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:53:41.297Z info: POST /api/v2/auth/get-otp 500 3552ms
+2024-10-20T20:53:41.301Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:53:41.350Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T20:53:41.354Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:53:43.909Z info: POST /api/v2/auth/verify-otp 404 45ms
+2024-10-20T20:53:43.912Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:53:43.936Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T20:53:43.938Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:53:46.485Z info: POST /api/v2/auth/forgot-password 200 2525ms
+2024-10-20T20:53:46.541Z info: POST /api/v2/auth/logout 404 15ms
+2024-10-20T20:53:46.545Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:53:59.933Z info: GET /api/v2/users?page=1&limit=5&sortBy=firstName&sortOrder=desc 200 594ms
+2024-10-20T20:54:09.273Z info: GET /api/health 200 9ms
+2024-10-20T20:54:11.775Z info: POST /api/v2/cycles 201 188ms
+2024-10-20T20:54:11.914Z info: GET /api/v2/cycles 200 45ms
+2024-10-20T20:54:11.956Z info: DELETE /api/v2/cycles/67156df3799ab69a663f8563 200 20ms
+2024-10-20T20:54:15.977Z info: POST /api/v2/auth/signup 201 4109ms
+2024-10-20T20:54:16.417Z info: POST /api/v2/auth/login 400 372ms
+2024-10-20T20:54:16.421Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:54:16.461Z info: POST /api/v2/auth/refresh 404 11ms
+2024-10-20T20:54:16.463Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:54:18.976Z info: POST /api/v2/auth/get-otp 500 2498ms
+2024-10-20T20:54:18.980Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:54:19.023Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-20T20:54:19.027Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:54:22.517Z info: POST /api/v2/auth/verify-otp 404 18ms
+2024-10-20T20:54:22.520Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:54:22.542Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T20:54:22.544Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:54:25.061Z info: POST /api/v2/auth/forgot-password 200 2500ms
+2024-10-20T20:54:25.093Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-20T20:54:25.095Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:55:00.577Z info: GET /api/v2/users?page=1&limit=5&sortBy=firstName&sortOrder=desc 200 614ms
+2024-10-20T20:55:07.634Z info: GET /api/health 200 4ms
+2024-10-20T20:55:10.997Z info: POST /api/v2/cycles 201 168ms
+2024-10-20T20:55:11.120Z info: GET /api/v2/cycles 200 31ms
+2024-10-20T20:55:11.154Z info: DELETE /api/v2/cycles/67156e2ecdfd60593cf4c88f 200 14ms
+2024-10-20T20:55:14.699Z info: POST /api/v2/auth/signup 201 4117ms
+2024-10-20T20:55:15.159Z info: POST /api/v2/auth/login 400 371ms
+2024-10-20T20:55:15.164Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:55:15.195Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T20:55:15.199Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:55:17.590Z info: POST /api/v2/auth/get-otp 500 2367ms
+2024-10-20T20:55:17.593Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:55:17.627Z info: GET /api/v2/auth/own-otp 500 8ms
+2024-10-20T20:55:17.630Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:55:21.030Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-20T20:55:21.033Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:55:21.057Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T20:55:21.059Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:55:23.710Z info: POST /api/v2/auth/forgot-password 200 2634ms
+2024-10-20T20:55:23.745Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-20T20:55:23.748Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:55:59.891Z info: GET /api/v2/users?page=1&limit=5&sortBy=firstName&sortOrder=desc 200 669ms
+2024-10-20T20:56:01.320Z info: GET /api/health 200 4ms
+2024-10-20T20:56:04.585Z info: POST /api/v2/cycles 201 318ms
+2024-10-20T20:56:04.732Z info: GET /api/v2/cycles 200 42ms
+2024-10-20T20:56:04.775Z info: DELETE /api/v2/cycles/67156e649052face556eeae4 200 21ms
+2024-10-20T20:56:09.051Z info: POST /api/v2/auth/signup 201 4334ms
+2024-10-20T20:56:09.532Z info: POST /api/v2/auth/login 400 386ms
+2024-10-20T20:56:09.540Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:56:09.587Z info: POST /api/v2/auth/refresh 404 11ms
+2024-10-20T20:56:09.590Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:56:12.051Z info: POST /api/v2/auth/get-otp 500 2441ms
+2024-10-20T20:56:12.064Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:56:12.117Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-20T20:56:12.119Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:56:15.345Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-20T20:56:15.351Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:56:15.383Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T20:56:15.386Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:56:16.791Z info: GET /api/v2/users?page=1&limit=5&sortBy=name&sortOrder=desc 200 554ms
+2024-10-20T20:56:18.792Z info: POST /api/v2/auth/forgot-password 200 3366ms
+2024-10-20T20:56:18.829Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-20T20:56:18.831Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:56:31.598Z info: GET /api/v2/users?page=1&limit=5&sortBy=name&sortOrder=asc 200 639ms
+2024-10-20T20:56:40.475Z info: GET /api/health 200 6ms
+2024-10-20T20:56:44.703Z info: POST /api/v2/cycles 201 209ms
+2024-10-20T20:56:44.907Z info: GET /api/v2/cycles 200 88ms
+2024-10-20T20:56:44.973Z info: DELETE /api/v2/cycles/67156e8cb149ece9be50c24b 200 46ms
+2024-10-20T20:56:48.773Z info: POST /api/v2/auth/signup 201 3987ms
+2024-10-20T20:56:49.210Z info: POST /api/v2/auth/login 400 372ms
+2024-10-20T20:56:49.216Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T20:56:49.292Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-20T20:56:49.294Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T20:56:52.533Z info: POST /api/v2/auth/get-otp 500 3212ms
+2024-10-20T20:56:52.536Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:56:52.564Z info: GET /api/v2/auth/own-otp 500 8ms
+2024-10-20T20:56:52.566Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T20:56:55.750Z info: POST /api/v2/auth/verify-otp 404 8ms
+2024-10-20T20:56:55.752Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:56:55.770Z info: PATCH /api/v2/auth/change-password 404 0ms
+2024-10-20T20:56:55.772Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T20:56:59.377Z info: POST /api/v2/auth/forgot-password 200 3590ms
+2024-10-20T20:56:59.417Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-20T20:56:59.419Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T20:57:50.960Z info: GET /api/v2/users?page=2&limit=5&sortBy=name&sortOrder=asc 200 552ms
+2024-10-20T20:58:18.454Z info: GET /api/v2/users?page=2&limit=5&sortBy=name&sortOrder=desc 200 547ms
+2024-10-20T21:26:51.477Z info: GET /api/health 200 5ms
+2024-10-20T21:26:59.387Z info: POST /api/v2/auth/signup 201 4733ms
+2024-10-20T21:27:00.256Z info: POST /api/v2/auth/login 400 677ms
+2024-10-20T21:27:00.268Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T21:27:00.344Z info: POST /api/v2/auth/refresh 404 27ms
+2024-10-20T21:27:00.349Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T21:27:01.079Z info: POST /api/v2/cycles 201 228ms
+2024-10-20T21:27:01.231Z info: GET /api/v2/cycles 200 37ms
+2024-10-20T21:27:01.267Z info: DELETE /api/v2/cycles/671575a4ea86eee9ee60bfba 200 15ms
+2024-10-20T21:27:03.170Z info: POST /api/v2/auth/get-otp 500 2777ms
+2024-10-20T21:27:03.174Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:27:03.214Z info: GET /api/v2/auth/own-otp 500 13ms
+2024-10-20T21:27:03.218Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:27:05.754Z info: POST /api/v2/auth/verify-otp 404 29ms
+2024-10-20T21:27:05.760Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:27:05.797Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T21:27:05.800Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T21:27:08.592Z info: POST /api/v2/auth/forgot-password 200 2752ms
+2024-10-20T21:27:08.691Z info: POST /api/v2/auth/logout 404 57ms
+2024-10-20T21:27:08.694Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:27:47.140Z info: GET /api/health 200 9ms
+2024-10-20T21:27:50.917Z info: POST /api/v2/cycles 201 298ms
+2024-10-20T21:27:51.201Z info: GET /api/v2/cycles 200 94ms
+2024-10-20T21:27:51.266Z info: DELETE /api/v2/cycles/671575d6117f8277408cf66b 200 15ms
+2024-10-20T21:27:56.442Z info: POST /api/v2/auth/signup 201 5615ms
+2024-10-20T21:27:57.528Z info: POST /api/v2/auth/login 400 912ms
+2024-10-20T21:27:57.536Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T21:27:57.683Z info: POST /api/v2/auth/refresh 404 15ms
+2024-10-20T21:27:57.686Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T21:28:01.751Z info: POST /api/v2/auth/get-otp 500 4036ms
+2024-10-20T21:28:01.755Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:28:01.819Z info: GET /api/v2/auth/own-otp 500 31ms
+2024-10-20T21:28:01.828Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:28:04.639Z info: POST /api/v2/auth/verify-otp 404 182ms
+2024-10-20T21:28:04.645Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:28:04.675Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T21:28:04.678Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T21:28:07.524Z info: POST /api/v2/auth/forgot-password 200 2824ms
+2024-10-20T21:28:07.567Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-20T21:28:07.570Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:28:28.412Z info: GET /api/health 200 4ms
+2024-10-20T21:28:35.097Z info: POST /api/v2/cycles 201 225ms
+2024-10-20T21:28:35.397Z info: GET /api/v2/cycles 200 54ms
+2024-10-20T21:28:35.495Z info: DELETE /api/v2/cycles/67157602376d3f6d787022f0 200 74ms
+2024-10-20T21:28:38.591Z info: POST /api/v2/auth/signup 201 4058ms
+2024-10-20T21:28:39.251Z info: POST /api/v2/auth/login 400 526ms
+2024-10-20T21:28:39.259Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T21:28:39.364Z info: POST /api/v2/auth/refresh 404 30ms
+2024-10-20T21:28:39.372Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T21:28:41.977Z info: POST /api/v2/auth/get-otp 500 2562ms
+2024-10-20T21:28:41.981Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:28:42.022Z info: GET /api/v2/auth/own-otp 500 13ms
+2024-10-20T21:28:42.026Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:28:45.545Z info: POST /api/v2/auth/verify-otp 404 9ms
+2024-10-20T21:28:45.548Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:28:45.570Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T21:28:45.572Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T21:28:47.955Z info: POST /api/v2/auth/forgot-password 200 2369ms
+2024-10-20T21:28:47.981Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T21:28:47.983Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:29:06.468Z info: GET /api/health 200 5ms
+2024-10-20T21:29:10.088Z info: POST /api/v2/cycles 201 266ms
+2024-10-20T21:29:10.222Z info: GET /api/v2/cycles 200 35ms
+2024-10-20T21:29:10.268Z info: DELETE /api/v2/cycles/67157625ba90b3a0797a6dbb 200 15ms
+2024-10-20T21:29:13.163Z info: POST /api/v2/auth/signup 201 3450ms
+2024-10-20T21:29:13.597Z info: POST /api/v2/auth/login 400 366ms
+2024-10-20T21:29:13.601Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T21:29:13.635Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-20T21:29:13.636Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T21:29:16.641Z info: POST /api/v2/auth/get-otp 500 2989ms
+2024-10-20T21:29:16.644Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:29:16.673Z info: GET /api/v2/auth/own-otp 500 8ms
+2024-10-20T21:29:16.676Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:29:19.911Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-20T21:29:19.914Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:29:19.944Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T21:29:19.947Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T21:29:28.959Z info: POST /api/v2/auth/forgot-password 200 8959ms
+2024-10-20T21:29:28.990Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-20T21:29:28.993Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:30:22.695Z info: GET /api/health 200 12ms
+2024-10-20T21:30:26.804Z info: POST /api/v2/cycles 201 171ms
+2024-10-20T21:30:26.955Z info: GET /api/v2/cycles 200 37ms
+2024-10-20T21:30:26.993Z info: DELETE /api/v2/cycles/67157672c879ffc13a0efc61 200 17ms
+2024-10-20T21:30:29.671Z info: POST /api/v2/auth/signup 201 3397ms
+2024-10-20T21:30:30.298Z info: POST /api/v2/auth/login 400 492ms
+2024-10-20T21:30:30.304Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T21:30:30.339Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-20T21:30:30.341Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T21:30:33.750Z info: POST /api/v2/auth/get-otp 500 3391ms
+2024-10-20T21:30:33.753Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:30:33.786Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-20T21:30:33.788Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:30:37.748Z info: POST /api/v2/auth/verify-otp 404 9ms
+2024-10-20T21:30:37.751Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:30:37.775Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-20T21:30:37.777Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T21:30:40.255Z info: POST /api/v2/auth/forgot-password 200 2463ms
+2024-10-20T21:30:40.287Z info: POST /api/v2/auth/logout 404 5ms
+2024-10-20T21:30:40.289Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:30:57.980Z info: GET /api/health 200 9ms
+2024-10-20T21:31:01.694Z info: POST /api/v2/cycles 201 177ms
+2024-10-20T21:31:01.856Z info: GET /api/v2/cycles 200 45ms
+2024-10-20T21:31:01.893Z info: DELETE /api/v2/cycles/67157695d85c059bc9e3676b 200 15ms
+2024-10-20T21:31:04.842Z info: POST /api/v2/auth/signup 201 3377ms
+2024-10-20T21:31:05.275Z info: POST /api/v2/auth/login 400 363ms
+2024-10-20T21:31:05.280Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-20T21:31:05.313Z info: POST /api/v2/auth/refresh 404 11ms
+2024-10-20T21:31:05.317Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-20T21:31:08.617Z info: POST /api/v2/auth/get-otp 500 3284ms
+2024-10-20T21:31:08.619Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:31:08.649Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-20T21:31:08.652Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-20T21:31:11.235Z info: POST /api/v2/auth/verify-otp 404 15ms
+2024-10-20T21:31:11.238Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-20T21:31:11.259Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-20T21:31:11.260Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-20T21:31:13.963Z info: POST /api/v2/auth/forgot-password 200 2691ms
+2024-10-20T21:31:14.012Z info: POST /api/v2/auth/logout 404 13ms
+2024-10-20T21:31:14.016Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T04:48:11.871Z info: GET /api/health 200 4ms
+2024-10-21T04:48:20.713Z info: POST /api/v2/cycles 201 560ms
+2024-10-21T04:48:21.266Z info: GET /api/v2/cycles 200 393ms
+2024-10-21T04:48:21.394Z info: DELETE /api/v2/cycles/6715dd14cb1c79996bf13d44 200 101ms
+2024-10-21T04:48:24.459Z info: POST /api/v2/auth/signup 201 4305ms
+2024-10-21T04:48:25.051Z info: POST /api/v2/auth/login 400 454ms
+2024-10-21T04:48:25.074Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T04:48:25.112Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T04:48:25.118Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T04:48:27.623Z info: POST /api/v2/auth/get-otp 500 2485ms
+2024-10-21T04:48:27.627Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T04:48:27.674Z info: GET /api/v2/auth/own-otp 500 14ms
+2024-10-21T04:48:27.677Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T04:48:30.790Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-21T04:48:30.799Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T04:48:30.821Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-21T04:48:30.823Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T04:48:33.334Z info: POST /api/v2/auth/forgot-password 200 2495ms
+2024-10-21T04:48:33.371Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-21T04:48:33.373Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T04:48:55.543Z info: GET /api/health 200 4ms
+2024-10-21T04:48:59.729Z info: POST /api/v2/cycles 201 284ms
+2024-10-21T04:48:59.846Z info: GET /api/v2/cycles 200 30ms
+2024-10-21T04:48:59.889Z info: DELETE /api/v2/cycles/6715dd3b0efd28f4164f3ddf 200 13ms
+2024-10-21T04:49:03.144Z info: POST /api/v2/auth/signup 201 3652ms
+2024-10-21T04:49:03.682Z info: POST /api/v2/auth/login 400 446ms
+2024-10-21T04:49:03.691Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T04:49:03.739Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-21T04:49:03.742Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T04:49:07.136Z info: POST /api/v2/auth/get-otp 500 3373ms
+2024-10-21T04:49:07.140Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T04:49:07.181Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-21T04:49:07.184Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T04:49:09.840Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-21T04:49:09.844Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T04:49:09.874Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-21T04:49:09.880Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T04:49:13.427Z info: POST /api/v2/auth/forgot-password 200 3526ms
+2024-10-21T04:49:13.461Z info: POST /api/v2/auth/logout 404 10ms
+2024-10-21T04:49:13.464Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T11:25:37.365Z info: GET /api/health 200 5ms
+2024-10-21T11:25:45.846Z info: POST /api/v2/cycles 201 293ms
+2024-10-21T11:25:46.390Z info: GET /api/v2/cycles 200 444ms
+2024-10-21T11:25:46.497Z info: DELETE /api/v2/cycles/67163a39696bd724e9067a3c 200 91ms
+2024-10-21T11:25:49.228Z info: POST /api/v2/auth/signup 201 3672ms
+2024-10-21T11:25:49.718Z info: POST /api/v2/auth/login 400 375ms
+2024-10-21T11:25:49.737Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T11:25:49.770Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T11:25:49.772Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T11:25:52.311Z info: POST /api/v2/auth/get-otp 500 2513ms
+2024-10-21T11:25:52.313Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T11:25:52.342Z info: GET /api/v2/auth/own-otp 500 9ms
+2024-10-21T11:25:52.344Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T11:25:55.744Z info: POST /api/v2/auth/verify-otp 404 15ms
+2024-10-21T11:25:55.752Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T11:25:55.773Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-21T11:25:55.776Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T11:25:58.413Z info: POST /api/v2/auth/forgot-password 200 2620ms
+2024-10-21T11:25:58.456Z info: POST /api/v2/auth/logout 404 10ms
+2024-10-21T11:25:58.459Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T11:26:15.320Z info: GET /api/health 200 4ms
+2024-10-21T11:26:18.667Z info: POST /api/v2/cycles 201 161ms
+2024-10-21T11:26:18.834Z info: GET /api/v2/cycles 200 35ms
+2024-10-21T11:26:18.890Z info: DELETE /api/v2/cycles/67163a5acbe320d021488f34 200 26ms
+2024-10-21T11:26:22.294Z info: POST /api/v2/auth/signup 201 3483ms
+2024-10-21T11:26:22.765Z info: POST /api/v2/auth/login 400 398ms
+2024-10-21T11:26:22.769Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T11:26:22.801Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-21T11:26:22.802Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T11:26:25.241Z info: POST /api/v2/auth/get-otp 500 2424ms
+2024-10-21T11:26:25.243Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T11:26:25.278Z info: GET /api/v2/auth/own-otp 500 8ms
+2024-10-21T11:26:25.280Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T11:26:27.841Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-21T11:26:27.847Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T11:26:27.863Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T11:26:27.865Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T11:26:31.219Z info: POST /api/v2/auth/forgot-password 200 3340ms
+2024-10-21T11:26:31.270Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-21T11:26:31.271Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T11:32:14.853Z info: GET /api/health 200 4ms
+2024-10-21T11:32:17.838Z info: POST /api/v2/cycles 201 140ms
+2024-10-21T11:32:18.122Z info: GET /api/v2/cycles 200 42ms
+2024-10-21T11:32:18.161Z info: DELETE /api/v2/cycles/67163bc15d12ed1f914329fa 200 13ms
+2024-10-21T11:32:21.206Z info: POST /api/v2/auth/signup 201 3460ms
+2024-10-21T11:32:21.634Z info: POST /api/v2/auth/login 400 363ms
+2024-10-21T11:32:21.638Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T11:32:21.669Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T11:32:21.671Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T11:32:24.237Z info: POST /api/v2/auth/get-otp 500 2539ms
+2024-10-21T11:32:24.239Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T11:32:24.267Z info: GET /api/v2/auth/own-otp 500 10ms
+2024-10-21T11:32:24.270Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T11:32:26.860Z info: POST /api/v2/auth/verify-otp 404 9ms
+2024-10-21T11:32:26.864Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T11:32:26.888Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-21T11:32:26.891Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T11:32:30.335Z info: POST /api/v2/auth/forgot-password 200 3426ms
+2024-10-21T11:32:30.364Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-21T11:32:30.367Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:07:43.898Z info: GET /api/health 200 5ms
+2024-10-21T12:07:49.625Z info: POST /api/v2/cycles 201 221ms
+2024-10-21T12:07:49.918Z info: GET /api/v2/cycles 200 119ms
+2024-10-21T12:07:49.990Z info: DELETE /api/v2/cycles/67164415a3e6ce67cee33b0b 200 50ms
+2024-10-21T12:07:53.637Z info: POST /api/v2/auth/signup 201 4370ms
+2024-10-21T12:07:54.324Z info: POST /api/v2/auth/login 400 583ms
+2024-10-21T12:07:54.332Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:07:54.448Z info: POST /api/v2/auth/refresh 404 37ms
+2024-10-21T12:07:54.452Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:07:57.187Z info: POST /api/v2/auth/get-otp 500 2708ms
+2024-10-21T12:07:57.190Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:07:57.228Z info: GET /api/v2/auth/own-otp 500 13ms
+2024-10-21T12:07:57.232Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:07:59.776Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-21T12:07:59.779Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:07:59.804Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:07:59.808Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:08:02.775Z info: POST /api/v2/auth/forgot-password 200 2937ms
+2024-10-21T12:08:02.806Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-21T12:08:02.809Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:39:24.631Z info: GET /api/health 200 11ms
+2024-10-21T12:39:33.929Z info: POST /api/v2/auth/signup 201 4315ms
+2024-10-21T12:39:34.688Z info: POST /api/v2/auth/login 400 624ms
+2024-10-21T12:39:34.697Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:39:34.776Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-21T12:39:34.779Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:39:38.419Z info: POST /api/v2/auth/get-otp 500 3615ms
+2024-10-21T12:39:38.422Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:39:38.462Z info: GET /api/v2/auth/own-otp 500 12ms
+2024-10-21T12:39:38.466Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:39:41.768Z info: POST /api/v2/auth/verify-otp 404 7ms
+2024-10-21T12:39:41.771Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:39:41.794Z info: PATCH /api/v2/auth/change-password 404 3ms
+2024-10-21T12:39:41.797Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:39:45.288Z info: POST /api/v2/auth/forgot-password 200 3475ms
+2024-10-21T12:39:45.320Z info: POST /api/v2/auth/logout 404 6ms
+2024-10-21T12:39:45.322Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:40:21.152Z info: POST /api/v2/cycles 201 150ms
+2024-10-21T12:40:21.260Z info: GET /api/v2/cycles 200 24ms
+2024-10-21T12:40:21.284Z info: DELETE /api/v2/cycles/67164bb52fd20648e25cf08d 200 10ms
+2024-10-21T12:40:22.548Z info: POST /api/v2/auth/signup 201 3769ms
+2024-10-21T12:40:23.012Z info: POST /api/v2/auth/login 400 386ms
+2024-10-21T12:40:23.021Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:40:23.061Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T12:40:23.062Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:40:25.602Z info: POST /api/v2/auth/get-otp 500 2523ms
+2024-10-21T12:40:25.604Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:40:25.627Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-21T12:40:25.629Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:40:28.933Z info: POST /api/v2/auth/verify-otp 404 7ms
+2024-10-21T12:40:28.935Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:40:28.952Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:40:28.954Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:40:32.310Z info: POST /api/v2/auth/forgot-password 200 3330ms
+2024-10-21T12:40:32.343Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-21T12:40:32.346Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:40:50.448Z info: GET /api/health 200 35ms
+2024-10-21T12:40:55.068Z info: POST /api/v2/cycles 201 215ms
+2024-10-21T12:40:55.270Z info: GET /api/v2/cycles 200 53ms
+2024-10-21T12:40:55.312Z info: DELETE /api/v2/cycles/67164bd69c60cab29a3aaf43 200 25ms
+2024-10-21T12:40:58.172Z info: POST /api/v2/auth/signup 201 3701ms
+2024-10-21T12:40:58.623Z info: POST /api/v2/auth/login 400 374ms
+2024-10-21T12:40:58.630Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:40:58.670Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-21T12:40:58.672Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:41:01.200Z info: POST /api/v2/auth/get-otp 500 2509ms
+2024-10-21T12:41:01.203Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:41:01.250Z info: GET /api/v2/auth/own-otp 500 16ms
+2024-10-21T12:41:01.253Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:41:03.819Z info: POST /api/v2/auth/verify-otp 404 22ms
+2024-10-21T12:41:03.823Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:41:03.850Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:41:03.853Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:41:06.417Z info: POST /api/v2/auth/forgot-password 200 2515ms
+2024-10-21T12:41:06.464Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-21T12:41:06.467Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:44:13.348Z info: GET /api/health 200 6ms
+2024-10-21T12:44:18.486Z info: POST /api/v2/cycles 201 107ms
+2024-10-21T12:44:18.610Z info: GET /api/v2/cycles 200 25ms
+2024-10-21T12:44:18.635Z info: DELETE /api/v2/cycles/67164ca269a2ad58906ffc2a 200 10ms
+2024-10-21T12:44:19.529Z info: POST /api/v2/auth/signup 201 3912ms
+2024-10-21T12:44:19.968Z info: POST /api/v2/auth/login 400 372ms
+2024-10-21T12:44:19.975Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:44:20.023Z info: POST /api/v2/auth/refresh 404 13ms
+2024-10-21T12:44:20.026Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:44:22.500Z info: POST /api/v2/auth/get-otp 500 2452ms
+2024-10-21T12:44:22.502Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:44:22.530Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-21T12:44:22.532Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:44:25.444Z info: POST /api/v2/auth/verify-otp 404 8ms
+2024-10-21T12:44:25.446Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:44:25.462Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:44:25.463Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:44:28.726Z info: POST /api/v2/auth/forgot-password 200 3251ms
+2024-10-21T12:44:28.761Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-21T12:44:28.763Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:44:55.626Z info: GET /api/health 200 40ms
+2024-10-21T12:44:59.897Z info: POST /api/v2/cycles 201 316ms
+2024-10-21T12:45:00.150Z info: GET /api/v2/cycles 200 66ms
+2024-10-21T12:45:00.183Z info: DELETE /api/v2/cycles/67164ccbed216b2b4687392a 200 13ms
+2024-10-21T12:45:03.293Z info: POST /api/v2/auth/signup 201 3670ms
+2024-10-21T12:45:03.766Z info: POST /api/v2/auth/login 400 393ms
+2024-10-21T12:45:03.770Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:45:03.803Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-21T12:45:03.805Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:45:06.389Z info: POST /api/v2/auth/get-otp 500 2567ms
+2024-10-21T12:45:06.392Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:45:06.424Z info: GET /api/v2/auth/own-otp 500 10ms
+2024-10-21T12:45:06.427Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:45:08.871Z info: POST /api/v2/auth/verify-otp 404 6ms
+2024-10-21T12:45:08.873Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:45:08.890Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:45:08.891Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:45:12.187Z info: POST /api/v2/auth/forgot-password 200 3278ms
+2024-10-21T12:45:12.225Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-21T12:45:12.227Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:45:31.471Z info: GET /api/health 200 6ms
+2024-10-21T12:45:35.424Z info: POST /api/v2/cycles 201 203ms
+2024-10-21T12:45:35.590Z info: GET /api/v2/cycles 200 35ms
+2024-10-21T12:45:35.622Z info: DELETE /api/v2/cycles/67164cef14e79d0cb75e336e 200 13ms
+2024-10-21T12:45:39.369Z info: POST /api/v2/auth/signup 201 4326ms
+2024-10-21T12:45:39.810Z info: POST /api/v2/auth/login 400 375ms
+2024-10-21T12:45:39.814Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:45:39.865Z info: POST /api/v2/auth/refresh 404 14ms
+2024-10-21T12:45:39.868Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:45:43.009Z info: POST /api/v2/auth/get-otp 500 3119ms
+2024-10-21T12:45:43.011Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:45:43.037Z info: GET /api/v2/auth/own-otp 500 7ms
+2024-10-21T12:45:43.039Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:45:46.336Z info: POST /api/v2/auth/verify-otp 404 7ms
+2024-10-21T12:45:46.339Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:45:46.361Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-21T12:45:46.363Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:45:49.143Z info: POST /api/v2/auth/forgot-password 200 2762ms
+2024-10-21T12:45:49.182Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-21T12:45:49.184Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:47:32.539Z info: GET /api/health 200 8ms
+2024-10-21T12:47:37.389Z info: POST /api/v2/cycles 201 234ms
+2024-10-21T12:47:37.673Z info: GET /api/v2/cycles 200 84ms
+2024-10-21T12:47:37.759Z info: DELETE /api/v2/cycles/67164d69c0da6e987e616447 200 23ms
+2024-10-21T12:47:41.929Z info: POST /api/v2/auth/signup 201 4677ms
+2024-10-21T12:47:42.388Z info: POST /api/v2/auth/login 400 371ms
+2024-10-21T12:47:42.392Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:47:42.430Z info: POST /api/v2/auth/refresh 404 8ms
+2024-10-21T12:47:42.432Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:47:44.939Z info: POST /api/v2/auth/get-otp 500 2490ms
+2024-10-21T12:47:44.941Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:47:44.978Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-21T12:47:44.981Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:47:47.783Z info: POST /api/v2/auth/verify-otp 404 182ms
+2024-10-21T12:47:47.787Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:47:47.810Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:47:47.814Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:47:51.016Z info: POST /api/v2/auth/forgot-password 200 3183ms
+2024-10-21T12:47:51.157Z info: POST /api/v2/auth/logout 404 39ms
+2024-10-21T12:47:51.161Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:48:24.952Z info: GET /api/health 200 5ms
+2024-10-21T12:48:29.571Z info: POST /api/v2/cycles 201 176ms
+2024-10-21T12:48:29.825Z info: GET /api/v2/cycles 200 46ms
+2024-10-21T12:48:29.883Z info: DELETE /api/v2/cycles/67164d9d18b9b780c386381b 200 37ms
+2024-10-21T12:48:33.117Z info: POST /api/v2/auth/signup 201 3574ms
+2024-10-21T12:48:33.592Z info: POST /api/v2/auth/login 400 386ms
+2024-10-21T12:48:33.597Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:48:33.647Z info: POST /api/v2/auth/refresh 404 15ms
+2024-10-21T12:48:33.649Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:48:36.234Z info: POST /api/v2/auth/get-otp 500 2569ms
+2024-10-21T12:48:36.236Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:48:36.267Z info: GET /api/v2/auth/own-otp 500 8ms
+2024-10-21T12:48:36.269Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:48:38.816Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-21T12:48:38.818Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:48:38.840Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:48:38.843Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:48:42.189Z info: POST /api/v2/auth/forgot-password 200 3322ms
+2024-10-21T12:48:42.215Z info: POST /api/v2/auth/logout 404 5ms
+2024-10-21T12:48:42.217Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:49:03.107Z info: GET /api/health 200 5ms
+2024-10-21T12:49:09.696Z info: POST /api/v2/cycles 201 190ms
+2024-10-21T12:49:09.921Z info: GET /api/v2/cycles 200 42ms
+2024-10-21T12:49:09.979Z info: DELETE /api/v2/cycles/67164dc525c9a7b16bb97460 200 39ms
+2024-10-21T12:49:13.369Z info: POST /api/v2/auth/signup 201 3844ms
+2024-10-21T12:49:13.884Z info: POST /api/v2/auth/login 400 443ms
+2024-10-21T12:49:13.890Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:49:13.933Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T12:49:13.935Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:49:16.445Z info: POST /api/v2/auth/get-otp 500 2487ms
+2024-10-21T12:49:16.451Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:49:16.483Z info: GET /api/v2/auth/own-otp 500 9ms
+2024-10-21T12:49:16.485Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:49:18.988Z info: POST /api/v2/auth/verify-otp 404 9ms
+2024-10-21T12:49:18.990Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:49:19.011Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:49:19.012Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:49:21.689Z info: POST /api/v2/auth/forgot-password 200 2664ms
+2024-10-21T12:49:21.719Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-21T12:49:21.720Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:52:35.019Z info: GET /api/health 200 5ms
+2024-10-21T12:52:38.332Z info: POST /api/v2/cycles 201 334ms
+2024-10-21T12:52:38.500Z info: GET /api/v2/cycles 200 42ms
+2024-10-21T12:52:38.533Z info: DELETE /api/v2/cycles/67164e96b13f31df514e040a 200 15ms
+2024-10-21T12:52:41.489Z info: POST /api/v2/auth/signup 201 3522ms
+2024-10-21T12:52:41.947Z info: POST /api/v2/auth/login 400 382ms
+2024-10-21T12:52:41.952Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:52:41.986Z info: POST /api/v2/auth/refresh 404 10ms
+2024-10-21T12:52:41.987Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:52:44.522Z info: POST /api/v2/auth/get-otp 500 2518ms
+2024-10-21T12:52:44.524Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:52:44.554Z info: GET /api/v2/auth/own-otp 500 10ms
+2024-10-21T12:52:44.557Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:52:49.106Z info: POST /api/v2/auth/verify-otp 404 6ms
+2024-10-21T12:52:49.109Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:52:49.129Z info: PATCH /api/v2/auth/change-password 404 3ms
+2024-10-21T12:52:49.131Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:52:51.827Z info: POST /api/v2/auth/forgot-password 200 2681ms
+2024-10-21T12:52:51.865Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-21T12:52:51.867Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:53:10.908Z info: GET /api/health 200 6ms
+2024-10-21T12:53:14.810Z info: POST /api/v2/cycles 201 205ms
+2024-10-21T12:53:15.106Z info: GET /api/v2/cycles 200 62ms
+2024-10-21T12:53:15.145Z info: DELETE /api/v2/cycles/67164ebab36274ca4f41475b 200 16ms
+2024-10-21T12:53:18.150Z info: POST /api/v2/auth/signup 201 3578ms
+2024-10-21T12:53:18.644Z info: POST /api/v2/auth/login 400 399ms
+2024-10-21T12:53:18.648Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:53:18.680Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T12:53:18.681Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:53:21.376Z info: POST /api/v2/auth/get-otp 500 2677ms
+2024-10-21T12:53:21.380Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:53:21.419Z info: GET /api/v2/auth/own-otp 500 9ms
+2024-10-21T12:53:21.423Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:53:24.047Z info: POST /api/v2/auth/verify-otp 404 16ms
+2024-10-21T12:53:24.049Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:53:24.069Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-21T12:53:24.071Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:53:26.604Z info: POST /api/v2/auth/forgot-password 200 2520ms
+2024-10-21T12:53:26.641Z info: POST /api/v2/auth/logout 404 8ms
+2024-10-21T12:53:26.643Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:54:11.121Z info: GET /api/health 200 23ms
+2024-10-21T12:54:17.661Z info: POST /api/v2/cycles 201 204ms
+2024-10-21T12:54:17.959Z info: GET /api/v2/cycles 200 117ms
+2024-10-21T12:54:18.063Z info: DELETE /api/v2/cycles/67164ef9fdbf6cf831269b85 200 83ms
+2024-10-21T12:54:22.473Z info: POST /api/v2/auth/signup 201 4749ms
+2024-10-21T12:54:22.961Z info: POST /api/v2/auth/login 400 402ms
+2024-10-21T12:54:22.966Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:54:23.001Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T12:54:23.003Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:54:25.559Z info: POST /api/v2/auth/get-otp 500 2533ms
+2024-10-21T12:54:25.563Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:54:25.606Z info: GET /api/v2/auth/own-otp 500 13ms
+2024-10-21T12:54:25.613Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:54:28.109Z info: POST /api/v2/auth/verify-otp 404 10ms
+2024-10-21T12:54:28.112Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:54:28.139Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-21T12:54:28.144Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:54:31.059Z info: POST /api/v2/auth/forgot-password 200 2893ms
+2024-10-21T12:54:31.090Z info: POST /api/v2/auth/logout 404 7ms
+2024-10-21T12:54:31.093Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:54:49.412Z info: GET /api/health 200 5ms
+2024-10-21T12:54:52.727Z info: POST /api/v2/cycles 201 253ms
+2024-10-21T12:54:52.924Z info: GET /api/v2/cycles 200 48ms
+2024-10-21T12:54:52.959Z info: DELETE /api/v2/cycles/67164f1c1c1e5b489e328d3b 200 14ms
+2024-10-21T12:54:55.989Z info: POST /api/v2/auth/signup 201 3475ms
+2024-10-21T12:54:56.442Z info: POST /api/v2/auth/login 400 368ms
+2024-10-21T12:54:56.446Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-21T12:54:56.481Z info: POST /api/v2/auth/refresh 404 9ms
+2024-10-21T12:54:56.483Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-21T12:54:58.931Z info: POST /api/v2/auth/get-otp 500 2430ms
+2024-10-21T12:54:58.935Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:54:58.970Z info: GET /api/v2/auth/own-otp 500 11ms
+2024-10-21T12:54:58.973Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-21T12:55:02.245Z info: POST /api/v2/auth/verify-otp 404 11ms
+2024-10-21T12:55:02.250Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:55:02.276Z info: PATCH /api/v2/auth/change-password 404 1ms
+2024-10-21T12:55:02.279Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-21T12:55:04.854Z info: POST /api/v2/auth/forgot-password 200 2553ms
+2024-10-21T12:55:04.890Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-21T12:55:04.892Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-21T12:58:18.256Z info: GET /api/v2/docs/ 304 11ms
+2024-10-21T12:58:19.361Z info: GET /api/v2/docs/swagger-ui-init.js 200 0ms
+2024-10-21T12:58:19.385Z info: GET /api/v2/docs/swagger-ui.css 304 30ms
+2024-10-21T12:58:19.388Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 30ms
+2024-10-21T12:58:19.404Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 48ms
+2024-10-21T13:01:29.273Z info: POST /api/v2/cycles 401 6ms
+2024-10-21T13:01:29.276Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:18:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+2024-10-21T13:02:24.523Z info: POST /api/v2/auth/login 200 746ms
+2024-10-21T13:02:41.889Z info: POST /api/v2/cycles 400 17ms
+2024-10-21T13:02:41.905Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"productTitle","location":"body"},{"type":"field","value":"","msg":"Product title is required","path":"productTitle","location":"body"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:9:23"}
+2024-10-21T15:50:47.653Z info: GET /api/v2/docs/ 304 16ms
+2024-10-21T15:50:50.393Z info: GET /api/v2/docs/swagger-ui-init.js 304 1ms
+2024-10-21T15:50:50.675Z info: GET /api/v2/docs/swagger-ui.css 304 339ms
+2024-10-21T15:50:50.935Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 565ms
+2024-10-21T15:50:51.074Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 733ms
+2024-10-21T15:59:43.287Z info: POST /api/v2/auth/login 200 1633ms
+2024-10-21T16:01:10.606Z info: POST /api/v2/cycles 400 22ms
+2024-10-21T16:01:10.641Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"productTitle","location":"body"},{"type":"field","value":"","msg":"Product title is required","path":"productTitle","location":"body"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:9:23"}
+2024-10-21T16:10:27.937Z info: GET /api/health 200 31ms
+2024-10-21T16:10:31.564Z info: GET /api/v2/docs/ 304 49ms
+2024-10-21T16:10:33.114Z info: GET /api/v2/docs/swagger-ui-init.js 200 1ms
+2024-10-21T16:10:33.312Z info: GET /api/v2/docs/swagger-ui.css 304 347ms
+2024-10-21T16:10:33.470Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 506ms
+2024-10-21T16:10:33.533Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 593ms
+2024-10-21T16:10:37.847Z info: GET /api/v2/docs/favicon-32x32.png 304 227ms
+2024-10-21T16:10:57.361Z info: POST /api/v2/auth/login 200 2207ms
+2024-10-21T16:11:56.692Z info: GET /api/health 200 7ms
+2024-10-21T16:16:03.252Z info: POST /api/v2/cycles 400 25ms
+2024-10-21T16:16:03.254Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"productTitle","location":"body"},{"type":"field","value":"","msg":"Product title is required","path":"productTitle","location":"body"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:9:23"}
+2024-10-21T16:20:20.932Z info: GET /api/health 200 18ms
+2024-10-21T16:21:44.333Z info: POST /api/v2/cycles 201 1794ms
+2024-10-21T16:22:11.298Z info: GET /api/health 200 10ms
+2024-10-21T16:23:25.880Z info: GET /favicon.ico 404 6ms
+2024-10-21T16:23:25.885Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":"Error: Resource not found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\app\\index.js:41:13\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:42:13\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at param (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at param (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:376:14)\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:421:3)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express-winston\\index.js:429:9"}
+2024-10-21T16:24:00.547Z info: GET /api/health 200 27ms
+2024-10-21T16:28:28.334Z info: DELETE /api/v2/cycles/66ec962c74bdd513140abf0a 200 388ms
+2024-10-21T16:29:16.847Z info: GET /api/health 200 10ms
+2024-10-21T16:30:46.862Z info: GET /api/health 200 19ms
+2024-10-21T16:33:38.954Z info: DELETE /api/v2/cycles/67167f97a838b07fb3cb5636 200 395ms
+2024-10-21T16:35:07.268Z info: POST /api/v2/cycles 201 1081ms
+2024-10-21T16:39:33.429Z info: POST /api/v2/cycles 201 1438ms
+2024-10-21T16:39:43.336Z info: GET /api/health 200 7ms
+2024-10-21T16:41:48.639Z info: GET /api/health 200 100ms
+2024-10-21T16:41:55.196Z info: POST /api/v2/cycles 400 225ms
+2024-10-21T16:41:55.207Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"productTitle","location":"body"},{"type":"field","value":"","msg":"Product title is required","path":"productTitle","location":"body"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:9:23"}
+2024-10-21T16:43:34.907Z info: GET /api/health 200 10ms
+2024-10-21T16:46:48.057Z info: GET /api/health 200 9ms
+2024-10-21T16:53:41.829Z info: GET /api/health 200 4ms
+2024-10-21T16:56:02.906Z info: GET /api/health 200 62ms
+2024-10-21T16:57:30.334Z info: POST /api/v2/cycles 400 692ms
+2024-10-21T16:57:30.508Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"productTitle","location":"body"},{"type":"field","value":"","msg":"Product title is required","path":"productTitle","location":"body"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:9:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
