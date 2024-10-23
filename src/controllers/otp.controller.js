@@ -1,6 +1,5 @@
 const httpStatus = require('http-status')
 const { decrypt, encrypt } = require('../utils/encrypt-decrypt')
-const { sendResponse } = require('../utils/send-response');
 const { ResponseStatus } = require('../../src/enums');
 const { findUser, userUpdateService } = require('../services/user.service')
 const { findOtp, deleteOtp } = require('../services/otp.service');
@@ -9,6 +8,7 @@ const { getEmailOtpService } = require('../services/auth.service')
 const {env} = require('../config/env')
 const ApiError = require('../error/ApiError');
 const { catchAsyncHandler } = require('../helper');
+const sendResponse = require('../utils/send-response');
 
 /**
  * OTP Controller
@@ -74,7 +74,10 @@ class OtpController {
    */
   static ownOtp = catchAsyncHandler(async (req, res) => {
     const { id } = req.user
-    if (!findUser({_id: id}))
+
+    const exist = await findUser({_id: id})
+
+    if (!exist)
       throw new ApiError(httpStatus.NOT_FOUND, 'User not found')
 
     const userOtp = await findOtp({

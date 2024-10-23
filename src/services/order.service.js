@@ -1,4 +1,6 @@
+const { default: mongoose } = require('mongoose');
 const { ORDER_STAT } = require('../enums');
+const Address = require('../models/address.model');
 const Order = require('../models/order.model');
 
 /**
@@ -56,13 +58,36 @@ class OrderService {
    * @property {Array<Item>} [items = []] - order line items
    * @property {Number} [totalAmount = 0] - total order amount
    * @property {ORDER_STAT} [status = ORDER_STAT.PENDING] - order status
+   * @property {import('../types').AddressDto} address - user address
+   *
    * @param {Payload} payload - order payload
-   * @returns
+   * @returns Promise<Document>
    */
-  static createOrderService = async (payload) => {
-    const newOrder = new Order(payload);
+  static createOrderService = async ({ address, ...orderData }) => {
+    const session = await mongoose.startSession();
 
-    return await newOrder.save();
+    try {
+      session.startTransaction();
+
+      const userAddress = await Address.create([address], { session });
+
+
+      orderData.address = userAddress[0]._id;
+
+
+      const newOrder = await Order.create([orderData], { session });
+
+      await session.commitTransaction();
+
+
+      return newOrder[0];
+    } catch (error) {
+      console.error('Order creation failed:', error); // Log the error
+      await session.abortTransaction();
+      throw new Error('Order creation failed');
+    } finally {
+      session.endSession();
+    }
   };
 
   /**
@@ -119,32 +144,28 @@ class OrderService {
     ]);
 
     return orders;
-    };
-    
-   /**
-    * cancel order before approved
-    * @param {ObjectId} id - order id
-    * @param {ObjectId} userId - user id
-    */
-    static cancelOrderService = async (id, userId) => {
-        
-        const order = await Order.findOneAndUpdate(
-        
-            { _id: id, user: userId, status: ORDER_STAT.PENDING },
-          
-            {
-            status: ORDER_STAT.CANCELED
-            },
+  };
 
-            {
-                new: true
-            }
-          
-        );
+  /**
+   * cancel order before approved
+   * @param {ObjectId} id - order id
+   * @param {ObjectId} userId - user id
+   */
+  static cancelOrderService = async (id, userId) => {
+    const order = await Order.findOneAndUpdate(
+      { _id: id, user: userId, status: ORDER_STAT.PENDING },
 
-        return order
+      {
+        status: ORDER_STAT.CANCELED
+      },
 
-    }
+      {
+        new: true
+      }
+    );
+
+    return order;
+  };
 }
 
 module.exports = OrderService;

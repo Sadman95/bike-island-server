@@ -369,3 +369,729 @@
 2024-10-21T21:48:15.296Z info: POST /api/v2/cycles 201 788ms
 2024-10-21T21:48:15.728Z info: GET /api/v2/cycles 200 135ms
 2024-10-21T21:48:15.780Z info: DELETE /api/v2/cycles/6716cc1e92d191c1147c00c3 200 27ms
+2024-10-22T04:15:42.793Z info: POST /api/v2/auth/signup 201 3846ms
+2024-10-22T04:15:43.379Z info: POST /api/v2/auth/login 400 491ms
+2024-10-22T04:15:43.381Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-22T04:15:43.442Z info: POST /api/v2/auth/refresh 404 15ms
+2024-10-22T04:15:43.443Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T04:15:46.980Z info: POST /api/v2/auth/get-otp 500 3513ms
+2024-10-22T04:15:46.980Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T04:15:47.026Z info: GET /api/v2/auth/own-otp 500 16ms
+2024-10-22T04:15:47.027Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T04:15:50.688Z info: POST /api/v2/auth/verify-otp 404 14ms
+2024-10-22T04:15:50.689Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:15:50.720Z info: PATCH /api/v2/auth/change-password 404 5ms
+2024-10-22T04:15:50.721Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-22T04:15:53.372Z info: POST /api/v2/auth/forgot-password 200 2628ms
+2024-10-22T04:15:53.425Z info: POST /api/v2/auth/logout 404 13ms
+2024-10-22T04:15:53.427Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:16:26.765Z info: POST /api/v2/auth/login 404 132ms
+2024-10-22T04:16:26.773Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:18:29.105Z info: POST /api/v2/auth/signup 201 5048ms
+2024-10-22T04:18:30.233Z info: POST /api/v2/auth/login 400 955ms
+2024-10-22T04:18:30.239Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-22T04:18:30.339Z info: POST /api/v2/auth/refresh 404 22ms
+2024-10-22T04:18:30.340Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T04:18:33.093Z info: POST /api/v2/auth/get-otp 500 2695ms
+2024-10-22T04:18:33.094Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T04:18:33.138Z info: GET /api/v2/auth/own-otp 500 15ms
+2024-10-22T04:18:33.139Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T04:18:36.038Z info: POST /api/v2/auth/verify-otp 404 13ms
+2024-10-22T04:18:36.040Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:18:36.068Z info: PATCH /api/v2/auth/change-password 404 2ms
+2024-10-22T04:18:36.070Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-22T04:18:39.414Z info: POST /api/v2/auth/forgot-password 200 3322ms
+2024-10-22T04:18:39.453Z info: POST /api/v2/auth/logout 404 9ms
+2024-10-22T04:18:39.454Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:19:10.279Z info: POST /api/v2/auth/login 404 144ms
+2024-10-22T04:19:10.289Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:22:31.624Z info: GET /api/health 200 18ms
+2024-10-22T04:22:37.275Z info: POST /api/v2/cycles 201 323ms
+2024-10-22T04:22:37.347Z info: POST /api/v2/auth/login 404 410ms
+2024-10-22T04:22:37.517Z info: GET /api/v2/cycles 200 41ms
+2024-10-22T04:22:37.402Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:22:37.550Z info: DELETE /api/v2/cycles/6717288cdf827c1453fa724b 200 15ms
+2024-10-22T04:23:07.356Z info: GET /api/health 200 6ms
+2024-10-22T04:23:13.861Z info: POST /api/v2/cycles 201 265ms
+2024-10-22T04:23:14.111Z info: GET /api/v2/cycles 200 67ms
+2024-10-22T04:23:14.217Z info: DELETE /api/v2/cycles/671728b111afb392e653aa4b 200 59ms
+2024-10-22T04:23:14.273Z info: POST /api/v2/auth/login 404 303ms
+2024-10-22T04:23:14.306Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:27:09.632Z info: POST /api/v2/auth/login 404 165ms
+2024-10-22T04:27:09.639Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:27:56.838Z info: POST /api/v2/auth/login 404 165ms
+2024-10-22T04:27:56.847Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:36:06.154Z info: POST /api/v2/auth/login 404 150ms
+2024-10-22T04:36:06.160Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:36:49.873Z info: POST /api/v2/auth/login 404 167ms
+2024-10-22T04:36:49.882Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:37:15.056Z info: POST /api/v2/auth/login 404 175ms
+2024-10-22T04:37:15.065Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T04:42:55.485Z info: POST /api/v2/auth/login 409 525ms
+2024-10-22T04:42:55.493Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T04:43:23.474Z info: POST /api/v2/auth/login 409 460ms
+2024-10-22T04:43:23.478Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T04:51:17.932Z info: POST /api/v2/auth/login 409 470ms
+2024-10-22T04:51:17.939Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T04:51:44.588Z info: POST /api/v2/auth/login 409 441ms
+2024-10-22T04:51:44.596Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T04:53:38.316Z info: POST /api/v2/auth/login 409 537ms
+2024-10-22T04:53:38.325Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T04:54:05.981Z info: POST /api/v2/auth/login 409 463ms
+2024-10-22T04:54:05.988Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T04:55:53.222Z info: POST /api/v2/auth/login 409 450ms
+2024-10-22T04:55:53.229Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T04:56:20.736Z info: POST /api/v2/auth/login 409 505ms
+2024-10-22T04:56:20.748Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T05:03:04.456Z info: POST /api/v2/auth/login 409 1013ms
+2024-10-22T05:03:04.465Z error: {"success":false,"statusCode":409,"message":"Password doesn't match","errorMessages":[{"path":"","message":"Password doesn't match"}],"status":"failed","stack":{}}
+2024-10-22T05:04:39.653Z info: POST /api/v2/auth/login 400 30ms
+2024-10-22T05:04:39.662Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"email","location":"body"},{"type":"field","value":"","msg":"Email is required","path":"email","location":"body"},{"type":"field","value":"","msg":"Provide a valid email","path":"email","location":"body"}],"status":"failed","stack":{}}
+2024-10-22T05:05:20.073Z info: POST /api/v2/auth/login 400 576ms
+2024-10-22T05:05:20.080Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-22T05:07:44.063Z info: POST /api/v2/auth/login 400 601ms
+2024-10-22T05:07:44.070Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-22T05:08:11.111Z info: POST /api/v2/auth/login 400 462ms
+2024-10-22T05:08:11.114Z error: {"success":false,"statusCode":400,"message":"User isn't verified!","errorMessages":[{"path":"","message":"User isn't verified!"}],"status":"failed","stack":{}}
+2024-10-22T05:27:39.362Z info: POST /api/v2/auth/login 200 475ms
+2024-10-22T05:28:25.067Z info: POST /api/v2/auth/login 200 710ms
+2024-10-22T05:29:13.141Z info: POST /api/v2/auth/login 200 1487ms
+2024-10-22T05:29:56.101Z info: POST /api/v2/auth/login 200 563ms
+2024-10-22T05:30:24.078Z info: POST /api/v2/auth/login 200 476ms
+2024-10-22T05:31:23.382Z info: POST /api/v2/auth/refresh 404 100ms
+2024-10-22T05:31:23.388Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:31:49.073Z info: POST /api/v2/auth/refresh 404 116ms
+2024-10-22T05:31:49.080Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:33:55.138Z info: POST /api/v2/auth/refresh 404 100ms
+2024-10-22T05:33:55.145Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:34:21.273Z info: POST /api/v2/auth/refresh 404 97ms
+2024-10-22T05:34:21.284Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:35:07.460Z info: POST /api/v2/auth/refresh 404 47ms
+2024-10-22T05:35:07.463Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:42:39.767Z info: POST /api/v2/auth/refresh 404 35ms
+2024-10-22T05:42:39.771Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:43:38.315Z info: POST /api/v2/auth/refresh 404 66ms
+2024-10-22T05:43:38.323Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:44:04.047Z info: POST /api/v2/auth/refresh 404 47ms
+2024-10-22T05:44:04.056Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:46:36.655Z info: POST /api/v2/auth/refresh 404 38ms
+2024-10-22T05:46:36.658Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:47:02.710Z info: POST /api/v2/auth/refresh 404 49ms
+2024-10-22T05:47:02.716Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:48:09.216Z info: POST /api/v2/auth/refresh 404 52ms
+2024-10-22T05:48:09.224Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:48:35.485Z info: POST /api/v2/auth/refresh 404 73ms
+2024-10-22T05:48:35.492Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:53:15.122Z info: POST /api/v2/auth/refresh 404 68ms
+2024-10-22T05:53:15.125Z error: {"success":false,"statusCode":404,"message":"User does not exist","errorMessages":[{"path":"","message":"User does not exist"}],"status":"failed","stack":{}}
+2024-10-22T05:53:42.055Z info: POST /api/v2/auth/refresh 200 56ms
+2024-10-22T05:55:17.901Z info: POST /api/v2/auth/get-otp 404 93ms
+2024-10-22T05:55:17.908Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T05:55:46.329Z info: POST /api/v2/auth/get-otp 404 115ms
+2024-10-22T05:55:46.343Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T05:56:23.500Z info: POST /api/v2/auth/get-otp 500 3158ms
+2024-10-22T05:56:23.504Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T05:57:08.434Z info: POST /api/v2/auth/get-otp 500 3564ms
+2024-10-22T05:57:08.443Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T05:57:38.415Z info: POST /api/v2/auth/get-otp 500 3367ms
+2024-10-22T05:57:38.418Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T06:04:14.208Z info: POST /api/v2/auth/get-otp 500 2940ms
+2024-10-22T06:04:14.211Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T06:09:06.992Z info: POST /api/v2/auth/get-otp 404 69ms
+2024-10-22T06:09:07.004Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T06:09:38.465Z info: POST /api/v2/auth/get-otp 500 2662ms
+2024-10-22T06:09:38.469Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T06:10:25.358Z info: POST /api/v2/auth/get-otp 500 2766ms
+2024-10-22T06:10:25.361Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T06:10:57.368Z info: POST /api/v2/auth/get-otp 500 5314ms
+2024-10-22T06:10:57.371Z error: {"success":false,"statusCode":500,"message":"sendResponse is not a function","errorMessages":[{"path":"","message":"sendResponse is not a function"}],"status":"failed","stack":{}}
+2024-10-22T06:11:45.874Z info: POST /api/v2/auth/get-otp 500 2810ms
+2024-10-22T06:11:45.877Z error: {"success":false,"statusCode":500,"message":"sendResponse is not defined","errorMessages":[{"path":"","message":"sendResponse is not defined"}],"status":"failed","stack":{}}
+2024-10-22T06:12:46.616Z info: POST /api/v2/auth/get-otp 200 3072ms
+2024-10-22T06:14:17.791Z info: POST /api/v2/auth/get-otp 200 2931ms
+2024-10-22T06:14:49.282Z info: POST /api/v2/auth/get-otp 200 3554ms
+2024-10-22T06:17:04.824Z info: POST /api/v2/auth/get-otp 200 3070ms
+2024-10-22T06:17:36.023Z info: POST /api/v2/auth/get-otp 200 4053ms
+2024-10-22T06:18:08.940Z info: GET /api/v2/auth/own-otp 404 81ms
+2024-10-22T06:18:08.947Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:18:35.045Z info: GET /api/v2/auth/own-otp 404 102ms
+2024-10-22T06:18:35.051Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:20:03.913Z info: GET /api/v2/auth/own-otp 404 55ms
+2024-10-22T06:20:03.918Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:20:32.803Z info: GET /api/v2/auth/own-otp 404 36ms
+2024-10-22T06:20:32.807Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:23:24.988Z info: GET /api/v2/auth/own-otp 404 52ms
+2024-10-22T06:23:24.994Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:23:55.556Z info: GET /api/v2/auth/own-otp 404 37ms
+2024-10-22T06:23:55.560Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:24:37.131Z info: GET /api/v2/auth/own-otp 404 45ms
+2024-10-22T06:24:37.134Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:25:18.736Z info: GET /api/v2/auth/own-otp 404 46ms
+2024-10-22T06:25:18.740Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:25:44.885Z info: GET /api/v2/auth/own-otp 404 50ms
+2024-10-22T06:25:44.889Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:28:24.640Z info: GET /api/v2/auth/own-otp 404 52ms
+2024-10-22T06:28:24.648Z error: {"success":false,"statusCode":404,"message":"Please request for a new OTP","errorMessages":[{"path":"","message":"Please request for a new OTP"}],"status":"failed","stack":{}}
+2024-10-22T06:30:59.652Z info: GET /api/v2/auth/own-otp 200 27ms
+2024-10-22T06:31:39.413Z info: GET /api/v2/auth/own-otp 200 26ms
+2024-10-22T06:32:13.330Z info: GET /api/v2/auth/own-otp 200 67ms
+2024-10-22T06:32:58.574Z info: GET /api/v2/auth/own-otp 200 67ms
+2024-10-22T06:33:39.929Z info: GET /api/v2/auth/own-otp 200 21ms
+2024-10-22T06:34:33.396Z info: GET /api/v2/auth/own-otp 200 52ms
+2024-10-22T06:35:14.009Z info: GET /api/v2/auth/own-otp 200 29ms
+2024-10-22T06:36:08.563Z info: GET /api/v2/auth/own-otp 200 150ms
+2024-10-22T06:38:20.726Z info: GET /api/v2/auth/own-otp 200 23ms
+2024-10-22T06:39:06.713Z info: GET /api/v2/auth/own-otp 200 239ms
+2024-10-22T06:40:31.779Z info: POST /api/v2/auth/verify-otp 200 53ms
+2024-10-22T06:41:30.285Z info: POST /api/v2/auth/verify-otp 200 58ms
+2024-10-22T06:42:17.684Z info: POST /api/v2/auth/verify-otp 200 171ms
+2024-10-22T06:42:50.908Z info: POST /api/v2/auth/verify-otp 200 47ms
+2024-10-22T06:46:30.799Z info: PATCH /api/v2/auth/change-password 404 13ms
+2024-10-22T06:46:30.809Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-22T06:47:02.159Z info: PATCH /api/v2/auth/change-password 404 10ms
+2024-10-22T06:47:02.163Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-22T06:50:01.088Z info: PATCH /api/v2/auth/reset-password 404 6ms
+2024-10-22T06:50:01.091Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-22T06:52:04.682Z info: PATCH /api/v2/auth/change-password 404 15ms
+2024-10-22T06:52:04.688Z error: {"success":false,"statusCode":404,"message":"Resource not found","errorMessages":[{"path":"","message":"Resource not found"}],"status":"failed","stack":{}}
+2024-10-22T07:01:44.075Z info: PATCH /api/v2/auth/change-password 200 827ms
+2024-10-22T07:02:30.759Z info: POST /api/v2/auth/forgot-password 404 104ms
+2024-10-22T07:02:30.764Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T07:02:57.889Z info: POST /api/v2/auth/forgot-password 404 138ms
+2024-10-22T07:02:57.894Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T07:04:48.110Z info: POST /api/v2/auth/forgot-password 200 3365ms
+2024-10-22T07:05:25.207Z info: POST /api/v2/auth/forgot-password 200 3037ms
+2024-10-22T07:06:12.587Z info: POST /api/v2/auth/forgot-password 500 10321ms
+2024-10-22T07:06:12.592Z error: {"success":false,"statusCode":500,"message":"Client must be connected before running operations","errorMessages":[{"path":"","message":"Client must be connected before running operations"}],"status":"failed","stack":{}}
+2024-10-22T07:07:00.145Z info: POST /api/v2/auth/forgot-password 500 13349ms
+2024-10-22T07:07:00.151Z error: {"success":false,"statusCode":500,"message":"Client must be connected before running operations","errorMessages":[{"path":"","message":"Client must be connected before running operations"}],"status":"failed","stack":{}}
+2024-10-22T07:07:35.563Z info: POST /api/v2/auth/forgot-password 500 3033ms
+2024-10-22T07:07:35.575Z error: {"success":false,"statusCode":500,"message":"Client must be connected before running operations","errorMessages":[{"path":"","message":"Client must be connected before running operations"}],"status":"failed","stack":{}}
+2024-10-22T07:08:04.978Z info: POST /api/v2/auth/forgot-password 500 3279ms
+2024-10-22T07:08:04.984Z error: {"success":false,"statusCode":500,"message":"Client must be connected before running operations","errorMessages":[{"path":"","message":"Client must be connected before running operations"}],"status":"failed","stack":{}}
+2024-10-22T07:08:55.934Z info: POST /api/v2/auth/forgot-password 200 3523ms
+2024-10-22T07:09:26.645Z info: POST /api/v2/auth/forgot-password 200 3618ms
+2024-10-22T07:21:33.747Z info: POST /api/v2/auth/reset-password?token=2790e7e5014ab2b281fe47aed6743614f91bd2c094b4458496d27dc12b4ab0c4 400 21ms
+2024-10-22T07:21:33.753Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"token","location":"body"},{"type":"field","value":"","msg":"Token must be in hexadecimal format","path":"token","location":"body"}],"status":"failed","stack":{}}
+2024-10-22T07:22:10.618Z info: POST /api/v2/auth/reset-password?token=c8dc4f8db22be5c0d8b9f9f08685bccccef90031e3014119033a182ad239f055 400 108ms
+2024-10-22T07:22:10.627Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"token","location":"body"},{"type":"field","value":"","msg":"Token must be in hexadecimal format","path":"token","location":"body"}],"status":"failed","stack":{}}
+2024-10-22T07:24:12.137Z info: POST /api/v2/auth/reset-password?token=4fdefdd12d99d4d12da3d710cbc2438ee8d14bdbad80a31999818f03f278524b 400 18ms
+2024-10-22T07:24:12.141Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"token","location":"body"},{"type":"field","value":"","msg":"Token must be in hexadecimal format","path":"token","location":"body"}],"status":"failed","stack":{}}
+2024-10-22T07:26:07.888Z info: POST /api/v2/auth/reset-password 200 432ms
+2024-10-22T07:26:37.484Z info: POST /api/v2/auth/reset-password 200 462ms
+2024-10-22T07:27:29.705Z info: POST /api/v2/auth/logout 404 159ms
+2024-10-22T07:27:29.710Z error: {"success":false,"statusCode":404,"message":"User not found","errorMessages":[{"path":"","message":"User not found"}],"status":"failed","stack":{}}
+2024-10-22T07:28:01.087Z info: POST /api/v2/auth/logout 200 33ms
+2024-10-22T07:28:28.943Z info: POST /api/v2/auth/logout 200 35ms
+2024-10-22T07:29:13.010Z info: POST /api/v2/auth/logout 200 33ms
+2024-10-22T07:29:45.992Z info: POST /api/v2/auth/logout 200 35ms
+2024-10-22T07:30:30.249Z info: POST /api/v2/auth/logout 200 36ms
+2024-10-22T08:16:10.213Z info: POST /api/v2/auth/signup 201 3471ms
+2024-10-22T08:17:57.782Z info: POST /api/v2/auth/signup 201 4553ms
+2024-10-22T08:19:39.073Z info: POST /api/v2/auth/signup 201 4002ms
+2024-10-22T08:20:32.729Z info: POST /api/v2/auth/signup 201 3800ms
+2024-10-22T08:21:11.359Z info: POST /api/v2/auth/signup 201 4388ms
+2024-10-22T08:21:12.416Z info: POST /api/v2/auth/login 200 492ms
+2024-10-22T08:23:08.279Z info: POST /api/v2/auth/signup 201 3719ms
+2024-10-22T08:23:09.404Z info: POST /api/v2/auth/login 200 481ms
+2024-10-22T08:23:09.970Z info: POST /api/v2/auth/refresh 200 12ms
+2024-10-22T08:23:13.587Z info: POST /api/v2/auth/get-otp 200 3120ms
+2024-10-22T08:23:16.859Z info: GET /api/v2/auth/own-otp 200 22ms
+2024-10-22T08:23:20.085Z info: POST /api/v2/auth/verify-otp 200 45ms
+2024-10-22T08:23:24.312Z info: PATCH /api/v2/auth/change-password 200 954ms
+2024-10-22T08:23:28.200Z info: POST /api/v2/auth/forgot-password 200 3393ms
+2024-10-22T08:23:31.846Z info: POST /api/v2/auth/reset-password 200 492ms
+2024-10-22T08:23:32.373Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-22T08:24:04.497Z info: POST /api/v2/auth/signup 201 4708ms
+2024-10-22T08:24:05.550Z info: POST /api/v2/auth/login 200 483ms
+2024-10-22T08:24:06.064Z info: POST /api/v2/auth/refresh 200 14ms
+2024-10-22T08:24:09.999Z info: POST /api/v2/auth/get-otp 200 3403ms
+2024-10-22T08:24:14.182Z info: GET /api/v2/auth/own-otp 200 14ms
+2024-10-22T08:24:18.225Z info: POST /api/v2/auth/verify-otp 200 32ms
+2024-10-22T08:24:23.417Z info: PATCH /api/v2/auth/change-password 200 1218ms
+2024-10-22T08:24:26.931Z info: POST /api/v2/auth/forgot-password 200 2798ms
+2024-10-22T08:24:31.369Z info: POST /api/v2/auth/reset-password 200 680ms
+2024-10-22T08:24:31.896Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T08:27:57.621Z info: POST /api/v2/cycles 201 149ms
+2024-10-22T08:27:57.737Z info: GET /api/v2/cycles 200 25ms
+2024-10-22T08:27:57.767Z info: DELETE /api/v2/cycles/6717620d41e945bf56ef2eea 200 14ms
+2024-10-22T08:57:36.311Z info: POST /api/v2/cycles 201 441ms
+2024-10-22T08:57:36.700Z info: GET /api/v2/cycles 200 161ms
+2024-10-22T08:57:36.774Z info: DELETE /api/v2/cycles/671768ff2087499653b97561 200 41ms
+2024-10-22T08:57:41.606Z info: POST /api/v2/auth/signup 201 5220ms
+2024-10-22T08:57:42.642Z info: POST /api/v2/auth/login 200 471ms
+2024-10-22T08:57:43.191Z info: POST /api/v2/auth/refresh 200 15ms
+2024-10-22T08:57:46.653Z info: POST /api/v2/auth/get-otp 200 2985ms
+2024-10-22T08:57:50.051Z info: GET /api/v2/auth/own-otp 200 19ms
+2024-10-22T08:57:53.205Z info: POST /api/v2/auth/verify-otp 200 34ms
+2024-10-22T08:57:58.195Z info: PATCH /api/v2/auth/change-password 200 986ms
+2024-10-22T08:58:03.016Z info: POST /api/v2/auth/forgot-password 200 4117ms
+2024-10-22T08:58:07.544Z info: POST /api/v2/auth/reset-password 200 459ms
+2024-10-22T08:58:08.066Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-22T08:58:34.150Z info: POST /api/v2/cycles 201 180ms
+2024-10-22T08:58:34.354Z info: GET /api/v2/cycles 200 46ms
+2024-10-22T08:58:34.441Z info: DELETE /api/v2/cycles/6717693919de191065df8f29 200 53ms
+2024-10-22T08:58:38.936Z info: POST /api/v2/auth/signup 201 5241ms
+2024-10-22T08:58:40.126Z info: POST /api/v2/auth/login 200 441ms
+2024-10-22T08:58:40.576Z info: POST /api/v2/auth/refresh 200 8ms
+2024-10-22T08:58:44.411Z info: POST /api/v2/auth/get-otp 200 3397ms
+2024-10-22T08:58:48.873Z info: GET /api/v2/auth/own-otp 200 10ms
+2024-10-22T08:58:53.591Z info: POST /api/v2/auth/verify-otp 200 20ms
+2024-10-22T08:58:57.508Z info: PATCH /api/v2/auth/change-password 200 755ms
+2024-10-22T08:59:00.639Z info: POST /api/v2/auth/forgot-password 200 2744ms
+2024-10-22T08:59:05.403Z info: POST /api/v2/auth/reset-password 200 558ms
+2024-10-22T08:59:06.224Z info: POST /api/v2/auth/logout 200 10ms
+2024-10-22T08:59:35.724Z info: POST /api/v2/cycles 201 235ms
+2024-10-22T08:59:35.886Z info: GET /api/v2/cycles 200 33ms
+2024-10-22T08:59:35.919Z info: DELETE /api/v2/cycles/6717697710074a3baf7ab85c 200 13ms
+2024-10-22T08:59:39.386Z info: POST /api/v2/auth/signup 201 4185ms
+2024-10-22T08:59:40.250Z info: POST /api/v2/auth/login 200 407ms
+2024-10-22T08:59:40.679Z info: POST /api/v2/auth/refresh 200 12ms
+2024-10-22T08:59:44.640Z info: POST /api/v2/auth/get-otp 200 3560ms
+2024-10-22T08:59:47.737Z info: GET /api/v2/auth/own-otp 200 53ms
+2024-10-22T08:59:52.083Z info: POST /api/v2/auth/verify-otp 200 54ms
+2024-10-22T08:59:56.817Z info: PATCH /api/v2/auth/change-password 200 1005ms
+2024-10-22T09:00:01.190Z info: POST /api/v2/auth/forgot-password 200 3701ms
+2024-10-22T09:00:05.427Z info: POST /api/v2/auth/reset-password 200 1050ms
+2024-10-22T09:00:06.143Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T09:00:28.268Z info: POST /api/v2/cycles 201 347ms
+2024-10-22T09:00:28.497Z info: GET /api/v2/cycles 200 85ms
+2024-10-22T09:00:28.565Z info: DELETE /api/v2/cycles/671769ab42e086732ed55c9b 200 29ms
+2024-10-22T09:00:33.157Z info: POST /api/v2/auth/signup 201 5278ms
+2024-10-22T09:00:34.812Z info: POST /api/v2/auth/login 200 628ms
+2024-10-22T09:00:35.382Z info: POST /api/v2/auth/refresh 200 14ms
+2024-10-22T09:00:40.017Z info: POST /api/v2/auth/get-otp 200 4194ms
+2024-10-22T09:00:44.831Z info: GET /api/v2/auth/own-otp 200 18ms
+2024-10-22T09:00:48.077Z info: POST /api/v2/auth/verify-otp 200 23ms
+2024-10-22T09:00:52.033Z info: PATCH /api/v2/auth/change-password 200 725ms
+2024-10-22T09:00:55.645Z info: POST /api/v2/auth/forgot-password 200 3197ms
+2024-10-22T09:00:59.226Z info: POST /api/v2/auth/reset-password 200 391ms
+2024-10-22T09:00:59.701Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-22T09:02:09.509Z info: POST /api/v2/cycles 201 247ms
+2024-10-22T09:02:09.885Z info: GET /api/v2/cycles 200 77ms
+2024-10-22T09:02:09.937Z info: DELETE /api/v2/cycles/67176a11219b135ab15d15f2 200 14ms
+2024-10-22T09:02:13.855Z info: POST /api/v2/auth/signup 201 4547ms
+2024-10-22T09:02:15.049Z info: POST /api/v2/auth/login 200 585ms
+2024-10-22T09:02:15.609Z info: POST /api/v2/auth/refresh 200 14ms
+2024-10-22T09:02:20.083Z info: POST /api/v2/auth/get-otp 200 3601ms
+2024-10-22T09:02:24.478Z info: GET /api/v2/auth/own-otp 200 52ms
+2024-10-22T09:02:27.488Z info: POST /api/v2/auth/verify-otp 200 22ms
+2024-10-22T09:02:34.067Z info: PATCH /api/v2/auth/change-password 200 786ms
+2024-10-22T09:02:37.533Z info: POST /api/v2/auth/forgot-password 200 3063ms
+2024-10-22T09:02:41.904Z info: POST /api/v2/auth/reset-password 200 379ms
+2024-10-22T09:02:42.319Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T09:03:07.471Z info: POST /api/v2/cycles 201 134ms
+2024-10-22T09:03:07.796Z info: GET /api/v2/cycles 200 84ms
+2024-10-22T09:03:07.929Z info: DELETE /api/v2/cycles/67176a4bc25c52b8f25bb4b9 200 74ms
+2024-10-22T09:03:11.567Z info: POST /api/v2/auth/signup 201 4123ms
+2024-10-22T09:03:12.542Z info: POST /api/v2/auth/login 200 422ms
+2024-10-22T09:03:12.952Z info: POST /api/v2/auth/refresh 200 11ms
+2024-10-22T09:03:17.581Z info: POST /api/v2/auth/get-otp 200 4142ms
+2024-10-22T09:03:20.647Z info: GET /api/v2/auth/own-otp 200 15ms
+2024-10-22T09:03:23.758Z info: POST /api/v2/auth/verify-otp 200 30ms
+2024-10-22T09:03:27.663Z info: PATCH /api/v2/auth/change-password 200 762ms
+2024-10-22T09:03:30.862Z info: POST /api/v2/auth/forgot-password 200 2591ms
+2024-10-22T09:03:35.251Z info: POST /api/v2/auth/reset-password 200 405ms
+2024-10-22T09:03:35.642Z info: POST /api/v2/auth/logout 200 6ms
+2024-10-22T09:03:53.061Z info: POST /api/v2/cycles 201 199ms
+2024-10-22T09:03:53.241Z info: GET /api/v2/cycles 200 37ms
+2024-10-22T09:03:53.268Z info: DELETE /api/v2/cycles/67176a7877e6510cd48ac029 200 13ms
+2024-10-22T09:03:56.353Z info: POST /api/v2/auth/signup 201 3450ms
+2024-10-22T09:03:57.869Z info: POST /api/v2/auth/login 200 696ms
+2024-10-22T09:03:58.396Z info: POST /api/v2/auth/refresh 200 16ms
+2024-10-22T09:04:01.579Z info: POST /api/v2/auth/get-otp 200 2626ms
+2024-10-22T09:04:05.565Z info: GET /api/v2/auth/own-otp 200 19ms
+2024-10-22T09:04:09.462Z info: POST /api/v2/auth/verify-otp 200 29ms
+2024-10-22T09:04:15.433Z info: PATCH /api/v2/auth/change-password 200 1134ms
+2024-10-22T09:04:19.532Z info: POST /api/v2/auth/forgot-password 200 3590ms
+2024-10-22T09:04:23.227Z info: POST /api/v2/auth/reset-password 200 502ms
+2024-10-22T09:04:23.729Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-22T09:13:16.015Z info: POST /api/v2/cycles 201 310ms
+2024-10-22T09:13:16.235Z info: GET /api/v2/cycles 200 38ms
+2024-10-22T09:13:16.274Z info: DELETE /api/v2/cycles/67176cab28609085009c056b 200 16ms
+2024-10-22T09:13:20.831Z info: POST /api/v2/auth/signup 201 5130ms
+2024-10-22T09:13:21.702Z info: POST /api/v2/auth/login 200 406ms
+2024-10-22T09:13:22.142Z info: POST /api/v2/auth/refresh 200 15ms
+2024-10-22T09:13:25.107Z info: POST /api/v2/auth/get-otp 200 2547ms
+2024-10-22T09:13:28.055Z info: GET /api/v2/auth/own-otp 200 11ms
+2024-10-22T09:13:31.049Z info: POST /api/v2/auth/verify-otp 200 28ms
+2024-10-22T09:13:34.725Z info: PATCH /api/v2/auth/change-password 200 765ms
+2024-10-22T09:13:38.135Z info: POST /api/v2/auth/forgot-password 200 2985ms
+2024-10-22T09:13:41.901Z info: POST /api/v2/auth/reset-password 200 431ms
+2024-10-22T09:13:42.321Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-22T09:14:00.388Z info: POST /api/v2/cycles 201 147ms
+2024-10-22T09:14:00.587Z info: GET /api/v2/cycles 200 25ms
+2024-10-22T09:14:00.616Z info: DELETE /api/v2/cycles/67176cd824651208a436795e 200 12ms
+2024-10-22T09:14:03.911Z info: POST /api/v2/auth/signup 201 3627ms
+2024-10-22T09:14:04.738Z info: POST /api/v2/auth/login 200 372ms
+2024-10-22T09:14:05.144Z info: POST /api/v2/auth/refresh 200 11ms
+2024-10-22T09:14:08.466Z info: POST /api/v2/auth/get-otp 200 2927ms
+2024-10-22T09:14:11.602Z info: GET /api/v2/auth/own-otp 200 13ms
+2024-10-22T09:14:14.916Z info: POST /api/v2/auth/verify-otp 200 23ms
+2024-10-22T09:14:19.561Z info: PATCH /api/v2/auth/change-password 200 770ms
+2024-10-22T09:14:22.734Z info: POST /api/v2/auth/forgot-password 200 2792ms
+2024-10-22T09:14:26.366Z info: POST /api/v2/auth/reset-password 200 414ms
+2024-10-22T09:14:26.763Z info: POST /api/v2/auth/logout 200 10ms
+2024-10-22T09:19:45.324Z info: POST /api/v2/cycles 201 252ms
+2024-10-22T09:19:45.491Z info: GET /api/v2/cycles 200 67ms
+2024-10-22T09:19:45.580Z info: DELETE /api/v2/cycles/67176e31d31ef5e94efe22c4 200 23ms
+2024-10-22T09:19:49.606Z info: POST /api/v2/auth/signup 201 4497ms
+2024-10-22T09:19:50.465Z info: POST /api/v2/auth/login 200 408ms
+2024-10-22T09:19:50.893Z info: POST /api/v2/auth/refresh 200 14ms
+2024-10-22T09:19:54.851Z info: POST /api/v2/auth/get-otp 200 3539ms
+2024-10-22T09:19:58.728Z info: GET /api/v2/auth/own-otp 200 27ms
+2024-10-22T09:20:01.872Z info: POST /api/v2/auth/verify-otp 200 23ms
+2024-10-22T09:20:07.336Z info: PATCH /api/v2/auth/change-password 200 1020ms
+2024-10-22T09:20:10.887Z info: POST /api/v2/auth/forgot-password 200 2937ms
+2024-10-22T09:20:14.976Z info: POST /api/v2/auth/reset-password 200 750ms
+2024-10-22T09:20:15.565Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T09:20:46.437Z info: POST /api/v2/cycles 201 361ms
+2024-10-22T09:20:47.031Z info: GET /api/v2/cycles 200 103ms
+2024-10-22T09:20:47.230Z info: DELETE /api/v2/cycles/67176e6e44ab5b35f905deb9 200 159ms
+2024-10-22T09:20:51.633Z info: POST /api/v2/auth/signup 201 5243ms
+2024-10-22T09:20:53.076Z info: POST /api/v2/auth/login 200 667ms
+2024-10-22T09:20:53.804Z info: POST /api/v2/auth/refresh 200 16ms
+2024-10-22T09:20:57.363Z info: POST /api/v2/auth/get-otp 200 3026ms
+2024-10-22T09:21:01.418Z info: GET /api/v2/auth/own-otp 200 11ms
+2024-10-22T09:21:04.887Z info: POST /api/v2/auth/verify-otp 200 34ms
+2024-10-22T09:21:09.639Z info: PATCH /api/v2/auth/change-password 200 799ms
+2024-10-22T09:21:12.906Z info: POST /api/v2/auth/forgot-password 200 2843ms
+2024-10-22T09:21:16.620Z info: POST /api/v2/auth/reset-password 200 434ms
+2024-10-22T09:21:17.067Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T09:21:37.829Z info: POST /api/v2/cycles 201 168ms
+2024-10-22T09:21:37.991Z info: GET /api/v2/cycles 200 31ms
+2024-10-22T09:21:38.021Z info: DELETE /api/v2/cycles/67176ea1d19c16e62b28ae17 200 12ms
+2024-10-22T09:21:41.558Z info: POST /api/v2/auth/signup 201 3921ms
+2024-10-22T09:21:42.396Z info: POST /api/v2/auth/login 200 376ms
+2024-10-22T09:21:42.790Z info: POST /api/v2/auth/refresh 200 10ms
+2024-10-22T09:21:45.793Z info: POST /api/v2/auth/get-otp 200 2610ms
+2024-10-22T09:21:48.716Z info: GET /api/v2/auth/own-otp 200 11ms
+2024-10-22T09:21:52.962Z info: POST /api/v2/auth/verify-otp 200 22ms
+2024-10-22T09:21:57.575Z info: PATCH /api/v2/auth/change-password 200 758ms
+2024-10-22T09:22:00.737Z info: POST /api/v2/auth/forgot-password 200 2779ms
+2024-10-22T09:22:05.161Z info: POST /api/v2/auth/reset-password 200 379ms
+2024-10-22T09:22:05.562Z info: POST /api/v2/auth/logout 200 5ms
+2024-10-22T10:11:39.519Z info: POST /api/v2/cycles 201 213ms
+2024-10-22T10:11:39.693Z info: GET /api/v2/cycles 200 28ms
+2024-10-22T10:11:39.718Z info: DELETE /api/v2/cycles/67177a5bbf7d69e13ff3198b 200 10ms
+2024-10-22T10:11:43.039Z info: POST /api/v2/auth/signup 201 3733ms
+2024-10-22T10:11:43.958Z info: POST /api/v2/auth/login 200 479ms
+2024-10-22T10:11:44.559Z info: POST /api/v2/auth/refresh 200 16ms
+2024-10-22T10:11:47.944Z info: POST /api/v2/auth/get-otp 200 2732ms
+2024-10-22T10:11:51.352Z info: GET /api/v2/auth/own-otp 200 52ms
+2024-10-22T10:11:54.324Z info: POST /api/v2/auth/verify-otp 200 28ms
+2024-10-22T10:11:58.542Z info: PATCH /api/v2/auth/change-password 200 1143ms
+2024-10-22T10:12:03.792Z info: POST /api/v2/auth/forgot-password 200 3945ms
+2024-10-22T10:12:07.474Z info: POST /api/v2/auth/reset-password 200 558ms
+2024-10-22T10:12:07.987Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-22T10:12:35.655Z info: POST /api/v2/cycles 201 125ms
+2024-10-22T10:12:35.800Z info: GET /api/v2/cycles 200 26ms
+2024-10-22T10:12:35.839Z info: DELETE /api/v2/cycles/67177a9309509360da9f56ee 200 11ms
+2024-10-22T10:12:38.796Z info: POST /api/v2/auth/signup 201 3535ms
+2024-10-22T10:12:40.224Z info: POST /api/v2/auth/login 200 495ms
+2024-10-22T10:12:40.940Z info: POST /api/v2/auth/refresh 200 16ms
+2024-10-22T10:12:44.305Z info: POST /api/v2/auth/get-otp 200 2778ms
+2024-10-22T10:12:48.053Z info: GET /api/v2/auth/own-otp 200 12ms
+2024-10-22T10:12:51.066Z info: POST /api/v2/auth/verify-otp 200 30ms
+2024-10-22T10:12:54.945Z info: PATCH /api/v2/auth/change-password 200 851ms
+2024-10-22T10:12:57.975Z info: POST /api/v2/auth/forgot-password 200 2635ms
+2024-10-22T10:13:02.175Z info: POST /api/v2/auth/reset-password 200 451ms
+2024-10-22T10:13:02.596Z info: POST /api/v2/auth/logout 200 6ms
+2024-10-22T10:22:12.621Z info: POST /api/v2/cycles 201 291ms
+2024-10-22T10:22:12.986Z info: GET /api/v2/cycles 200 150ms
+2024-10-22T10:22:13.028Z info: DELETE /api/v2/cycles/67177cd4242da7eae508ecdf 200 18ms
+2024-10-22T10:22:15.482Z info: POST /api/v2/auth/signup 201 3816ms
+2024-10-22T10:22:16.292Z info: POST /api/v2/auth/login 200 377ms
+2024-10-22T10:22:16.698Z info: POST /api/v2/auth/refresh 200 10ms
+2024-10-22T10:22:19.560Z info: POST /api/v2/auth/get-otp 200 2453ms
+2024-10-22T10:22:23.744Z info: GET /api/v2/auth/own-otp 200 13ms
+2024-10-22T10:22:27.105Z info: POST /api/v2/auth/verify-otp 200 32ms
+2024-10-22T10:22:31.576Z info: PATCH /api/v2/auth/change-password 200 1346ms
+2024-10-22T10:22:35.769Z info: POST /api/v2/auth/forgot-password 200 3571ms
+2024-10-22T10:22:39.814Z info: POST /api/v2/auth/reset-password 200 382ms
+2024-10-22T10:22:40.232Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-22T10:23:00.334Z info: POST /api/v2/cycles 201 160ms
+2024-10-22T10:23:00.563Z info: GET /api/v2/cycles 200 28ms
+2024-10-22T10:23:00.608Z info: DELETE /api/v2/cycles/67177d04e764363f4bd76a25 200 13ms
+2024-10-22T10:23:04.037Z info: POST /api/v2/auth/signup 201 3789ms
+2024-10-22T10:23:04.896Z info: POST /api/v2/auth/login 200 395ms
+2024-10-22T10:23:05.306Z info: POST /api/v2/auth/refresh 200 9ms
+2024-10-22T10:23:09.030Z info: POST /api/v2/auth/get-otp 200 3334ms
+2024-10-22T10:23:12.352Z info: GET /api/v2/auth/own-otp 200 15ms
+2024-10-22T10:23:15.306Z info: POST /api/v2/auth/verify-otp 200 20ms
+2024-10-22T10:23:19.837Z info: PATCH /api/v2/auth/change-password 200 783ms
+2024-10-22T10:23:22.761Z info: POST /api/v2/auth/forgot-password 200 2478ms
+2024-10-22T10:23:26.228Z info: POST /api/v2/auth/reset-password 200 398ms
+2024-10-22T10:23:26.642Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-22T10:24:26.440Z info: POST /api/v2/cycles 201 226ms
+2024-10-22T10:24:26.589Z info: GET /api/v2/cycles 200 41ms
+2024-10-22T10:24:26.653Z info: DELETE /api/v2/cycles/67177d5a6cc447d592ccdd84 200 17ms
+2024-10-22T10:24:29.980Z info: POST /api/v2/auth/signup 201 3817ms
+2024-10-22T10:24:30.849Z info: POST /api/v2/auth/login 200 412ms
+2024-10-22T10:24:31.271Z info: POST /api/v2/auth/refresh 200 10ms
+2024-10-22T10:24:34.449Z info: POST /api/v2/auth/get-otp 200 2759ms
+2024-10-22T10:24:37.447Z info: GET /api/v2/auth/own-otp 200 16ms
+2024-10-22T10:24:40.530Z info: POST /api/v2/auth/verify-otp 200 28ms
+2024-10-22T10:24:45.116Z info: PATCH /api/v2/auth/change-password 200 775ms
+2024-10-22T10:24:49.469Z info: POST /api/v2/auth/forgot-password 200 3941ms
+2024-10-22T10:24:53.624Z info: POST /api/v2/auth/reset-password 200 488ms
+2024-10-22T10:24:54.271Z info: POST /api/v2/auth/logout 200 11ms
+2024-10-22T10:25:18.684Z info: POST /api/v2/cycles 201 188ms
+2024-10-22T10:25:18.812Z info: GET /api/v2/cycles 200 30ms
+2024-10-22T10:25:18.838Z info: DELETE /api/v2/cycles/67177d8e914f7568db7dc5ce 200 10ms
+2024-10-22T10:25:22.623Z info: POST /api/v2/auth/signup 201 4145ms
+2024-10-22T10:25:23.769Z info: POST /api/v2/auth/login 200 616ms
+2024-10-22T10:25:24.203Z info: POST /api/v2/auth/refresh 200 13ms
+2024-10-22T10:25:28.773Z info: POST /api/v2/auth/get-otp 200 4049ms
+2024-10-22T10:25:31.757Z info: GET /api/v2/auth/own-otp 200 11ms
+2024-10-22T10:25:35.668Z info: POST /api/v2/auth/verify-otp 200 35ms
+2024-10-22T10:25:41.310Z info: PATCH /api/v2/auth/change-password 200 1569ms
+2024-10-22T10:25:44.815Z info: POST /api/v2/auth/forgot-password 200 2980ms
+2024-10-22T10:25:49.722Z info: POST /api/v2/auth/reset-password 200 530ms
+2024-10-22T10:25:50.491Z info: POST /api/v2/auth/logout 200 11ms
+2024-10-22T10:26:11.138Z info: POST /api/v2/cycles 201 171ms
+2024-10-22T10:26:11.345Z info: GET /api/v2/cycles 200 27ms
+2024-10-22T10:26:11.376Z info: DELETE /api/v2/cycles/67177dc2f41abe3bd3b2f80c 200 14ms
+2024-10-22T10:26:14.383Z info: POST /api/v2/auth/signup 201 3381ms
+2024-10-22T10:26:15.277Z info: POST /api/v2/auth/login 200 439ms
+2024-10-22T10:26:15.710Z info: POST /api/v2/auth/refresh 200 11ms
+2024-10-22T10:26:19.977Z info: POST /api/v2/auth/get-otp 200 3828ms
+2024-10-22T10:26:23.328Z info: GET /api/v2/auth/own-otp 200 13ms
+2024-10-22T10:26:27.669Z info: POST /api/v2/auth/verify-otp 200 34ms
+2024-10-22T10:26:32.586Z info: PATCH /api/v2/auth/change-password 200 827ms
+2024-10-22T10:26:36.025Z info: POST /api/v2/auth/forgot-password 200 3002ms
+2024-10-22T10:26:40.210Z info: POST /api/v2/auth/reset-password 200 419ms
+2024-10-22T10:26:40.621Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T10:28:24.693Z info: POST /api/v2/cycles 201 253ms
+2024-10-22T10:28:24.958Z info: GET /api/v2/cycles 200 71ms
+2024-10-22T10:28:25.094Z info: DELETE /api/v2/cycles/67177e48a90a31d4e6fb7961 200 75ms
+2024-10-22T10:28:28.479Z info: POST /api/v2/auth/signup 201 4020ms
+2024-10-22T10:28:29.665Z info: POST /api/v2/auth/login 200 469ms
+2024-10-22T10:28:30.143Z info: POST /api/v2/auth/refresh 200 9ms
+2024-10-22T10:28:33.033Z info: POST /api/v2/auth/get-otp 200 2459ms
+2024-10-22T10:28:36.694Z info: GET /api/v2/auth/own-otp 200 9ms
+2024-10-22T10:28:39.689Z info: POST /api/v2/auth/verify-otp 200 26ms
+2024-10-22T10:28:46.326Z info: PATCH /api/v2/auth/change-password 200 1448ms
+2024-10-22T10:28:50.422Z info: POST /api/v2/auth/forgot-password 200 3270ms
+2024-10-22T10:28:54.373Z info: POST /api/v2/auth/reset-password 200 629ms
+2024-10-22T10:28:55.009Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T10:29:26.116Z info: POST /api/v2/cycles 201 190ms
+2024-10-22T10:29:26.817Z info: GET /api/v2/cycles 200 254ms
+2024-10-22T10:29:26.974Z info: DELETE /api/v2/cycles/67177e85c985846ba5fc95c7 200 36ms
+2024-10-22T10:29:30.654Z info: POST /api/v2/auth/signup 201 4451ms
+2024-10-22T10:29:31.602Z info: POST /api/v2/auth/login 200 394ms
+2024-10-22T10:29:32.055Z info: POST /api/v2/auth/refresh 200 9ms
+2024-10-22T10:29:34.982Z info: POST /api/v2/auth/get-otp 200 2498ms
+2024-10-22T10:29:38.728Z info: GET /api/v2/auth/own-otp 200 16ms
+2024-10-22T10:29:41.734Z info: POST /api/v2/auth/verify-otp 200 27ms
+2024-10-22T10:29:45.472Z info: PATCH /api/v2/auth/change-password 200 790ms
+2024-10-22T10:29:48.630Z info: POST /api/v2/auth/forgot-password 200 2769ms
+2024-10-22T10:29:52.052Z info: POST /api/v2/auth/reset-password 200 415ms
+2024-10-22T10:29:52.498Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-22T10:30:09.957Z info: POST /api/v2/cycles 201 241ms
+2024-10-22T10:30:10.150Z info: GET /api/v2/cycles 200 29ms
+2024-10-22T10:30:10.180Z info: DELETE /api/v2/cycles/67177eb104c09460c94b869c 200 11ms
+2024-10-22T10:30:13.326Z info: POST /api/v2/auth/signup 201 3629ms
+2024-10-22T10:30:14.151Z info: POST /api/v2/auth/login 200 375ms
+2024-10-22T10:30:14.547Z info: POST /api/v2/auth/refresh 200 10ms
+2024-10-22T10:30:17.580Z info: POST /api/v2/auth/get-otp 200 2633ms
+2024-10-22T10:30:20.635Z info: GET /api/v2/auth/own-otp 200 13ms
+2024-10-22T10:30:26.756Z info: POST /api/v2/auth/verify-otp 200 20ms
+2024-10-22T10:30:31.407Z info: PATCH /api/v2/auth/change-password 200 730ms
+2024-10-22T10:30:34.521Z info: POST /api/v2/auth/forgot-password 200 2724ms
+2024-10-22T10:30:38.622Z info: POST /api/v2/auth/reset-password 200 367ms
+2024-10-22T10:30:39.011Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-22T10:52:27.293Z info: POST /api/v2/cycles 201 220ms
+2024-10-22T10:52:27.507Z info: GET /api/v2/cycles 200 49ms
+2024-10-22T10:52:27.543Z info: DELETE /api/v2/cycles/671783eb8eedb2acb11b9bea 200 15ms
+2024-10-22T10:52:31.090Z info: POST /api/v2/auth/signup 201 3982ms
+2024-10-22T10:52:32.377Z info: POST /api/v2/auth/login 200 504ms
+2024-10-22T10:52:32.851Z info: POST /api/v2/auth/refresh 200 14ms
+2024-10-22T10:52:36.471Z info: POST /api/v2/auth/get-otp 200 3014ms
+2024-10-22T10:52:39.867Z info: GET /api/v2/auth/own-otp 200 10ms
+2024-10-22T10:52:43.625Z info: POST /api/v2/auth/verify-otp 200 29ms
+2024-10-22T10:52:48.138Z info: PATCH /api/v2/auth/change-password 200 758ms
+2024-10-22T10:52:51.457Z info: POST /api/v2/auth/forgot-password 200 2846ms
+2024-10-22T10:52:55.001Z info: POST /api/v2/auth/reset-password 200 397ms
+2024-10-22T10:52:55.417Z info: POST /api/v2/auth/logout 200 6ms
+2024-10-22T10:53:18.832Z info: POST /api/v2/cycles 201 482ms
+2024-10-22T10:53:19.201Z info: GET /api/v2/cycles 200 163ms
+2024-10-22T10:53:19.255Z info: DELETE /api/v2/cycles/6717841ece32cd19ff6c828a 200 20ms
+2024-10-22T10:53:22.388Z info: POST /api/v2/auth/signup 201 4259ms
+2024-10-22T10:53:23.457Z info: POST /api/v2/auth/login 200 491ms
+2024-10-22T10:53:24.078Z info: POST /api/v2/auth/refresh 200 17ms
+2024-10-22T10:53:27.375Z info: POST /api/v2/auth/get-otp 200 2771ms
+2024-10-22T10:53:30.784Z info: GET /api/v2/auth/own-otp 200 10ms
+2024-10-22T10:53:34.774Z info: POST /api/v2/auth/verify-otp 200 29ms
+2024-10-22T10:53:39.204Z info: PATCH /api/v2/auth/change-password 200 775ms
+2024-10-22T10:53:43.216Z info: POST /api/v2/auth/forgot-password 200 3522ms
+2024-10-22T10:53:46.989Z info: POST /api/v2/auth/reset-password 200 387ms
+2024-10-22T10:53:47.473Z info: POST /api/v2/auth/logout 200 13ms
+2024-10-22T10:54:49.940Z info: POST /api/v2/cycles 201 196ms
+2024-10-22T10:54:50.144Z info: GET /api/v2/cycles 200 61ms
+2024-10-22T10:54:50.178Z info: DELETE /api/v2/cycles/67178479e602ffcc4fe3fd12 200 14ms
+2024-10-22T10:54:53.523Z info: POST /api/v2/auth/signup 201 3671ms
+2024-10-22T10:54:54.345Z info: POST /api/v2/auth/login 200 380ms
+2024-10-22T10:54:54.755Z info: POST /api/v2/auth/refresh 200 13ms
+2024-10-22T10:54:58.683Z info: POST /api/v2/auth/get-otp 200 3471ms
+2024-10-22T10:55:04.599Z info: GET /api/v2/auth/own-otp 200 12ms
+2024-10-22T10:55:08.420Z info: POST /api/v2/auth/verify-otp 200 33ms
+2024-10-22T10:55:13.469Z info: PATCH /api/v2/auth/change-password 200 959ms
+2024-10-22T10:55:16.750Z info: POST /api/v2/auth/forgot-password 200 2608ms
+2024-10-22T10:55:21.050Z info: POST /api/v2/auth/reset-password 200 738ms
+2024-10-22T10:55:21.552Z info: POST /api/v2/auth/logout 200 5ms
+2024-10-22T10:55:45.008Z info: POST /api/v2/cycles 201 211ms
+2024-10-22T10:55:45.241Z info: GET /api/v2/cycles 200 32ms
+2024-10-22T10:55:45.270Z info: DELETE /api/v2/cycles/671784b087b7fb3ec8cdc66c 200 12ms
+2024-10-22T10:55:48.234Z info: POST /api/v2/auth/signup 201 3498ms
+2024-10-22T10:55:49.066Z info: POST /api/v2/auth/login 200 376ms
+2024-10-22T10:55:49.495Z info: POST /api/v2/auth/refresh 200 9ms
+2024-10-22T10:55:52.648Z info: POST /api/v2/auth/get-otp 200 2761ms
+2024-10-22T10:55:55.754Z info: GET /api/v2/auth/own-otp 200 12ms
+2024-10-22T10:56:00.887Z info: POST /api/v2/auth/verify-otp 200 20ms
+2024-10-22T10:56:04.816Z info: PATCH /api/v2/auth/change-password 200 734ms
+2024-10-22T10:56:08.723Z info: POST /api/v2/auth/forgot-password 200 3494ms
+2024-10-22T10:56:12.200Z info: POST /api/v2/auth/reset-password 200 401ms
+2024-10-22T10:56:12.634Z info: POST /api/v2/auth/logout 200 13ms
+2024-10-22T10:56:31.281Z info: POST /api/v2/cycles 201 243ms
+2024-10-22T10:56:31.404Z info: GET /api/v2/cycles 200 25ms
+2024-10-22T10:56:31.429Z info: DELETE /api/v2/cycles/671784dfa59adc021210da5d 200 10ms
+2024-10-22T10:56:35.037Z info: POST /api/v2/auth/signup 201 4047ms
+2024-10-22T10:56:35.864Z info: POST /api/v2/auth/login 200 379ms
+2024-10-22T10:56:36.273Z info: POST /api/v2/auth/refresh 200 12ms
+2024-10-22T10:56:40.015Z info: POST /api/v2/auth/get-otp 200 3330ms
+2024-10-22T10:56:42.981Z info: GET /api/v2/auth/own-otp 200 9ms
+2024-10-22T10:56:46.025Z info: POST /api/v2/auth/verify-otp 200 42ms
+2024-10-22T10:56:49.942Z info: PATCH /api/v2/auth/change-password 200 754ms
+2024-10-22T10:56:53.602Z info: POST /api/v2/auth/forgot-password 200 3239ms
+2024-10-22T10:56:57.390Z info: POST /api/v2/auth/reset-password 200 396ms
+2024-10-22T10:56:57.805Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T10:58:58.156Z info: POST /api/v2/cycles 201 204ms
+2024-10-22T10:58:58.499Z info: GET /api/v2/cycles 200 46ms
+2024-10-22T10:58:58.566Z info: DELETE /api/v2/cycles/671785711a014b51b9e6eb73 200 28ms
+2024-10-22T10:59:02.641Z info: POST /api/v2/auth/signup 201 4684ms
+2024-10-22T10:59:04.168Z info: POST /api/v2/auth/login 200 797ms
+2024-10-22T10:59:04.969Z info: POST /api/v2/auth/refresh 200 20ms
+2024-10-22T10:59:09.408Z info: POST /api/v2/auth/get-otp 200 3376ms
+2024-10-22T10:59:12.754Z info: GET /api/v2/auth/own-otp 200 19ms
+2024-10-22T10:59:16.298Z info: POST /api/v2/auth/verify-otp 200 35ms
+2024-10-22T10:59:21.325Z info: PATCH /api/v2/auth/change-password 200 1349ms
+2024-10-22T10:59:25.947Z info: POST /api/v2/auth/forgot-password 200 3585ms
+2024-10-22T10:59:29.622Z info: POST /api/v2/auth/reset-password 200 429ms
+2024-10-22T10:59:30.128Z info: POST /api/v2/auth/logout 200 9ms
+2024-10-22T11:49:39.546Z info: POST /api/v2/cycles 201 726ms
+2024-10-22T11:49:39.780Z info: GET /api/v2/cycles 200 51ms
+2024-10-22T11:49:39.832Z info: DELETE /api/v2/cycles/67179152f4373380681dfec0 200 26ms
+2024-10-22T11:49:46.115Z info: POST /api/v2/auth/signup 201 6231ms
+2024-10-22T11:49:47.563Z info: POST /api/v2/auth/login 200 641ms
+2024-10-22T11:49:48.512Z info: POST /api/v2/auth/refresh 200 18ms
+2024-10-22T11:49:52.105Z info: POST /api/v2/auth/get-otp 200 3003ms
+2024-10-22T11:49:56.041Z info: GET /api/v2/auth/own-otp 200 14ms
+2024-10-22T11:50:00.174Z info: POST /api/v2/auth/verify-otp 200 24ms
+2024-10-22T11:50:05.227Z info: PATCH /api/v2/auth/change-password 200 953ms
+2024-10-22T11:50:09.123Z info: POST /api/v2/auth/forgot-password 200 3388ms
+2024-10-22T11:50:14.141Z info: POST /api/v2/auth/reset-password 200 681ms
+2024-10-22T11:50:14.630Z info: POST /api/v2/auth/logout 200 6ms
+2024-10-22T11:52:04.200Z info: GET /api/v2/orders 500 14ms
+2024-10-22T11:52:04.211Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T11:52:04.259Z info: GET /api/v2/orders 403 8ms
+2024-10-22T11:52:04.260Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T11:52:04.284Z info: GET /api/v2/orders/self 500 5ms
+2024-10-22T11:52:04.285Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T11:52:43.864Z info: GET /api/v2/orders 500 14ms
+2024-10-22T11:52:43.874Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T11:52:43.935Z info: GET /api/v2/orders 403 5ms
+2024-10-22T11:52:43.939Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T11:52:43.963Z info: GET /api/v2/orders/self 500 2ms
+2024-10-22T11:52:43.968Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:12:13.553Z info: POST /api/v2/orders 500 6ms
+2024-10-22T12:12:13.560Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:12:13.652Z info: POST /api/v2/orders 500 2ms
+2024-10-22T12:12:13.653Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:12:13.699Z info: GET /api/v2/orders 500 1ms
+2024-10-22T12:12:13.701Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:12:13.731Z info: GET /api/v2/orders/self 500 2ms
+2024-10-22T12:12:13.732Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:16:14.710Z info: GET /api/v2/orders 500 24ms
+2024-10-22T12:16:14.721Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:16:14.776Z info: GET /api/v2/orders 403 8ms
+2024-10-22T12:16:14.781Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T12:16:14.816Z info: GET /api/v2/orders/self 500 8ms
+2024-10-22T12:16:14.818Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:16:54.017Z info: GET /api/v2/orders 500 15ms
+2024-10-22T12:16:54.028Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:16:54.081Z info: GET /api/v2/orders 403 9ms
+2024-10-22T12:16:54.082Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T12:16:54.113Z info: GET /api/v2/orders/self 500 4ms
+2024-10-22T12:16:54.115Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:22:15.811Z info: GET /api/v2/orders 500 15ms
+2024-10-22T12:22:15.817Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:22:15.896Z info: GET /api/v2/orders 403 11ms
+2024-10-22T12:22:15.897Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T12:22:15.926Z info: GET /api/v2/orders/self 500 9ms
+2024-10-22T12:22:15.929Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:31:06.200Z info: POST /api/v2/auth/signup 201 4052ms
+2024-10-22T12:31:22.655Z info: POST /api/v2/auth/forgot-password 200 3006ms
+2024-10-22T12:31:27.896Z info: POST /api/v2/auth/reset-password 200 1095ms
+2024-10-22T12:32:08.740Z info: POST /api/v2/auth/signup 201 4086ms
+2024-10-22T12:32:10.287Z info: POST /api/v2/auth/login 200 846ms
+2024-10-22T12:32:10.997Z info: POST /api/v2/auth/refresh 200 12ms
+2024-10-22T12:32:15.041Z info: POST /api/v2/auth/get-otp 200 3558ms
+2024-10-22T12:32:19.030Z info: GET /api/v2/auth/own-otp 200 18ms
+2024-10-22T12:32:22.486Z info: POST /api/v2/auth/verify-otp 200 35ms
+2024-10-22T12:32:29.781Z info: PATCH /api/v2/auth/change-password 200 1714ms
+2024-10-22T12:32:34.128Z info: POST /api/v2/auth/forgot-password 200 3764ms
+2024-10-22T12:32:38.801Z info: POST /api/v2/auth/reset-password 200 496ms
+2024-10-22T12:32:39.337Z info: POST /api/v2/auth/logout 200 13ms
+2024-10-22T12:33:22.851Z info: POST /api/v2/cycles 201 154ms
+2024-10-22T12:33:23.069Z info: GET /api/v2/cycles 200 72ms
+2024-10-22T12:33:23.117Z info: DELETE /api/v2/cycles/67179b9212892b633c2162f9 200 21ms
+2024-10-22T12:34:27.966Z info: POST /api/v2/cycles 201 540ms
+2024-10-22T12:34:28.490Z info: GET /api/v2/cycles 200 171ms
+2024-10-22T12:34:28.568Z info: DELETE /api/v2/cycles/67179bd3374fba830ac50245 200 55ms
+2024-10-22T12:34:32.148Z info: POST /api/v2/auth/signup 201 4775ms
+2024-10-22T12:34:33.321Z info: POST /api/v2/auth/login 200 524ms
+2024-10-22T12:34:33.905Z info: POST /api/v2/auth/refresh 200 16ms
+2024-10-22T12:34:37.242Z info: POST /api/v2/auth/get-otp 200 2641ms
+2024-10-22T12:34:41.503Z info: GET /api/v2/auth/own-otp 200 33ms
+2024-10-22T12:34:44.999Z info: POST /api/v2/auth/verify-otp 200 38ms
+2024-10-22T12:34:49.443Z info: PATCH /api/v2/auth/change-password 200 1168ms
+2024-10-22T12:34:53.016Z info: POST /api/v2/auth/forgot-password 200 2726ms
+2024-10-22T12:34:58.494Z info: POST /api/v2/auth/reset-password 200 1377ms
+2024-10-22T12:34:59.555Z info: POST /api/v2/auth/logout 200 10ms
+2024-10-22T12:39:15.263Z info: GET /api/v2/orders 403 20ms
+2024-10-22T12:39:15.271Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T12:39:15.305Z info: GET /api/v2/orders/self 500 3ms
+2024-10-22T12:39:15.306Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:39:56.431Z info: GET /api/v2/orders 403 6ms
+2024-10-22T12:39:56.436Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T12:39:56.481Z info: GET /api/v2/orders/self 500 5ms
+2024-10-22T12:39:56.486Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:41:15.735Z info: GET /api/v2/orders 403 18ms
+2024-10-22T12:41:15.743Z error: {"success":false,"statusCode":403,"message":"Access denied!","errorMessages":[{"path":"","message":"Access denied!"}],"status":"failed","stack":{}}
+2024-10-22T12:41:15.790Z info: GET /api/v2/orders/self 500 6ms
+2024-10-22T12:41:15.792Z error: {"success":false,"statusCode":500,"message":"pick is not defined","errorMessages":[{"path":"","message":"pick is not defined"}],"status":"failed","stack":{}}
+2024-10-22T12:47:21.833Z info: POST /api/v2/orders 500 7ms
+2024-10-22T12:47:21.839Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:47:21.927Z info: POST /api/v2/orders 500 1ms
+2024-10-22T12:47:21.928Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:47:21.963Z info: GET /api/v2/orders 500 2ms
+2024-10-22T12:47:21.966Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:47:21.985Z info: GET /api/v2/orders/self 500 1ms
+2024-10-22T12:47:21.987Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:49:48.053Z info: POST /api/v2/orders 500 7ms
+2024-10-22T12:49:48.063Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:49:48.209Z info: POST /api/v2/orders 500 3ms
+2024-10-22T12:49:48.216Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:49:48.332Z info: GET /api/v2/orders 500 5ms
+2024-10-22T12:49:48.334Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:49:48.409Z info: GET /api/v2/orders/self 500 6ms
+2024-10-22T12:49:48.432Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:50:18.173Z info: POST /api/v2/orders 500 8ms
+2024-10-22T12:50:18.181Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:50:18.302Z info: POST /api/v2/orders 500 4ms
+2024-10-22T12:50:18.304Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:50:18.369Z info: GET /api/v2/orders 500 2ms
+2024-10-22T12:50:18.371Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-22T12:50:18.401Z info: GET /api/v2/orders/self 500 7ms
+2024-10-22T12:50:18.403Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}

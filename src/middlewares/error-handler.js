@@ -7,6 +7,7 @@ const handleCastError = require('../error/handle-cast-error');
 const ApiError = require('../error/ApiError');
 const { logger } = require('../utils/logger');
 const sendResponse = require('../utils/send-response');
+const { env } = require('../config/env');
 
 const notFoundErrorHandler = (req, res, next) => {
   const error = new ApiError(httpStatus.NOT_FOUND, 'Not Found');
@@ -104,7 +105,7 @@ const globalErrorHandler = (error, req, res, next) => {
     message,
     errorMessages,
     status: ResponseStatus.FAILED,
-    stack: process.env.NODE_ENV === 'development' ? error.stack : {}
+    stack: env === 'development' ? error.stack : {}
   };
 
   sendResponse(res, responseBody);

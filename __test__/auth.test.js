@@ -1,32 +1,26 @@
-const httpStatus = require('http-status')
-const { MongoMemoryServer } = require('mongodb-memory-server')
-const connection = require('../src/db/connection')
-const mongoose = require('mongoose')
-const { decrypt } = require('../src/utils/encrypt-decrypt')
-const { db } = require('../src/config/env')
-const { jwtHelper } = require('../src/helper')
-const { STACKHOLDER } = require('../src/enums')
-const { findPasswordResetToken } = require('../src/services/password-reset.service')
-const AuthService = require('../src/services/auth.service')
-const { agent } = require('../src/lib/test')
+const httpStatus = require('http-status');
+const { MongoMemoryServer } = require('mongodb-memory-server');
+const connection = require('../src/db/connection');
+const mongoose = require('mongoose');
+const { decrypt } = require('../src/utils/encrypt-decrypt');
+const { db } = require('../src/config/env');
+const { jwtHelper } = require('../src/helper');
+const { STACKHOLDER } = require('../src/enums');
+const {
+  findPasswordResetToken,
+  deletePasswordResetToke
+} = require('../src/services/password-reset.service');
+const AuthService = require('../src/services/auth.service');
+const { agent } = require('../src/lib/agent');
+const { deleteUserByIdService, deleteUserByProperty } = require('../src/services/user.service');
+const { deleteOtp } = require('../src/services/otp.service');
+const { SIGNUP_PAYLOAD, SIGNIN_PAYLOAD } = require('../__mock__');
 
-jest.setTimeout(10000)
+jest.setTimeout(10000);
 
 describe('==== Authentication test ====', () => {
   // mock data
-  const SIGNUP_PAYLOAD = {
-    firstName: 'John',
-    lastName: 'Doe',
-    email: 'john@doe.com',
-    password: '12345',
-    confirmPassword: '12345'
-  };
-
-  const SIGNIN_PAYLOAD = {
-    email: 'john@doe.com',
-    password: '12345',
-    rememberMe: true
-  };
+  
   let mongoServer;
   let uri;
   let userId;
@@ -46,59 +40,73 @@ describe('==== Authentication test ====', () => {
 
   /* Test: Sign UP */
   describe('==== Sign Up ====', () => {
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByProperty({ email: SIGNUP_PAYLOAD.email });
+    });
     it('should return user from db', async () => {
       const { statusCode, body } = await agent
         .post('/api/v2/auth/signup')
         .send(SIGNUP_PAYLOAD);
 
-      if (statusCode == httpStatus.CREATED) userId = body.data._id;
       expect(statusCode).toBe(httpStatus.CREATED);
     });
   });
 
   /* Test: Sign In */
   describe('==== Sign In ====', () => {
+    let mockUser;
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+    });
 
     it('should return token', async () => {
-      const userSignInMock = jest
-        .spyOn(AuthService, 'loginService')
-        .mockResolvedValueOnce({
-          token: expect.any(String),
-          refresh_token: expect.any(String)
-        });
-
       const { statusCode, body } = await agent
         .post('/api/v2/auth/login')
         .send(SIGNIN_PAYLOAD);
 
+      // Assert the status code is OK
       expect(statusCode).toBe(httpStatus.OK);
 
+      // Assert the response contains a token
       expect(body.data).toEqual(
         expect.objectContaining({
           token: expect.any(String)
         })
       );
-
-      userSignInMock.mockRestore();
     });
   });
 
   /* Test: Refersh */
   describe('==== Refersh ====', () => {
+    let mockUser;
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+    });
+
     it('should return new access token', async () => {
       const refresh_token = jwtHelper.refresh_token({
-        id: userId,
+        id: mockUser._id,
         email: SIGNIN_PAYLOAD.email,
-        roles: [STACKHOLDER.USER]
+        role: STACKHOLDER.USER
       });
 
-      const { statusCode, body } = await agent
+      const {  body } = await agent
         .post('/api/v2/auth/refresh')
         .set('Cookie', [
           `refresh_token=${refresh_token}` // <-- No 'express:sess' (Cropped for demo)
         ]);
-
-      expect(statusCode).toBe(httpStatus.OK);
 
       expect(body.data).toEqual(
         expect.objectContaining({
@@ -110,11 +118,22 @@ describe('==== Authentication test ====', () => {
 
   /* Test: Get OTP */
   describe('==== Get otp ====', () => {
+    let mockUser;
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+    });
+
     it('should return otp', async () => {
       const token = jwtHelper.token({
-        id: userId,
+        id: mockUser._id,
         email: SIGNIN_PAYLOAD.email,
-        roles: [STACKHOLDER.USER]
+        role: STACKHOLDER.USER
       });
 
       const { statusCode, body } = await agent
@@ -136,11 +155,27 @@ describe('==== Authentication test ====', () => {
 
   /* Test: Get own OTP */
   describe('==== Get own otp ====', () => {
+    let mockUser;
+    let mockOtp;
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+      mockOtp = await AuthService.getEmailOtpService(
+        mockUser._id,
+        mockUser.email
+      );
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+      await deleteOtp({ _id: mockOtp._id });
+    });
     it('should return own otp', async () => {
       const token = jwtHelper.token({
-        id: userId,
+        id: mockUser._id,
         email: SIGNIN_PAYLOAD.email,
-        roles: [STACKHOLDER.USER]
+        role: STACKHOLDER.USER
       });
 
       const { statusCode, body } = await agent
@@ -159,26 +194,40 @@ describe('==== Authentication test ====', () => {
 
   /* Test: OTP verification */
   describe('==== OTP verification ====', () => {
+    let mockUser;
+    let mockOtp;
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService({
+        ...SIGNUP_PAYLOAD,
+        isVerified: false
+      });
+      mockOtp = await AuthService.getEmailOtpService(
+        mockUser._id,
+        mockUser.email
+      );
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+      await deleteOtp({ _id: mockOtp._id });
+    });
     it('should verify user otp', async () => {
       const token = jwtHelper.token({
-        id: userId,
+        id: mockUser._id,
         email: SIGNIN_PAYLOAD.email,
-        roles: [STACKHOLDER.USER]
+        role: STACKHOLDER.USER
       });
-
-      const newOtpMock = await AuthService.getEmailOtpService(
-        userId,
-        SIGNIN_PAYLOAD.email
-      );
 
       const { statusCode, body } = await agent
         .post('/api/v2/auth/verify-otp')
         .set('Authorization', `Bearer ${token}`)
         .send({
-          otp: decrypt(newOtpMock.otp)
+          otp: decrypt(mockOtp.otp)
         })
         .set('Cookie', [
-          `hash_otp=${newOtpMock.otp}` // <-- No 'express:sess' (Cropped for demo)
+          `hash_otp=${mockOtp.otp}` // <-- No 'express:sess' (Cropped for demo)
         ]);
 
       expect(statusCode).toBe(httpStatus.OK);
@@ -193,11 +242,27 @@ describe('==== Authentication test ====', () => {
 
   /* Test: Change password */
   describe('==== Change password ====', () => {
+    let mockUser;
+    let mockOtp;
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+      mockOtp = await AuthService.getEmailOtpService(
+        mockUser._id,
+        mockUser.email
+      );
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+      await deleteOtp({ _id: mockOtp._id });
+    });
     it('should change user old password', async () => {
       const token = jwtHelper.token({
-        id: userId,
+        id: mockUser._id,
         email: SIGNIN_PAYLOAD.email,
-        roles: [STACKHOLDER.USER]
+        role: STACKHOLDER.USER
       });
 
       const { statusCode } = await agent
@@ -214,56 +279,95 @@ describe('==== Authentication test ====', () => {
 
   /* Test: get reset password link*/
   describe('==== Get reset password link in email ====', () => {
+    let mockUser;
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+    });
     it('should send reset oassword link to email', async () => {
       const { statusCode } = await agent
         .post('/api/v2/auth/forgot-password')
         .send({
-          email: SIGNIN_PAYLOAD.email
+          email: mockUser.email
         });
 
       expect(statusCode).toBe(httpStatus.OK);
-    }, 30000);
+    });
   });
 
   /* Test: Reset password */
   describe('==== Reset password ====', () => {
+    let mockUser;
+    let mockPasswordreset
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+      mockPasswordreset = await AuthService.sendPasswordResetLink({
+        email: mockUser.email,
+        username: mockUser.firstName,
+        userId: mockUser._id
+      }); 
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+      await deletePasswordResetToke({ _id: mockPasswordreset._id });
+    });
     it('should reset password', async () => {
-      const tokenData = await findPasswordResetToken({ userId });
+      const tokenData = await findPasswordResetToken({ userId: mockUser._id });
 
       const { statusCode } = await agent
-        .post(`/api/v2/auth/reset-password?token=${tokenData.token}`)
+        .post(`/api/v2/auth/reset-password`)
         .send({
           password: '3nm#ndfn',
-          confirmPassword: '3nm#ndfn'
+          confirmPassword: '3nm#ndfn',
+          token: tokenData.token
         });
 
       expect(statusCode).toBe(httpStatus.OK);
-    }, 30000);
+    });
   });
 
   /* Test: Log out */
   describe('==== Log out ====', () => {
+    let mockUser;
+
+    beforeEach(async () => {
+      mockUser = await AuthService.userSignUpService(SIGNUP_PAYLOAD);
+    });
+
+    afterEach(async () => {
+      // Clean up: delete all users after each test to prevent conflicts in future tests
+      await deleteUserByIdService(mockUser._id);
+    });
     it('should logged out', async () => {
       const token = jwtHelper.token({
-        id: userId,
+        id: mockUser._id,
         email: SIGNIN_PAYLOAD.email,
-        roles: [STACKHOLDER.USER]
+        role: STACKHOLDER.USER
       });
 
       const refresh_token = jwtHelper.refresh_token({
-        id: userId,
+        id: mockUser._id,
         email: SIGNIN_PAYLOAD.email,
-        roles: [STACKHOLDER.USER]
+        role: STACKHOLDER.USER
       });
 
       const { statusCode } = await agent
         .post('/api/v2/auth/logout')
         .set('Authorization', `Bearer ${token}`)
         .set('Cookie', [
-          `refresh_token=${refresh_token}` // <-- No 'express:sess' (Cropped for demo)
+          `refresh_token=${refresh_token}`
         ]);
 
       expect(statusCode).toBe(httpStatus.OK);
     });
   });
-})
+});

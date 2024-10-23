@@ -7,6 +7,7 @@ const {
   resetPasswordLinkValidation,
   validateToken,
   resetPasswordValidation,
+  changePasswordValidation,
 } = require('../validations/auth.validation')
 const {
   getOtpValidation,
@@ -45,6 +46,12 @@ router
     validateRequest(validateToken),
     validateRequest(verifyOtpValidation),
     verifyOtp
+  )
+  .patch(
+    '/change-password',
+    validateRequest(validateToken),
+    validateRequest(changePasswordValidation),
+    authController.changePassword
   )
   .post('/logout', validateRequest(validateToken), authController.logOut)
   .post(

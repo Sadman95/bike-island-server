@@ -24,7 +24,7 @@ router.use(
   userRouter
 );
 router.use("/cycles", cycleRouter)
-router.use("/orders", authenticate, orderRouter)
+router.use("/orders", orderRouter)
 router.use("/reviews", reviewRouter)
 router.use("/admin", authenticate, authenticate_roles(STACKHOLDER.ADMIN), adminRouter)
 router.use("/services", serviceRouter)

@@ -32,7 +32,12 @@ const orderSchema = new mongoose.Schema({
     enum: ORDER_STATUS,
     default: ORDER_STAT.PENDING
   },
-  createdAt: { type: Date, default: Date.now }
+  createdAt: { type: Date, default: Date.now },
+  address: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Address',
+    required: true
+  }
 });
 
 const Order = mongoose.model('Order', orderSchema);

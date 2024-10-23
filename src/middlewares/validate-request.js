@@ -23,7 +23,6 @@ const validateRequest = (validations) => {
             req.file.fieldname,
             req.file.filename
           );
-          console.log('path: ', filePath);
           fs.unlink(filePath, (unlinkErr) => {
             if (unlinkErr) {
               logger.log('Error while deleting the file:', unlinkErr);

@@ -66,7 +66,7 @@ const authenticate_roles = (...roles) => {
  */
 const isVerified = (req, res, next) => {
   authenticate(
-    (req,
+    req,
     res,
     async () => {
       try {
@@ -86,7 +86,7 @@ const isVerified = (req, res, next) => {
       } catch (error) {
         next(error);
       }
-    })
+    }
   );
 };
 

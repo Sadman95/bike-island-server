@@ -16,6 +16,15 @@ class UserService {
   }
 
   /**
+   * @summary Delete user by property
+   * @param {Record<string, any>} filter
+   * @returns {Promise<Document>}
+   */
+  static async deleteUserByProperty(filter) {
+    return User.findOneAndDelete(filter).lean();
+  }
+
+  /**
    * @summary Find users
    * @param {Record<string, any>} [filter = {}]
    * @returns {Promise<Document>}

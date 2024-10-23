@@ -1,7 +1,7 @@
 const httpStatus = require('http-status');
 const ApiError = require('../error/ApiError');
-const { catchAsyncHandler, queryHelper } = require('../helper');
-const { createOrderService, findOrdersService, getAllOrdersServicce, cancelOrderService, deleteOrderService, deleteBulkOrderService } = require('../services/order.service');
+const { catchAsyncHandler, queryHelper, pick } = require('../helper');
+const { createOrderService, findOrdersService, cancelOrderService, deleteOrderService, deleteBulkOrderService, getAllOrdersService } = require('../services/order.service');
 const sendResponse = require('../utils/send-response');
 const { ResponseStatus, STACKHOLDER } = require('../enums');
 const { PAGINATION, ORDER_FILTERABLE_FILEDS, ORDER_SEARCHABLE_FIELDS } = require('../constants');
@@ -15,8 +15,21 @@ class OrdersController {
    * CREATE a new order
    */
   static createOrder = catchAsyncHandler(async (req, res) => {
+
     
-    const order = await createOrderService(req.body)
+    let { address, ...others } = req.body
+
+    
+    address = {
+      ...address,
+      user: req.user.id
+    }
+    others = {
+      ...others,
+      user: req.user.id
+    }
+    const order = await createOrderService({ address, ...others })
+    
 
     if (!order) throw new ApiError(httpStatus.BAD_REQUEST, "Order creation failed!")
     
@@ -51,7 +64,7 @@ class OrdersController {
     };
     const { pagination, links, ...restOptions } = queryHelper(options);
 
-    const orders = await getAllOrdersServicce(restOptions);
+    const orders = await getAllOrdersService(restOptions);
 
     if (orders.length === 0)
       throw new ApiError(httpStatus.NOT_FOUND, 'No orders found');

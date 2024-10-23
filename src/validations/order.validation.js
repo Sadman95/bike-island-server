@@ -3,13 +3,6 @@ const { ORDER_STATUS } = require('../constants');
 const { ORDER_STAT } = require('../enums');
 
 const createOrderValidation = [
-  // Validate user ID
-  body('user')
-    .exists({ checkFalsy: true })
-    .withMessage('User ID is required')
-    .isMongoId()
-    .withMessage('Invalid User ID'),
-
   // Validate items array
   body('items')
     .isArray({ min: 1 })
@@ -43,7 +36,17 @@ const createOrderValidation = [
   body('status')
     .isIn(ORDER_STATUS)
     .default(ORDER_STAT.PENDING)
-    .withMessage('Invalid order status')
+    .withMessage('Invalid order status'),
+
+  // Validate address JSON object
+  body('address').isObject().withMessage('Address must be a JSON object'),
+
+  // Validate fields in address object
+  body('address.street').notEmpty().withMessage('Street is required'),
+  body('address.city').notEmpty().withMessage('City is required'),
+  body('address.state').optional(), // State is optional
+  body('address.postalCode').notEmpty().withMessage('Postal Code is required'),
+  body('address.country').notEmpty().withMessage('Country is required')
 ];
 
 module.exports = {

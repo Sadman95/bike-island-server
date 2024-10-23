@@ -5,7 +5,8 @@ const { jwtHelper } = require('../src/helper');
 const { STACKHOLDER } = require('../src/enums');
 const connection = require('../src/db/connection');
 const { db } = require('../src/config/env');
-const { agent } = require('../src/lib/test');
+const {agent} = require('../src/lib/agent');
+const { PAYLOAD } = require('../__mock__');
 
 jest.setTimeout(10000);
 
@@ -40,15 +41,7 @@ describe('==== Cycles ====', () => {
   describe('POST /api/v2/cycles', () => {
 
 
-   const PAYLOAD = {
-     productTitle: 'Mountain Bike',
-     productDesc: 'Mountain Bike is awesome to ride',
-     brand: 'Hero',
-     type: 'Gear',
-     productImg:
-       'https://img.freepik.com/free-vector/bicycle-cartoon-isolated_1308-27560.jpg?size=626&ext=jpg&ga=GA1.1.885695879.1720685552&semt=ais_hybrid',
-     productPrice: 1200
-   };
+
 
     it('should create a new cycle', async () => {
       const response = await agent

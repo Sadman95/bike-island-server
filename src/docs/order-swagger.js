@@ -14,7 +14,7 @@
  *     security:
  *       - bearerAuth: []
  *     requestBody:
- *       description: Order details
+ *       description: Order details, including address and items
  *       required: true
  *       content:
  *         application/json:
@@ -23,6 +23,7 @@
  *             required:
  *               - items
  *               - totalAmount
+ *               - address
  *             properties:
  *               items:
  *                 type: array
@@ -50,6 +51,36 @@
  *                 type: number
  *                 description: Total amount of the order
  *                 example: 39.98
+ *               address:
+ *                 type: object
+ *                 description: Shipping or billing address
+ *                 required:
+ *                   - street
+ *                   - city
+ *                   - state
+ *                   - postalCode
+ *                   - country
+ *                 properties:
+ *                   street:
+ *                     type: string
+ *                     description: Street address
+ *                     example: "123 Main St"
+ *                   city:
+ *                     type: string
+ *                     description: City
+ *                     example: "New York"
+ *                   state:
+ *                     type: string
+ *                     description: State or region
+ *                     example: "NY"
+ *                   postalCode:
+ *                     type: string
+ *                     description: Postal or ZIP code
+ *                     example: "10001"
+ *                   country:
+ *                     type: string
+ *                     description: Country
+ *                     example: "USA"
  *     responses:
  *       201:
  *         description: Order created successfully
@@ -67,9 +98,9 @@
  *                 data:
  *                   $ref: '#/components/schemas/Order'
  *       400:
- *         description: Bad Request
+ *         description: Bad Request - Invalid input data
  *       401:
- *         description: Unauthorized
+ *         description: Unauthorized - Authentication required
  */
 
  /**

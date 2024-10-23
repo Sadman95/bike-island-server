@@ -93,7 +93,7 @@ class AuthController {
     const data = {
       email,
       id: _id,
-      role,
+      role
     };
 
     const { token, refresh_token } = await loginService(data);
@@ -280,6 +280,41 @@ class AuthController {
       status: ResponseStatus.SUCCESS,
       statusCode: httpStatus.OK,
       message: 'Check your email to reset your password!'
+    });
+  });
+
+  /**
+   * Change password Controller
+   * @method PATCH
+   * @path /change-password
+   * @body {oldPassword: string, newPassword: string} - Request Body
+   */
+  static changePassword = catchAsyncHandler(async (req, res) => {
+    const { id } = req.user;
+    const { oldPassword, newPassword } = req.body;
+    const user = await findUser({ _id: id });
+    if (!user) {
+      throw new ApiError(httpStatus.NOT_FOUND, "User doesn't exist");
+    }
+    const isMatchedPassword = await isMatchPassword(oldPassword, user.password);
+    if (!isMatchedPassword) {
+      throw new ApiError(httpStatus.CONFLICT, "Old password doesn't match");
+    }
+
+    const hashedPassword = await bcrypt.hash(
+      newPassword,
+      salt_round
+    );
+
+    await userUpdateService(id, {
+      password: hashedPassword
+    });
+
+    sendResponse(res, {
+      success: true,
+      statusCode: httpStatus.OK,
+      status: ResponseStatus.SUCCESS,
+      message: 'Password changed successfully'
     });
   });
 
