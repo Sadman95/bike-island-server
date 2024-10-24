@@ -33,7 +33,7 @@ app.use('/api/v2/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // access routers
 app
-  .use('/api/health', healthCheck)
+  .use('/api/v2/health', healthCheck)
   .use('/api/v2', rootRouter)
   .use(
     '/*',
