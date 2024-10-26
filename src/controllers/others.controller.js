@@ -56,7 +56,8 @@ class ServiceController {
    */
   static createService = catchAsyncHandler(async (req, res) => {
     if (req.file) {
-      req.body.serviceImg = fileToUrl(req);
+      // req.body.serviceImg = fileToUrl(req);
+      req.body.serviceImg = req.file.fieldname + "/" + req.file.filename;
     }
 
     const service = await createNewService(req.body);

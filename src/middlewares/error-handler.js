@@ -8,6 +8,7 @@ const ApiError = require('../error/ApiError');
 const { logger } = require('../utils/logger');
 const sendResponse = require('../utils/send-response');
 const { env } = require('../config/env');
+const path = require('path')
 
 const notFoundErrorHandler = (req, res, next) => {
   const error = new ApiError(httpStatus.NOT_FOUND, 'Not Found');
@@ -17,13 +18,19 @@ const notFoundErrorHandler = (req, res, next) => {
 const globalErrorHandler = (error, req, res, next) => {
   if (!error) next();
   if (req.file) {
-    const filePath = `public/images/avatar/${req.file.filename}`;
-    fs.existsSync(filePath) &&
-      fs.unlink(filePath, (error) => {
-        if (error) {
-          throw new ApiError(httpStatus.BAD_REQUEST, "File isn't deleted");
-        }
-      });
+    const filePath = path.join(
+      __dirname,
+      '..',
+      '..',
+      'public',
+      req.file.fieldname,
+      req.file.filename
+    );
+    fs.unlink(filePath, (unlinkErr) => {
+      if (unlinkErr) {
+        logger.log('Error while deleting the file:', unlinkErr);
+      }
+    });
   }
 
   if (req.files) {

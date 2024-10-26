@@ -116,7 +116,8 @@ class CycleController {
   static createCycle = catchAsyncHandler(async (req, res) => {
 
     if (req.file) {
-      req.body.productImg = fileToUrl(req);
+      // req.body.productImg = fileToUrl(req);
+      req.body.productImg = req.file.fieldname + "/" + req.file.filename;
     }
 
     const cycle = await createCycleService(req.body);
