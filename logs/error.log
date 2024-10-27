@@ -2029,3 +2029,7 @@
 2024-10-27T12:36:15.640Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
 2024-10-27T12:37:09.536Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
 2024-10-27T12:37:10.046Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-27T19:51:07.796Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-27T19:51:08.483Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-27T19:53:57.942Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-27T19:53:58.503Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}

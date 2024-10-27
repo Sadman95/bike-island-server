@@ -213,6 +213,7 @@ static queryHelper = options => {
 
   const pagination = {
     current: page,
+    totalPages
   }
 
   if (page - 1 > 0) pagination.prev = page - 1
