@@ -4,15 +4,15 @@ const STACKHOLDERS = ['admin', 'user']
 
 const ORDER_STATUS = ['pending', 'approved', 'canceled']
 
-const CYCLE_FILTERABLE_FILEDS = ['productPrice', 'type', 'createdAt'];
+const CYCLE_FILTERABLE_FILEDS = ['productPrice', 'type', 'createdAt', 'searchTerm'];
 
-const USER_FILTERABLE_FILEDS = ['createdAt', 'isVerified', 'firstName', 'lastName'];
+const USER_FILTERABLE_FILEDS = ['createdAt', 'isVerified', 'firstName', 'lastName', 'searchTerm'];
 
 const CYCLE_SEARCHABLE_FIELDS = ['productTitle', 'productDesc'];
 
 const USER_SEARCHABLE_FIELDS = ['firstName', 'lastName', 'email'];
 
-const ORDER_FILTERABLE_FILEDS = ['status', 'totalNumber']
+const ORDER_FILTERABLE_FILEDS = ['status', 'totalNumber', 'searchTerm']
 
 const ORDER_SEARCHABLE_FIELDS = ['user.email', 'product.productTitle', 'product.productDesc']
 

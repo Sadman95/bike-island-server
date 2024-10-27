@@ -30,7 +30,7 @@ class UserController {
     const options = {
       filterableOptions,
       paginationOptions,
-      USER_SEARCHABLE_FIELDS,
+      searchableFields: USER_SEARCHABLE_FIELDS,
       url,
       query,
       path,

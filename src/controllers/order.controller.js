@@ -56,7 +56,7 @@ class OrdersController {
     const options = {
       filterableOptions,
       paginationOptions,
-      ORDER_SEARCHABLE_FIELDS,
+      searchableFields: ORDER_SEARCHABLE_FIELDS,
       url,
       query,
       path,

@@ -34,12 +34,12 @@ class CycleController {
     const options = {
       filterableOptions,
       paginationOptions,
-      CYCLE_SEARCHABLE_FIELDS,
+      searchableFields: CYCLE_SEARCHABLE_FIELDS,
       url,
       query,
       path,
-      total: totalCycles.length,
-    }
+      total: totalCycles.length
+    };
     const { pagination, links, ...restOptions } = queryHelper(options)
 
     const cycles = await findAggregatedCycles(restOptions)
