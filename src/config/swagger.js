@@ -17,6 +17,10 @@ const swaggerOptions = {
       {
         url: server.baseURL,
         description: 'Development server'
+      },
+      {
+        url: server.ciBaseUrl,
+        description: 'CI server'
       }
     ]
   },

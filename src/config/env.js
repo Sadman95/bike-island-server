@@ -12,9 +12,9 @@ module.exports = {
     uri: process.env.MONGO_URI,
     name: process.env.DB_NAME,
     test_uri: process.env.TEST_DB_URI,
-    test_dbname: process.env.TEST_DB_NAME,
+    test_dbname: process.env.TEST_DB_NAME
   },
-    salt_round: 12,
+  salt_round: 12,
   mail_config: {
     host: process.env.EMAIL_HOST,
     port: process.env.EMAIL_PORT,
@@ -34,7 +34,8 @@ module.exports = {
   server: {
     port: process.env.PORT,
     test_port: process.env.TEST_PORT,
-    baseURL: process.env.BASE_URL
+    baseURL: process.env.BASE_URL,
+    ciBaseUrl: process.env.CI_BASE_URL
   },
   auth0: {
     issuerBaseURL: process.env.AUTH0_ISSUER_BASE_URL,
