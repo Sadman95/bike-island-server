@@ -42,6 +42,16 @@ class CycleController {
     };
     const { pagination, links, ...restOptions } = queryHelper(options)
 
+    const filters = totalCycles.reduce((acc, curr) => {
+      if (curr.type && !acc.includes(curr.type)) {
+        acc.push({
+          value: curr.type.toLowerCase(),
+          label: curr.type,
+        });
+      }
+      return acc;
+    }, [])
+
     const cycles = await findAggregatedCycles(restOptions)
 
     if (cycles.length === 0)
@@ -52,7 +62,8 @@ class CycleController {
       status: ResponseStatus.SUCCESS,
       data: cycles,
       meta: {
-        pagination
+        pagination,
+        filters
       },
       links
     });

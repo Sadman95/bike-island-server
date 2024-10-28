@@ -1138,3 +1138,71 @@
 2024-10-28T09:02:31.661Z info: GET /api/v2/cycles?page=1&limit=2&sortBy=productPrice&sortOrder=desc 304 608ms
 2024-10-28T09:02:45.078Z info: GET /api/v2/cycles?page=2&limit=4&sortBy=productPrice&sortOrder=desc 200 589ms
 2024-10-28T09:02:59.225Z info: GET /api/v2/cycles?page=2&limit=4&sortBy=productPrice&sortOrder=desc&searchTerm=brown 200 600ms
+2024-10-28T11:45:25.899Z info: GET /api/v2/docs/ 200 8ms
+2024-10-28T11:45:26.944Z info: GET /api/v2/docs/swagger-ui-init.js 200 0ms
+2024-10-28T11:45:27.230Z info: GET /api/v2/docs/swagger-ui.css 200 292ms
+2024-10-28T11:45:28.707Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 200 1765ms
+2024-10-28T11:45:31.404Z info: GET /api/v2/docs/swagger-ui-bundle.js 200 4463ms
+2024-10-28T11:48:26.003Z info: GET /api/v2/docs/ 304 3ms
+2024-10-28T11:48:26.771Z info: GET /api/v2/docs/swagger-ui.css 304 1ms
+2024-10-28T11:48:26.799Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 5ms
+2024-10-28T11:48:26.839Z info: GET /api/v2/docs/swagger-ui-init.js 200 1ms
+2024-10-28T11:48:26.893Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 46ms
+2024-10-28T11:48:28.162Z info: GET /api/v2/docs/favicon-32x32.png 200 50ms
+2024-10-28T11:51:05.229Z info: GET /api/v2/docs/ 304 4ms
+2024-10-28T11:51:06.234Z info: GET /api/v2/docs/swagger-ui.css 304 2ms
+2024-10-28T11:51:06.259Z info: GET /api/v2/docs/swagger-ui-init.js 304 1ms
+2024-10-28T11:51:06.295Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 40ms
+2024-10-28T11:51:06.373Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 61ms
+2024-10-28T11:51:07.251Z info: GET /api/v2/docs/favicon-32x32.png 304 1ms
+2024-10-28T12:02:10.719Z info: POST /api/v2/cycles 201 386ms
+2024-10-28T12:02:11.264Z info: GET /api/v2/cycles 200 230ms
+2024-10-28T12:02:11.351Z info: DELETE /api/v2/cycles/671f7d428f21d82035a92003 200 67ms
+2024-10-28T12:02:13.814Z info: GET /api/v2/orders 404 28ms
+2024-10-28T12:02:13.836Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T12:02:14.349Z info: GET /api/v2/orders 500 1ms
+2024-10-28T12:02:14.354Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T12:02:15.761Z info: POST /api/v2/auth/signup 201 5438ms
+2024-10-28T12:02:16.733Z info: POST /api/v2/auth/login 200 465ms
+2024-10-28T12:02:17.232Z info: POST /api/v2/auth/refresh 200 15ms
+2024-10-28T12:02:20.632Z info: POST /api/v2/auth/get-otp 200 2927ms
+2024-10-28T12:02:23.922Z info: GET /api/v2/auth/own-otp 200 16ms
+2024-10-28T12:02:27.309Z info: POST /api/v2/auth/verify-otp 200 23ms
+2024-10-28T12:02:32.278Z info: PATCH /api/v2/auth/change-password 200 746ms
+2024-10-28T12:02:35.534Z info: POST /api/v2/auth/forgot-password 200 2874ms
+2024-10-28T12:02:39.220Z info: POST /api/v2/auth/reset-password 200 427ms
+2024-10-28T12:02:39.763Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-28T12:03:16.293Z info: POST /api/v2/cycles 201 200ms
+2024-10-28T12:03:16.566Z info: GET /api/v2/cycles 200 94ms
+2024-10-28T12:03:16.627Z info: DELETE /api/v2/cycles/671f7d84f7cca8de682c8c98 200 13ms
+2024-10-28T12:03:18.653Z info: GET /api/v2/orders 404 30ms
+2024-10-28T12:03:18.671Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T12:03:19.167Z info: GET /api/v2/orders 500 1ms
+2024-10-28T12:03:19.172Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T12:03:20.121Z info: POST /api/v2/auth/signup 201 4074ms
+2024-10-28T12:03:21.094Z info: POST /api/v2/auth/login 200 422ms
+2024-10-28T12:03:21.541Z info: POST /api/v2/auth/refresh 200 13ms
+2024-10-28T12:03:25.638Z info: POST /api/v2/auth/get-otp 200 3614ms
+2024-10-28T12:03:29.871Z info: GET /api/v2/auth/own-otp 200 10ms
+2024-10-28T12:03:33.211Z info: POST /api/v2/auth/verify-otp 200 20ms
+2024-10-28T12:03:38.139Z info: PATCH /api/v2/auth/change-password 200 842ms
+2024-10-28T12:03:42.239Z info: POST /api/v2/auth/forgot-password 200 3652ms
+2024-10-28T12:03:45.916Z info: POST /api/v2/auth/reset-password 200 458ms
+2024-10-28T12:03:46.316Z info: POST /api/v2/auth/logout 200 11ms
+2024-10-28T12:04:49.614Z info: POST /api/v2/cycles 201 167ms
+2024-10-28T12:04:49.977Z info: GET /api/v2/cycles 200 69ms
+2024-10-28T12:04:50.013Z info: DELETE /api/v2/cycles/671f7de118d5246343e3cde4 200 14ms
+2024-10-28T12:04:52.701Z info: GET /api/v2/orders 404 31ms
+2024-10-28T12:04:52.723Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T12:04:53.217Z info: GET /api/v2/orders 500 2ms
+2024-10-28T12:04:53.221Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T12:04:54.016Z info: POST /api/v2/auth/signup 201 4860ms
+2024-10-28T12:04:55.001Z info: POST /api/v2/auth/login 200 521ms
+2024-10-28T12:04:55.455Z info: POST /api/v2/auth/refresh 200 15ms
+2024-10-28T12:04:58.845Z info: POST /api/v2/auth/get-otp 200 2944ms
+2024-10-28T12:05:02.183Z info: GET /api/v2/auth/own-otp 200 12ms
+2024-10-28T12:05:05.581Z info: POST /api/v2/auth/verify-otp 200 35ms
+2024-10-28T12:05:10.099Z info: PATCH /api/v2/auth/change-password 200 962ms
+2024-10-28T12:05:13.467Z info: POST /api/v2/auth/forgot-password 200 2882ms
+2024-10-28T12:05:17.107Z info: POST /api/v2/auth/reset-password 200 452ms
+2024-10-28T12:05:17.729Z info: POST /api/v2/auth/logout 200 7ms
