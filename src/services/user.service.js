@@ -85,9 +85,6 @@ class UserService {
 
     const users = await User.aggregate([
       {
-        $match: filterConditions
-      },
-      {
         $sort: sortConditions
       },
       {
@@ -95,6 +92,9 @@ class UserService {
       },
       {
         $limit: Number(limit)
+      },
+      {
+        $match: filterConditions
       },
       {
         $project: {

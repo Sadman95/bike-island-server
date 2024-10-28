@@ -106,9 +106,6 @@ class OrderService {
 
     const orders = await Order.aggregate([
       {
-        $match: filterConditions
-      },
-      {
         $lookup: {
           from: 'cycles',
           localField: 'items.product',
@@ -140,6 +137,9 @@ class OrderService {
       },
       {
         $limit: Number(limit)
+      },
+      {
+        $match: filterConditions
       }
     ]);
 
