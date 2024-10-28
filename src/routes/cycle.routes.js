@@ -20,7 +20,8 @@ const {
 const router = require('express').Router();
 const {
   createCycleValidation,
-  updateCycleValidation
+  updateCycleValidation,
+  getCyclesValidation
 } = require('../validations/cycle.validation');
 
 /**
@@ -30,7 +31,7 @@ const {
  */
 
 router
-  .get('/', getAllCycles)
+  .get('/', validateRequest(getCyclesValidation), getAllCycles)
   .get('/:id', validateRequest(idParamValidation), getCycleById)
   .delete(
     '/:id',

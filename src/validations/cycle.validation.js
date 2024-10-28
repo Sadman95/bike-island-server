@@ -1,4 +1,4 @@
-const { body, param } = require("express-validator");
+const { body, param, query } = require("express-validator");
 
 // create cycle validation
 const createCycleValidation = [
@@ -107,7 +107,56 @@ const updateCycleValidation = [
 ];
 
 
+// get cycles validation
+const getCyclesValidation = [
+  query('searchTerm')
+    .optional()
+    .isString()
+    .withMessage('Search term must be a string'),
+
+  query('type')
+    .optional()
+    .isString()
+    .withMessage('Type must be a string'),
+
+  query('minPrice')
+    .optional()
+    .isFloat({ min: 0 })
+    .withMessage('Minimum price must be a positive number'),
+
+  query('maxPrice')
+    .optional()
+    .isFloat({ min: 0 })
+    .withMessage('Maximum price must be a positive number')
+    .custom((value, { req }) => {
+      if (
+        req.query.minPrice &&
+        parseFloat(value) < parseFloat(req.query.minPrice)
+      ) {
+        throw new Error(
+          'Maximum price must be greater than or equal to minimum price'
+        );
+      }
+      return true;
+    }),
+
+  query('page')
+    .optional()
+    .isInt({ min: 1 })
+    .withMessage('Page must be a positive integer')
+    .toInt(),
+
+  query('limit')
+    .optional()
+    .isInt({ min: 1 })
+    .withMessage('Limit must be a positive integer')
+    .toInt()
+];
+
+
+
 module.exports = {
   createCycleValidation,
   updateCycleValidation,
+  getCyclesValidation
 };

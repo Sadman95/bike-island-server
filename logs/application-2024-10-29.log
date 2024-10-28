@@ -1,0 +1,174 @@
+2024-10-28T20:18:24.579Z info: POST /api/v2/cycles 201 643ms
+2024-10-28T20:18:25.055Z info: GET /api/v2/cycles 200 342ms
+2024-10-28T20:18:25.187Z info: DELETE /api/v2/cycles/671ff18f16dc4e4dc3918555 200 110ms
+2024-10-28T20:18:28.396Z info: POST /api/v2/auth/signup 201 4459ms
+2024-10-28T20:18:29.457Z info: POST /api/v2/auth/login 200 405ms
+2024-10-28T20:18:29.886Z info: POST /api/v2/auth/refresh 200 11ms
+2024-10-28T20:18:35.386Z info: POST /api/v2/auth/get-otp 200 5106ms
+2024-10-28T20:18:38.364Z info: GET /api/v2/auth/own-otp 200 14ms
+2024-10-28T20:18:42.089Z info: POST /api/v2/auth/verify-otp 200 28ms
+2024-10-28T20:18:47.458Z info: PATCH /api/v2/auth/change-password 200 852ms
+2024-10-28T20:18:50.533Z info: POST /api/v2/auth/forgot-password 200 2624ms
+2024-10-28T20:18:54.552Z info: POST /api/v2/auth/reset-password 200 708ms
+2024-10-28T20:18:55.291Z info: POST /api/v2/auth/logout 200 10ms
+2024-10-28T20:19:34.095Z info: POST /api/v2/cycles 201 423ms
+2024-10-28T20:19:34.217Z info: GET /api/v2/cycles 200 31ms
+2024-10-28T20:19:34.250Z info: DELETE /api/v2/cycles/671ff1d525a50c07de18d949 200 14ms
+2024-10-28T20:19:37.368Z info: POST /api/v2/auth/signup 201 3750ms
+2024-10-28T20:19:37.335Z info: GET /api/v2/orders 404 100ms
+2024-10-28T20:19:37.437Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T20:19:38.076Z info: GET /api/v2/orders 500 2ms
+2024-10-28T20:19:38.108Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T20:19:38.450Z info: POST /api/v2/auth/login 200 458ms
+2024-10-28T20:19:38.934Z info: POST /api/v2/auth/refresh 200 16ms
+2024-10-28T20:19:42.089Z info: POST /api/v2/auth/get-otp 200 2704ms
+2024-10-28T20:19:45.734Z info: GET /api/v2/auth/own-otp 200 15ms
+2024-10-28T20:19:50.322Z info: POST /api/v2/auth/verify-otp 200 33ms
+2024-10-28T20:19:54.974Z info: PATCH /api/v2/auth/change-password 200 870ms
+2024-10-28T20:19:59.375Z info: POST /api/v2/auth/forgot-password 200 3863ms
+2024-10-28T20:20:05.470Z info: POST /api/v2/auth/reset-password 200 1237ms
+2024-10-28T20:20:07.478Z info: POST /api/v2/auth/logout 200 136ms
+2024-10-28T20:25:40.173Z info: GET /api/v2/cycles?searchTerm=&minPrice=164&maxPrice=395 200 580ms
+2024-10-28T20:29:56.443Z info: POST /api/v2/cycles 201 355ms
+2024-10-28T20:29:57.360Z info: GET /api/v2/cycles 200 382ms
+2024-10-28T20:29:57.550Z info: DELETE /api/v2/cycles/671ff444fab62468db288682 200 167ms
+2024-10-28T20:30:02.221Z info: POST /api/v2/auth/signup 201 6008ms
+2024-10-28T20:30:05.183Z info: POST /api/v2/auth/login 200 1201ms
+2024-10-28T20:30:06.974Z info: POST /api/v2/auth/refresh 200 38ms
+2024-10-28T20:30:08.332Z info: GET /api/v2/orders 500 8ms
+2024-10-28T20:30:08.379Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T20:30:10.663Z info: POST /api/v2/auth/get-otp 200 2622ms
+2024-10-28T20:30:15.040Z info: GET /api/v2/auth/own-otp 200 79ms
+2024-10-28T20:30:18.042Z info: POST /api/v2/auth/verify-otp 200 27ms
+2024-10-28T20:30:21.698Z info: PATCH /api/v2/auth/change-password 200 744ms
+2024-10-28T20:30:25.402Z info: POST /api/v2/auth/forgot-password 200 3315ms
+2024-10-28T20:30:29.463Z info: POST /api/v2/auth/reset-password 200 425ms
+2024-10-28T20:30:29.939Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-28T20:31:29.588Z info: POST /api/v2/auth/signup 201 4726ms
+2024-10-28T20:31:31.720Z info: POST /api/v2/auth/login 200 819ms
+2024-10-28T20:31:32.704Z info: POST /api/v2/auth/refresh 200 17ms
+2024-10-28T20:31:36.095Z info: POST /api/v2/auth/get-otp 200 2604ms
+2024-10-28T20:31:39.608Z info: GET /api/v2/auth/own-otp 200 188ms
+2024-10-28T20:31:46.067Z info: POST /api/v2/auth/verify-otp 200 817ms
+2024-10-28T20:31:51.751Z info: PATCH /api/v2/auth/change-password 200 1622ms
+2024-10-28T20:31:55.316Z info: POST /api/v2/auth/forgot-password 200 2938ms
+2024-10-28T20:31:59.191Z info: POST /api/v2/auth/reset-password 200 412ms
+2024-10-28T20:31:59.623Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-28T20:32:47.820Z info: POST /api/v2/cycles 201 504ms
+2024-10-28T20:32:49.163Z info: GET /api/v2/cycles 200 714ms
+2024-10-28T20:32:49.528Z info: DELETE /api/v2/cycles/671ff4efecd887126688bd9d 200 347ms
+2024-10-28T20:32:51.218Z info: POST /api/v2/auth/signup 201 3899ms
+2024-10-28T20:32:54.395Z info: POST /api/v2/auth/login 200 529ms
+2024-10-28T20:32:55.036Z info: POST /api/v2/auth/refresh 200 16ms
+2024-10-28T20:32:58.102Z info: POST /api/v2/auth/get-otp 200 2548ms
+2024-10-28T20:33:02.051Z info: GET /api/v2/auth/own-otp 200 127ms
+2024-10-28T20:33:06.306Z info: POST /api/v2/auth/verify-otp 200 560ms
+2024-10-28T20:33:12.189Z info: PATCH /api/v2/auth/change-password 200 2036ms
+2024-10-28T20:33:16.897Z info: POST /api/v2/auth/forgot-password 200 2912ms
+2024-10-28T20:33:21.314Z info: POST /api/v2/auth/reset-password 200 882ms
+2024-10-28T20:33:22.257Z info: POST /api/v2/auth/logout 200 13ms
+2024-10-28T20:33:54.346Z info: GET /api/v2/cycles?searchTerm=&minPrice=164&maxPrice=395 500 323ms
+2024-10-28T20:33:54.733Z error: {"success":false,"statusCode":500,"message":"filter is not defined","errorMessages":[{"path":"","message":"filter is not defined"}],"status":"failed","stack":"ReferenceError: filter is not defined\n    at queryHelper (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:198:12)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:43:51\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:45:7"}
+2024-10-28T20:33:59.196Z info: POST /api/v2/cycles 201 311ms
+2024-10-28T20:33:59.694Z info: GET /api/v2/cycles 200 53ms
+2024-10-28T20:33:59.777Z info: DELETE /api/v2/cycles/671ff5369bfd6e8610a17f59 200 60ms
+2024-10-28T20:34:01.309Z info: GET /api/v2/orders 404 54ms
+2024-10-28T20:34:01.354Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T20:34:01.908Z info: GET /api/v2/orders 500 2ms
+2024-10-28T20:34:01.914Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T20:34:03.597Z info: POST /api/v2/auth/signup 201 4775ms
+2024-10-28T20:34:04.807Z info: POST /api/v2/auth/login 200 528ms
+2024-10-28T20:34:05.223Z info: POST /api/v2/auth/refresh 200 11ms
+2024-10-28T20:34:08.890Z info: POST /api/v2/auth/get-otp 200 3268ms
+2024-10-28T20:34:11.914Z info: GET /api/v2/auth/own-otp 200 16ms
+2024-10-28T20:34:14.796Z info: POST /api/v2/auth/verify-otp 200 27ms
+2024-10-28T20:34:19.531Z info: PATCH /api/v2/auth/change-password 200 1019ms
+2024-10-28T20:34:22.432Z info: POST /api/v2/auth/forgot-password 200 2504ms
+2024-10-28T20:34:26.486Z info: POST /api/v2/auth/reset-password 200 376ms
+2024-10-28T20:34:26.889Z info: POST /api/v2/auth/logout 200 10ms
+2024-10-28T20:35:02.409Z info: GET /api/v2/cycles?searchTerm=&minPrice=164&maxPrice=395 404 602ms
+2024-10-28T20:35:02.459Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:55:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:45:7"}
+2024-10-28T20:35:04.969Z info: POST /api/v2/cycles 201 373ms
+2024-10-28T20:35:05.331Z info: GET /api/v2/cycles 200 79ms
+2024-10-28T20:35:05.411Z info: DELETE /api/v2/cycles/671ff5786d8cb3a4d24c26c7 200 49ms
+2024-10-28T20:35:06.416Z info: GET /api/v2/orders 404 47ms
+2024-10-28T20:35:06.450Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T20:35:07.329Z info: GET /api/v2/orders 500 2ms
+2024-10-28T20:35:07.338Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T20:35:10.761Z info: POST /api/v2/auth/signup 201 3601ms
+2024-10-28T20:35:11.651Z info: POST /api/v2/auth/login 200 400ms
+2024-10-28T20:35:12.057Z info: POST /api/v2/auth/refresh 200 10ms
+2024-10-28T20:35:15.677Z info: POST /api/v2/auth/get-otp 200 3242ms
+2024-10-28T20:35:18.552Z info: GET /api/v2/auth/own-otp 200 23ms
+2024-10-28T20:35:20.369Z info: GET /api/v2/cycles?searchTerm=&minPrice=400&maxPrice=800 200 558ms
+2024-10-28T20:35:21.578Z info: POST /api/v2/auth/verify-otp 200 27ms
+2024-10-28T20:35:25.339Z info: PATCH /api/v2/auth/change-password 200 791ms
+2024-10-28T20:35:28.252Z info: POST /api/v2/auth/forgot-password 200 2536ms
+2024-10-28T20:35:31.663Z info: POST /api/v2/auth/reset-password 200 449ms
+2024-10-28T20:35:32.071Z info: POST /api/v2/auth/logout 200 6ms
+2024-10-28T20:35:52.813Z info: POST /api/v2/cycles 201 198ms
+2024-10-28T20:35:52.983Z info: GET /api/v2/cycles 200 34ms
+2024-10-28T20:35:53.019Z info: DELETE /api/v2/cycles/671ff5a84c7ed203fe36fffb 200 14ms
+2024-10-28T20:35:54.742Z info: GET /api/v2/orders 404 26ms
+2024-10-28T20:35:54.765Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T20:35:55.226Z info: GET /api/v2/orders 500 2ms
+2024-10-28T20:35:55.231Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T20:35:56.298Z info: POST /api/v2/auth/signup 201 3224ms
+2024-10-28T20:35:57.287Z info: POST /api/v2/auth/login 200 525ms
+2024-10-28T20:35:57.709Z info: POST /api/v2/auth/refresh 200 9ms
+2024-10-28T20:36:01.666Z info: POST /api/v2/auth/get-otp 200 3368ms
+2024-10-28T20:36:05.181Z info: GET /api/v2/auth/own-otp 200 9ms
+2024-10-28T20:36:08.128Z info: POST /api/v2/auth/verify-otp 200 37ms
+2024-10-28T20:36:11.866Z info: PATCH /api/v2/auth/change-password 200 808ms
+2024-10-28T20:36:13.371Z info: GET /api/v2/cycles?searchTerm=&minPrice=45hrbnb4rb&maxPrice=b454nbn4b 404 567ms
+2024-10-28T20:36:13.377Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:55:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:45:7"}
+2024-10-28T20:36:15.465Z info: POST /api/v2/auth/forgot-password 200 3219ms
+2024-10-28T20:36:18.991Z info: POST /api/v2/auth/reset-password 200 496ms
+2024-10-28T20:36:19.474Z info: POST /api/v2/auth/logout 200 5ms
+2024-10-28T20:36:49.859Z info: GET /api/v2/cycles?searchTerm=&minPrice=null&maxPrice=null 404 548ms
+2024-10-28T20:36:49.862Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:55:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:45:7"}
+2024-10-28T20:37:07.090Z info: GET /api/v2/cycles?searchTerm=&minPrice=-100&maxPrice=-300 404 544ms
+2024-10-28T20:37:07.094Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:55:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:45:7"}
+2024-10-28T20:37:30.401Z info: GET /api/v2/cycles?searchTerm=&minPrice=1000&maxPrice=100 404 542ms
+2024-10-28T20:37:30.406Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:55:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:45:7"}
+2024-10-28T20:37:47.748Z info: GET /api/v2/cycles?searchTerm=&minPrice=100&maxPrice=500 200 549ms
+2024-10-28T21:46:30.376Z info: POST /api/v2/cycles 201 271ms
+2024-10-28T21:46:30.867Z info: GET /api/v2/cycles 200 369ms
+2024-10-28T21:46:31.059Z info: DELETE /api/v2/cycles/67200636885d62caf8923ec3 200 176ms
+2024-10-28T21:46:34.310Z info: GET /api/v2/orders 404 198ms
+2024-10-28T21:46:34.331Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T21:46:34.679Z info: POST /api/v2/auth/signup 201 4576ms
+2024-10-28T21:46:34.820Z info: GET /api/v2/orders 500 3ms
+2024-10-28T21:46:34.827Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T21:46:35.565Z info: POST /api/v2/auth/login 200 404ms
+2024-10-28T21:46:35.982Z info: POST /api/v2/auth/refresh 200 8ms
+2024-10-28T21:46:39.988Z info: POST /api/v2/auth/get-otp 200 3430ms
+2024-10-28T21:46:43.522Z info: GET /api/v2/auth/own-otp 200 15ms
+2024-10-28T21:46:47.277Z info: POST /api/v2/auth/verify-otp 200 383ms
+2024-10-28T21:46:53.635Z info: PATCH /api/v2/auth/change-password 200 1634ms
+2024-10-28T21:46:57.219Z info: POST /api/v2/auth/forgot-password 200 3089ms
+2024-10-28T21:47:01.762Z info: POST /api/v2/auth/reset-password 200 515ms
+2024-10-28T21:47:02.308Z info: POST /api/v2/auth/logout 200 10ms
+2024-10-28T21:47:31.756Z info: POST /api/v2/cycles 201 381ms
+2024-10-28T21:47:32.129Z info: GET /api/v2/cycles 200 167ms
+2024-10-28T21:47:32.172Z info: DELETE /api/v2/cycles/672006739abded6111e80e39 200 23ms
+2024-10-28T21:47:35.024Z info: GET /api/v2/orders 404 48ms
+2024-10-28T21:47:35.054Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T21:47:35.878Z info: GET /api/v2/orders 500 3ms
+2024-10-28T21:47:35.885Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T21:47:36.371Z info: POST /api/v2/auth/signup 201 5193ms
+2024-10-28T21:47:37.692Z info: POST /api/v2/auth/login 200 549ms
+2024-10-28T21:47:38.851Z info: POST /api/v2/auth/refresh 200 44ms
+2024-10-28T21:47:43.152Z info: POST /api/v2/auth/get-otp 200 3346ms
+2024-10-28T21:47:47.178Z info: GET /api/v2/auth/own-otp 200 14ms
+2024-10-28T21:47:50.389Z info: POST /api/v2/auth/verify-otp 200 27ms
+2024-10-28T21:47:55.410Z info: PATCH /api/v2/auth/change-password 200 999ms
+2024-10-28T21:47:58.490Z info: POST /api/v2/auth/forgot-password 200 2541ms
+2024-10-28T21:48:03.213Z info: POST /api/v2/auth/reset-password 200 664ms
+2024-10-28T21:48:03.779Z info: POST /api/v2/auth/logout 200 11ms
+2024-10-28T21:54:05.910Z info: GET /api/v2/docs/ 304 9ms
+2024-10-28T21:54:07.213Z info: GET /api/v2/docs/swagger-ui-init.js 200 1ms
+2024-10-28T21:54:07.280Z info: GET /api/v2/docs/swagger-ui.css 304 73ms
+2024-10-28T21:54:07.292Z info: GET /api/v2/docs/swagger-ui-standalone-preset.js 304 82ms
+2024-10-28T21:54:07.407Z info: GET /api/v2/docs/swagger-ui-bundle.js 304 198ms
+2024-10-28T21:55:07.279Z info: GET /api/v2/cycles?priceRange=100-500 200 583ms

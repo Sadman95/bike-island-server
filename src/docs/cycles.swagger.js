@@ -2,7 +2,7 @@
  * @swagger
  * tags:
  *   name: Cycles
- *   description: API for managing cycles
+ *   description: API endpoints for managing cycle products
  */
 
 /**
@@ -17,6 +17,27 @@
  *       - $ref: '#/components/parameters/sortByParam'
  *       - $ref: '#/components/parameters/sortOrderParam'
  *       - $ref: '#/components/parameters/searchParam'
+ *       - name: type
+ *         in: query
+ *         description: Filter cycles by type (e.g., mountain, hybrid)
+ *         required: false
+ *         schema:
+ *           type: string
+ *           example: "mountain"
+ *       - name: minPrice
+ *         in: query
+ *         description: Minimum price
+ *         required: false
+ *         schema:
+ *           type: string
+ *           example: "100"
+ *       - name: maxPrice
+ *         in: query
+ *         description: Max price
+ *         required: false
+ *         schema:
+ *           type: string
+ *           example: "500"
  *     responses:
  *       200:
  *         description: A list of cycles
@@ -36,47 +57,36 @@
  *                   description:
  *                     type: string
  *                     example: "Mountain bike with advanced suspension"
+ *                   type:
+ *                     type: string
+ *                     example: "mountain"
  *                   price:
  *                     type: number
  *                     example: 499.99
  *       500:
  *         description: Server error
- * 
  */
 
 
- /**
+/**
  * @swagger
  * /api/v2/cycles/{id}:
  *   get:
- *     summary: Retrieve a cycle by ID
+ *     summary: Retrieve a specific cycle by its ID
  *     tags: [Cycles]
  *     parameters:
  *       - $ref: '#/components/parameters/idPathParam'
  *     responses:
  *       200:
- *         description: A single cycle
+ *         description: Detailed information of the specified cycle
  *         content:
  *           application/json:
  *             schema:
- *               type: object
- *               properties:
- *                 _id:
- *                   type: string
- *                   example: "12345"
- *                 name:
- *                   type: string
- *                   example: "Cycle A"
- *                 description:
- *                   type: string
- *                   example: "Mountain bike with advanced suspension"
- *                 price:
- *                   type: number
- *                   example: 499.99
+ *               $ref: '#/components/schemas/Cycle'
  *       404:
  *         description: Cycle not found
  *       500:
- *         description: Server error
+ *         description: Internal server error
  *
  *   delete:
  *     summary: Delete a cycle by ID (Admin only)
@@ -88,12 +98,12 @@
  *     responses:
  *       204:
  *         description: Cycle deleted successfully
+ *       403:
+ *         description: Forbidden (Only admin users can delete cycles)
  *       404:
  *         description: Cycle not found
- *       403:
- *         description: Forbidden (Only admin can delete)
  *       500:
- *         description: Server error
+ *         description: Internal server error
  *
  *   put:
  *     summary: Update a cycle by ID (Admin only)
@@ -103,31 +113,21 @@
  *     parameters:
  *       - $ref: '#/components/parameters/idPathParam'
  *     requestBody:
- *       description: Data for updating the cycle
+ *       description: JSON object containing data for updating the cycle
  *       required: true
  *       content:
  *         application/json:
  *           schema:
- *             type: object
- *             properties:
- *               name:
- *                 type: string
- *                 example: "Updated Cycle Name"
- *               description:
- *                 type: string
- *                 example: "Updated description for cycle"
- *               price:
- *                 type: number
- *                 example: 599.99
+ *             $ref: '#/components/schemas/Cycle'
  *     responses:
  *       200:
  *         description: Cycle updated successfully
+ *       403:
+ *         description: Forbidden (Only admin users can update cycles)
  *       404:
  *         description: Cycle not found
- *       403:
- *         description: Forbidden (Only admin can update)
  *       500:
- *         description: Server error
+ *         description: Internal server error
  */
 
 /**
@@ -139,10 +139,10 @@
  *     security:
  *       - bearerAuth: []
  *     requestBody:
- *       description: Data for creating a new cycle
+ *       description: Form data for creating a new cycle
  *       required: true
  *       content:
- *         multipart/form-data:    # Use multipart for file uploads
+ *         multipart/form-data:
  *           schema:
  *             type: object
  *             properties:
@@ -151,7 +151,7 @@
  *                 example: "New Cycle"
  *               productDesc:
  *                 type: string
- *                 example: "High performance road bike"
+ *                 example: "High-performance road bike"
  *               brand:
  *                 type: string
  *                 example: "Hero"
@@ -161,24 +161,23 @@
  *               productPrice:
  *                 type: number
  *                 example: 999.99
- *               productImg:        # File field for product image
+ *               productImg:
  *                 type: string
- *                 format: binary    # Specify it as a binary file
+ *                 format: binary
  *     responses:
  *       201:
  *         description: Cycle created successfully
  *       403:
- *         description: Forbidden (Only admin can create)
+ *         description: Forbidden (Only admin users can create cycles)
  *       500:
- *         description: Server error
+ *         description: Internal server error
  */
-
 
 /**
  * @swagger
  * /api/v2/cycles/bulk-delete:
  *   post:
- *     summary: Delete multiple cycles by passing an array of IDs
+ *     summary: Delete multiple cycles by passing an array of IDs (Admin only)
  *     tags: [Cycles]
  *     security:
  *       - bearerAuth: []
@@ -188,15 +187,12 @@
  *         application/json:
  *           schema:
  *             type: object
- *             required:
- *               - ids
  *             properties:
  *               ids:
  *                 type: array
  *                 items:
  *                   type: string
  *                   example: "61c6e0f2e5f3b2044c1a30a1"
- *                 description: Array of cycle IDs to be deleted
  *     responses:
  *       200:
  *         description: Cycles deleted successfully
@@ -212,11 +208,13 @@
  *                   type: string
  *                   example: "Cycles deleted successfully"
  *       400:
- *         description: Invalid input
+ *         description: Invalid input (e.g., incorrect ID format)
  *       404:
  *         description: Some cycles not found
- *       401:
- *         description: Unauthorized
+ *       403:
+ *         description: Forbidden (Only admin users can perform bulk delete)
+ *       500:
+ *         description: Internal server error
  */
 
 /**
@@ -234,93 +232,82 @@
  *       properties:
  *         id:
  *           type: string
- *           description: The auto-generated ID of the cycle
+ *           description: The unique identifier of the cycle
+ *           example: "60d21b4667d0d8992e610c85"
  *         productTitle:
  *           type: string
- *           description: The title of the product (cycle)
+ *           description: Title of the cycle product
+ *           example: "Trek Marlin 5"
  *         productDesc:
  *           type: string
  *           description: A brief description of the cycle
+ *           example: "A mountain bike perfect for trail riding."
  *         brand:
  *           type: string
- *           description: The brand of the cycle
- *           example: Trek
+ *           description: Brand of the cycle
+ *           example: "Trek"
  *         type:
  *           type: string
- *           description: The type of cycle (e.g., mountain, hybrid)
- *           example: mountain
+ *           description: Type of cycle (e.g., mountain, hybrid)
+ *           example: "mountain"
  *         productImg:
  *           type: string
- *           description: The URL of the product image
- *           example: https://example.com/cycle-image.jpg
+ *           description: URL of the cycle's image
+ *           example: "https://example.com/cycle-image.jpg"
  *         productPrice:
  *           type: number
- *           description: The price of the cycle
+ *           description: Price of the cycle in USD
  *           example: 599.99
  *         createdAt:
  *           type: string
  *           format: date-time
- *           description: The date and time when the cycle was added
- *       example:
- *         id: 60d21b4667d0d8992e610c85
- *         productTitle: Trek Marlin 5
- *         productDesc: A mountain bike perfect for trail riding.
- *         brand: Trek
- *         type: mountain
- *         productImg: https://example.com/cycle-image.jpg
- *         productPrice: 599.99
- *         createdAt: 2023-10-22T10:45:30.000Z
- * 
+ *           description: Date and time when the cycle was created
+ *           example: "2023-10-22T10:45:30.000Z"
  *   parameters:
  *     pageParam:
  *       name: page
  *       in: query
- *       description: Enter page number
- *       required: false
+ *       description: Page number for pagination
  *       schema:
  *         type: integer
  *         example: 1
  *     limitParam:
  *       name: limit
  *       in: query
- *       description: Enter limit
- *       required: false
+ *       description: Number of items per page
  *       schema:
  *         type: integer
  *         example: 10
  *     sortByParam:
  *       name: sortBy
  *       in: query
- *       description: Sort results by a specific field
- *       required: false
+ *       description: Field to sort by (e.g., createdAt)
  *       schema:
  *         type: string
- *         example: updatedAt
+ *         example: "createdAt"
  *     sortOrderParam:
  *       name: sortOrder
  *       in: query
- *       description: Sort order (ascending or descending)
- *       required: false
+ *       description: Order of sorting (ascending or descending)
  *       schema:
  *         type: string
  *         enum:
  *           - asc
  *           - desc
- *         example: desc
+ *         example: "desc"
  *     searchParam:
  *       name: searchTerm
  *       in: query
- *       description: Search term to filter cycles
- *       required: false
+ *       description: Search term to filter cycles by name or description
  *       schema:
  *         type: string
  *         example: "mountain"
  *     idPathParam:
  *       name: id
  *       in: path
- *       description: The ID of the cycle
+ *       description: Unique identifier of the cycle
  *       required: true
  *       schema:
  *         type: string
- *         example: "12345"
+ *         example: "60d21b4667d0d8992e610c85"
  */

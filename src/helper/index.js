@@ -172,6 +172,7 @@ static queryHelper = options => {
     total,
   } = options
   const { searchTerm, ...filtersData } = filterableOptions
+  const { minPrice, maxPrice } = query;
   let { page, limit, skip, sortBy, sortOrder } =
     this.calculatePagination(paginationOptions)
   
@@ -192,6 +193,18 @@ static queryHelper = options => {
       })),
     })
   }
+    if (minPrice) {
+      filtersData.productPrice = {
+        ...filtersData.productPrice,
+        $gte: parseFloat(minPrice)
+      };
+    }
+    if (maxPrice) {
+      filtersData.productPrice = {
+        ...filtersData.productPrice,
+        $lte: parseFloat(maxPrice)
+      };
+    }
 
   if (Object.keys(filtersData).length) {
     andConditions.push({
@@ -204,6 +217,7 @@ static queryHelper = options => {
   if (sortBy && sortOrder) {
     sortConditions[sortBy] = sortOrder
   }
+
 
   const filterConditions =
     andConditions.length > 0 ? { $and: andConditions } : {}
