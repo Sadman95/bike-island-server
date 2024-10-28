@@ -37,11 +37,8 @@ class CycleService {
     const { filterConditions, sortConditions, skip, limit } = options;
 
     const cycles = await CycleModel.aggregate([
-    {
-        $sort: {
-          _id: 1,
-          ...sortConditions
-        }
+      {
+        $sort: sortConditions
       },
       {
         $skip: skip
@@ -51,8 +48,7 @@ class CycleService {
       },
       {
         $match: filterConditions
-      },
-      
+      }
     ]);
 
     return cycles;
@@ -92,13 +88,9 @@ class CycleService {
    * @returns {Promise<Document>}
    */
   static updateCycleService = async (id, payload) => {
-    const cycle = await CycleModel.findByIdAndUpdate(
-      { _id: id },
-      payload,
-      {
-        new: true
-      }
-    );
+    const cycle = await CycleModel.findByIdAndUpdate({ _id: id }, payload, {
+      new: true
+    });
     return cycle;
   };
 
@@ -107,8 +99,8 @@ class CycleService {
    * @param {string} id - The ID of the cycle
    */
   static async deleteCycleByIdService(id) {
-    return await CycleModel.findByIdAndDelete({_id: id});
-  };
+    return await CycleModel.findByIdAndDelete({ _id: id });
+  }
 
   /**
    * delete bulk cycles by ID from the database.

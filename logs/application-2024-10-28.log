@@ -1079,3 +1079,62 @@
 2024-10-28T08:51:01.123Z info: POST /api/v2/auth/forgot-password 200 2855ms
 2024-10-28T08:51:05.013Z info: POST /api/v2/auth/reset-password 200 373ms
 2024-10-28T08:51:05.405Z info: POST /api/v2/auth/logout 200 6ms
+2024-10-28T08:51:33.379Z info: POST /api/v2/cycles 201 573ms
+2024-10-28T08:51:33.578Z info: GET /api/v2/cycles 200 39ms
+2024-10-28T08:51:33.620Z info: DELETE /api/v2/cycles/671f50946ea17963501f8802 200 18ms
+2024-10-28T08:51:36.037Z info: GET /api/v2/orders 404 77ms
+2024-10-28T08:51:36.067Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T08:51:36.768Z info: GET /api/v2/orders 500 3ms
+2024-10-28T08:51:36.776Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T08:51:37.837Z info: POST /api/v2/auth/signup 201 5046ms
+2024-10-28T08:51:38.771Z info: POST /api/v2/auth/login 200 415ms
+2024-10-28T08:51:39.500Z info: POST /api/v2/auth/refresh 200 17ms
+2024-10-28T08:51:42.936Z info: POST /api/v2/auth/get-otp 200 2793ms
+2024-10-28T08:51:46.927Z info: GET /api/v2/auth/own-otp 200 13ms
+2024-10-28T08:51:50.931Z info: POST /api/v2/auth/verify-otp 200 32ms
+2024-10-28T08:51:55.144Z info: PATCH /api/v2/auth/change-password 200 1071ms
+2024-10-28T08:51:58.408Z info: POST /api/v2/auth/forgot-password 200 2739ms
+2024-10-28T08:52:02.142Z info: POST /api/v2/auth/reset-password 200 528ms
+2024-10-28T08:52:02.671Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-28T08:59:02.375Z info: GET /api/v2/cycles?page=1&limit=10&sortBy=productPrice&sortOrder=asc 200 595ms
+2024-10-28T09:00:28.817Z info: POST /api/v2/cycles 201 219ms
+2024-10-28T09:00:29.016Z info: GET /api/v2/cycles 200 37ms
+2024-10-28T09:00:29.049Z info: DELETE /api/v2/cycles/671f52acbcd8d0038287cc36 200 15ms
+2024-10-28T09:00:30.969Z info: GET /api/v2/orders 404 29ms
+2024-10-28T09:00:30.987Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T09:00:31.512Z info: GET /api/v2/orders 500 3ms
+2024-10-28T09:00:31.522Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T09:00:32.706Z info: POST /api/v2/auth/signup 201 3960ms
+2024-10-28T09:00:34.162Z info: POST /api/v2/auth/login 200 499ms
+2024-10-28T09:00:34.649Z info: POST /api/v2/auth/refresh 200 13ms
+2024-10-28T09:00:37.833Z info: GET /api/v2/cycles?page=1&limit=10&sortBy=productPrice&sortOrder=asc 200 653ms
+2024-10-28T09:00:38.013Z info: POST /api/v2/auth/get-otp 200 2901ms
+2024-10-28T09:00:41.331Z info: GET /api/v2/auth/own-otp 200 11ms
+2024-10-28T09:00:44.607Z info: POST /api/v2/auth/verify-otp 200 22ms
+2024-10-28T09:00:48.466Z info: PATCH /api/v2/auth/change-password 200 720ms
+2024-10-28T09:00:51.590Z info: POST /api/v2/auth/forgot-password 200 2747ms
+2024-10-28T09:00:55.542Z info: POST /api/v2/auth/reset-password 200 373ms
+2024-10-28T09:00:55.973Z info: POST /api/v2/auth/logout 200 8ms
+2024-10-28T09:00:57.671Z info: GET /api/v2/cycles?page=2&limit=10&sortBy=productPrice&sortOrder=asc 200 600ms
+2024-10-28T09:01:06.817Z info: GET /api/v2/cycles?page=2&limit=10&sortBy=productPrice&sortOrder=desc 200 598ms
+2024-10-28T09:01:19.341Z info: POST /api/v2/cycles 201 194ms
+2024-10-28T09:01:19.469Z info: GET /api/v2/cycles 200 29ms
+2024-10-28T09:01:19.503Z info: DELETE /api/v2/cycles/671f52dffffaf270cacef8b1 200 14ms
+2024-10-28T09:01:22.257Z info: GET /api/v2/orders 404 28ms
+2024-10-28T09:01:22.281Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T09:01:22.705Z info: POST /api/v2/auth/signup 201 3867ms
+2024-10-28T09:01:22.767Z info: GET /api/v2/orders 500 2ms
+2024-10-28T09:01:22.773Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T09:01:23.602Z info: POST /api/v2/auth/login 200 405ms
+2024-10-28T09:01:24.066Z info: POST /api/v2/auth/refresh 200 17ms
+2024-10-28T09:01:27.417Z info: POST /api/v2/auth/get-otp 200 2826ms
+2024-10-28T09:01:30.529Z info: GET /api/v2/auth/own-otp 200 12ms
+2024-10-28T09:01:33.717Z info: POST /api/v2/auth/verify-otp 200 20ms
+2024-10-28T09:01:37.757Z info: PATCH /api/v2/auth/change-password 200 771ms
+2024-10-28T09:01:40.891Z info: POST /api/v2/auth/forgot-password 200 2719ms
+2024-10-28T09:01:44.709Z info: POST /api/v2/auth/reset-password 200 396ms
+2024-10-28T09:01:45.114Z info: POST /api/v2/auth/logout 200 6ms
+2024-10-28T09:01:55.660Z info: GET /api/v2/cycles?page=1&limit=2&sortBy=productPrice&sortOrder=asc 304 590ms
+2024-10-28T09:02:31.661Z info: GET /api/v2/cycles?page=1&limit=2&sortBy=productPrice&sortOrder=desc 304 608ms
+2024-10-28T09:02:45.078Z info: GET /api/v2/cycles?page=2&limit=4&sortBy=productPrice&sortOrder=desc 200 589ms
+2024-10-28T09:02:59.225Z info: GET /api/v2/cycles?page=2&limit=4&sortBy=productPrice&sortOrder=desc&searchTerm=brown 200 600ms
