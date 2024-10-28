@@ -44,10 +44,7 @@ class CycleController {
 
     const filters = totalCycles.reduce((acc, curr) => {
       if (curr.type && !acc.includes(curr.type)) {
-        acc.push({
-          value: curr.type.toLowerCase(),
-          label: curr.type,
-        });
+        acc.push(curr.type);
       }
       return acc;
     }, [])

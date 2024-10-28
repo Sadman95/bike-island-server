@@ -1206,3 +1206,20 @@
 2024-10-28T12:05:13.467Z info: POST /api/v2/auth/forgot-password 200 2882ms
 2024-10-28T12:05:17.107Z info: POST /api/v2/auth/reset-password 200 452ms
 2024-10-28T12:05:17.729Z info: POST /api/v2/auth/logout 200 7ms
+2024-10-28T12:05:43.426Z info: POST /api/v2/cycles 201 151ms
+2024-10-28T12:05:43.694Z info: GET /api/v2/cycles 200 60ms
+2024-10-28T12:05:43.727Z info: DELETE /api/v2/cycles/671f7e17cc5276a2ae8a2f4b 200 14ms
+2024-10-28T12:05:46.013Z info: GET /api/v2/orders 404 54ms
+2024-10-28T12:05:46.041Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T12:05:46.770Z info: GET /api/v2/orders 500 2ms
+2024-10-28T12:05:46.779Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T12:05:47.228Z info: POST /api/v2/auth/signup 201 4251ms
+2024-10-28T12:05:48.137Z info: POST /api/v2/auth/login 200 437ms
+2024-10-28T12:05:48.575Z info: POST /api/v2/auth/refresh 200 9ms
+2024-10-28T12:05:51.972Z info: POST /api/v2/auth/get-otp 200 2804ms
+2024-10-28T12:05:55.336Z info: GET /api/v2/auth/own-otp 200 18ms
+2024-10-28T12:05:59.661Z info: POST /api/v2/auth/verify-otp 200 22ms
+2024-10-28T12:06:03.740Z info: PATCH /api/v2/auth/change-password 200 809ms
+2024-10-28T12:06:06.979Z info: POST /api/v2/auth/forgot-password 200 2827ms
+2024-10-28T12:06:11.216Z info: POST /api/v2/auth/reset-password 200 432ms
+2024-10-28T12:06:11.853Z info: POST /api/v2/auth/logout 200 5ms

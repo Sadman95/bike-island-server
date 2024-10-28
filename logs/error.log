@@ -2202,3 +2202,5 @@
 2024-10-28T12:03:19.172Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
 2024-10-28T12:04:52.723Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
 2024-10-28T12:04:53.221Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
+2024-10-28T12:05:46.041Z error: {"success":false,"statusCode":404,"message":"No orders found","errorMessages":[{"path":"","message":"No orders found"}],"status":"failed","stack":{}}
+2024-10-28T12:05:46.779Z error: {"success":false,"statusCode":500,"message":"jwt malformed","errorMessages":[{"path":"","message":"jwt malformed"}],"status":"failed","stack":{}}
