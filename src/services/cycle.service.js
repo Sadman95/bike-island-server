@@ -9,8 +9,11 @@ class CycleService {
    * Retrieves all cycles from the database.
    * @returns {Promise<Array>} - Returns an array of cycle objects
    */
-  static async findAllCycles() {
-    return await CycleModel.find({});
+  static async findAllCycles(filter = {}, options = {}, sort = {}, limit = 0) {
+    return await CycleModel.find(filter, options)
+      .sort(sort)
+      .limit(limit)
+      .lean();
   }
 
   /**

@@ -1,5 +1,7 @@
 const PAGINATION = ['page', 'limit', 'sortBy', 'sortOrder']
 
+const PRICE_RANGE = ['minPrice', 'maxPrice']
+
 const STACKHOLDERS = ['admin', 'user']
 
 const ORDER_STATUS = ['pending', 'approved', 'canceled']
@@ -113,5 +115,6 @@ module.exports = {
   USER_FILTERABLE_FILEDS,
   USER_SEARCHABLE_FIELDS,
   ORDER_FILTERABLE_FILEDS,
-  ORDER_SEARCHABLE_FIELDS
+  ORDER_SEARCHABLE_FIELDS,
+  PRICE_RANGE
 };

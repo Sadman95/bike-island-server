@@ -16,6 +16,11 @@ const cycleSchema = new mongoose.Schema({
   //   ref: 'Brand',
   //   required: true
   // },
+  // category: {
+  //   type: mongoose.Schema.Types.ObjectId,
+  //   ref: 'Category',
+  //   required: true
+  // },
   type: { type: String, required: true },
   productImg: { type: String, required: true },
   productPrice: { type: Number, required: true },
