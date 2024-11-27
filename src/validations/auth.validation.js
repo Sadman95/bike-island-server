@@ -2,6 +2,7 @@ const { body, cookie, header } = require('express-validator');
 const httpStatus = require('http-status');
 const ApiError = require('../error/ApiError');
 const { jwtHelper } = require('../helper');
+const { decrypt } = require('../utils/encrypt-decrypt');
 
 // Sign up validation
 const signUpValidation = [
@@ -78,20 +79,29 @@ const loginValidation = [
     .withMessage('Password should be string')
     .isLength({ min: 5 })
     .withMessage('Password should be at least 5 characters'),
-  body('rememberMe').optional().isBoolean().trim().escape(),
+  body('rememberMe').optional().isBoolean().default(false)
 ];
 
 // Refresh token validation
 const refreshValidation = [
   cookie('refresh_token')
-    .trim()
-    .escape()
     .notEmpty()
-    .exists()
-    .withMessage('Refersh token is required')
+    .withMessage('Refresh token is required')
+    .bail() // Stop further validation if this check fails
+    .custom((value, { req }) => {
+      const decryptedToken = decrypt(value); // Ensure decrypt function is defined properly
+
+      // Set decrypted token to request object for further processing if needed
+      req.cookies.refresh_token = decryptedToken;
+
+      return !!decryptedToken; // Returns true if decryption was successful, otherwise false
+    })
+    .withMessage('Invalid token!')
+    .bail()
     .isJWT()
-    .withMessage('Invalid token!'),
+    .withMessage('Token is not in JWT format!')
 ];
+
 
 // Google login validation
 const googleLoginValidation = [

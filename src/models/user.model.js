@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
-const { STACKHOLDERS } = require('../constants');
 const { STACKHOLDER } = require('../enums');
-const { server, salt_round } = require('../config/env');
-const bcrypt = require("bcrypt")
+const { salt_round } = require('../config/env');
+const bcrypt = require('bcrypt');
 
 const userSchema = new mongoose.Schema({
   firstName: {
@@ -26,34 +25,42 @@ const userSchema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+  isTeamMember: {
+    type: Boolean,
+    default: false
+  },
   contactNo: {
     type: String,
     default: ''
   },
   avatar: {
     type: String,
-    default: `${server.baseURL}/images/avatar/demo-Male.png`
+    default: `avatar/dummy-avatar.png`
   },
-  role: { type: String, enum: STACKHOLDERS, default: STACKHOLDER.USER }
+  role: { type: String, default: STACKHOLDER.USER },
+  createdAt: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 // pre-save middleware to set avatar
 userSchema.pre('save', async function (next) {
   try {
     if (!this.avatar) {
-      this.avatar = `${server.baseURL}/images/avatar/demo-${this.gender}.png`
+      this.avatar = `avatar/dummy-avatar.png`;
     }
 
     if (this.isModified('password')) {
       // Only hash if the password has been modified
-      this.password = await bcrypt.hash(this.password, salt_round)
+      this.password = await bcrypt.hash(this.password, salt_round);
     }
 
-    next()
+    next();
   } catch (err) {
-    next(err)
+    next(err);
   }
-})
+});
 
 const User = mongoose.model('User', userSchema);
 

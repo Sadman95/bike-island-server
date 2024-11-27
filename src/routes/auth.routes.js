@@ -1,4 +1,4 @@
-const router = require('express').Router()
+const router = require('express').Router();
 const {
   signUpValidation,
   loginValidation,
@@ -7,16 +7,17 @@ const {
   resetPasswordLinkValidation,
   validateToken,
   resetPasswordValidation,
-  changePasswordValidation,
-} = require('../validations/auth.validation')
+  changePasswordValidation
+} = require('../validations/auth.validation');
 const {
   getOtpValidation,
   verifyOtpValidation,
-} = require('../validations/otp.validation')
-const authController = require('../controllers/auth.controller')
-const { getOtp, ownOtp, verifyOtp } = require('../controllers/otp.controller')
-const validateRequest = require('../middlewares/validate-request')
-
+  getOwnOtpValidation
+} = require('../validations/otp.validation');
+const authController = require('../controllers/auth.controller');
+const otpController = require('../controllers/otp.controller');
+const validateRequest = require('../middlewares/validate-request');
+const tokenDecriptor = require('../middlewares/token-decriptor');
 
 /**
  * ===========
@@ -24,28 +25,26 @@ const validateRequest = require('../middlewares/validate-request')
  * ===========
  */
 
-
 router
   .post('/signup', validateRequest(signUpValidation), authController.signUp)
   .post('/login', validateRequest(loginValidation), authController.login)
-  .post('/refresh', validateRequest(refreshValidation), authController.refresh)
+  .post(
+    '/refresh',
+    tokenDecriptor,
+    validateRequest(refreshValidation),
+    authController.refresh
+  )
   .post(
     '/google',
     validateRequest(googleLoginValidation),
     authController.googleLogin
   )
-  .post(
-    '/get-otp',
-    validateRequest(validateToken),
-    validateRequest(getOtpValidation),
-    getOtp
-  )
-  .get('/own-otp', validateRequest(validateToken), ownOtp)
+  .post('/get-otp', validateRequest(getOtpValidation), otpController.getOtp)
+  .post('/own-otp', validateRequest(getOwnOtpValidation), otpController.ownOtp)
   .post(
     '/verify-otp',
-    validateRequest(validateToken),
     validateRequest(verifyOtpValidation),
-    verifyOtp
+    otpController.verifyOtp
   )
   .patch(
     '/change-password',
@@ -65,4 +64,4 @@ router
     authController.resetPassword
   );
 
-module.exports = router
+module.exports = router;

@@ -11,6 +11,17 @@ const idParamValidation = [
     .withMessage('Id must be mongo db id')
 ];
 
+// id parama validation
+const ownIdParamValidation = [
+  param('ownId')
+    .trim()
+    .notEmpty()
+    .isString()
+    .withMessage('Id must be string')
+    .isMongoId()
+    .withMessage('Id must be mongo db id')
+];
+
 const bulkItemsIdValidation = [
   body('ids')
     .isArray()
@@ -22,5 +33,6 @@ const bulkItemsIdValidation = [
 
 module.exports = {
   idParamValidation,
-  bulkItemsIdValidation
+  bulkItemsIdValidation,
+  ownIdParamValidation
 };

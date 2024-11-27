@@ -41,6 +41,9 @@ class CycleService {
 
     const cycles = await CycleModel.aggregate([
       {
+        $match: filterConditions
+      },
+      {
         $sort: sortConditions
       },
       {
@@ -49,9 +52,7 @@ class CycleService {
       {
         $limit: Number(limit)
       },
-      {
-        $match: filterConditions
-      }
+      
     ]);
 
     return cycles;

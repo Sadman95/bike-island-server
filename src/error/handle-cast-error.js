@@ -22,7 +22,7 @@ const handleCastError = err => {
       message: 'Invalid Id',
     },
   ]
-  const statusCode = httpStatus[400]
+  const statusCode = httpStatus.BAD_REQUEST
 
   return {
     statusCode,

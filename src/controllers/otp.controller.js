@@ -22,17 +22,17 @@ class OtpController {
    * @body {email: string} - Request Body
    */
   static getOtp = catchAsyncHandler(async (req, res) => {
-    const { id } = req.user
     const { email } = req.body
     const user = await findUser({ email })
     if (!user) throw new ApiError(httpStatus.NOT_FOUND, 'User not found')
 
-    const isOtpExist = await findOtp({userId: id})
+    const isOtpExist = await findOtp({ userId: user._id })
+
     let userOtp = null
 
     if (isOtpExist) {
       userOtp = await findOtp({
-        userId: id,
+        userId: user._id,
         expiresAt: { $gt: new Date() },
       })
     }
@@ -45,7 +45,7 @@ class OtpController {
         `Please request for new OTP after ${diffTime}`
       )
     }
-    const newOtp = await getEmailOtpService(id, email)
+    const newOtp = await getEmailOtpService(user._id, email)
     newOtp &&
       res.cookie('hash_otp', newOtp.otp, {
         secure: env === 'production',
@@ -60,28 +60,31 @@ class OtpController {
       status: ResponseStatus.SUCCESS,
       message: 'OTP is sent to email',
       data: {
-        otp: newOtp.otp,
-        expiresAt: newOtp.expiresAt,
-      },
-    })
+        otp: decrypt(newOtp.otp),
+        email,
+        expiresAt: newOtp.expiresAt
+      }
+    });
   })
   
 
   /**
    * Get own OTP Controller
-   * @method GET
+   * @method POST
    * @path /own-otp
    */
   static ownOtp = catchAsyncHandler(async (req, res) => {
-    const { id } = req.user
+    const { uid } = req.body
 
-    const exist = await findUser({_id: id})
+    const filter = { _id: uid };
+
+    const exist = await findUser(filter);
 
     if (!exist)
       throw new ApiError(httpStatus.NOT_FOUND, 'User not found')
 
     const userOtp = await findOtp({
-      userId: id,
+      userId: uid,
       expiresAt: { $gt: Date.now() },
     })
     if (!userOtp) {
@@ -96,9 +99,10 @@ class OtpController {
       status: ResponseStatus.SUCCESS,
       data: {
         otp: decryptedOtp,
-        expiresAt: userOtp.expiresAt,
-      },
-    })
+        email: userOtp.userId.email,
+        expiresAt: userOtp.expiresAt
+      }
+    });
   })
   
 
@@ -109,10 +113,9 @@ class OtpController {
    * @body {otp: string, hash_otp: string} - Request Body
    */
   static verifyOtp = catchAsyncHandler(async (req, res) => {
-    const { otp } = req.body
-    const { id } = req.user
+    const { otp, email } = req.body
 
-    const isExist = await findUser({_id: id})
+    const isExist = await findUser({email: email})
     if (!isExist) throw new ApiError(httpStatus.NOT_FOUND, 'User not found')
 
     const isOtpExist = await findOtp({ otp: encrypt(otp), userId: isExist._id})
@@ -126,9 +129,9 @@ class OtpController {
     const isMatchedOtp = otp === decrypt(isOtpExist.otp)
     if (!isMatchedOtp) throw new ApiError(httpStatus.CONFLICT, 'Invalid OTP')
 
-    const updatedUser = await userUpdateService(id, {
-      isVerified: true,
-    })
+    const updatedUser = await userUpdateService(isExist._id, {
+      isVerified: true
+    });
 
     if (!updatedUser)
       throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to update user!')
@@ -143,6 +146,9 @@ class OtpController {
       data: {
         isVerified: true,
       },
+      links: {
+        login: '/auth/login'
+      }
     })
   })
 }

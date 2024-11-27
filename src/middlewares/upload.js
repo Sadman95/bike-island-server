@@ -4,6 +4,7 @@ const fs = require('fs')
 const ApiError = require('../error/ApiError')
 const httpStatus = require('http-status')
 var dir = 'public'
+const crypto = require('crypto')
 
 const MAX_FILE_SIZE = 1024 * 1024 * 5
 
@@ -21,7 +22,12 @@ var upload = multer({
       callback(null, `${dir}/${subDir}`)
     },
     filename: function (req, file, callback) {
-      callback(null, '/' + req.user.id + path.extname(file.originalname))
+      callback(
+        null,
+        '/' +
+          crypto.randomBytes(2).toString('hex') +
+          path.extname(file.originalname)
+      );
     },
   }),
   limits: {

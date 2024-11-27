@@ -14,19 +14,37 @@ class OrderService {
    * @returns {Promise<Array<Document>>} - Returns an array of order
    */
   static async findOrdersService(filter = {}) {
-    return await Order.find(filter);
+    return await Order.find(filter)
+      .select('-__v -paymentId -address')
+      .populate([
+        {
+          path: 'items.product',
+          select: 'productTitle productImg productPrice _id'
+        },
+        {
+          path: 'user',
+          select: 'email -_id'
+        }
+      ])
+      .lean();
   }
 
   /**
    * Retrieve order by id
-   * @param {ObjectId} [id = ""] - order id
+   * @param {Object} [filter = {}] - additional filter
    * @returns {Promise<Document>} - Returns an array of order
    */
-  static async findOrderService(id) {
-    return await Order.findOne({ _id: id }).populate({
-      path: 'items.product',
-      select: 'productTitle productImg productPrice'
-    });
+  static async findOrderService(filter = {}) {
+    return await Order.findOne(filter).populate([
+      {
+        path: 'items.product',
+        select: 'productTitle productImg productPrice'
+      },
+      {
+        path: 'user',
+        select: 'firstName lastName email -_id'
+      }
+    ]);
   }
 
   /**
@@ -71,18 +89,14 @@ class OrderService {
 
       const userAddress = await Address.create([address], { session });
 
-
       orderData.address = userAddress[0]._id;
-
 
       const newOrder = await Order.create([orderData], { session });
 
       await session.commitTransaction();
 
-
       return newOrder[0];
     } catch (error) {
-      console.error('Order creation failed:', error); // Log the error
       await session.abortTransaction();
       throw new Error('Order creation failed');
     } finally {
@@ -114,7 +128,34 @@ class OrderService {
         }
       },
       {
-        $unwind: '$items.productDetails'
+        $lookup: {
+          from: 'users',
+          localField: 'user',
+          foreignField: '_id',
+          as: 'userDetails'
+        }
+      },
+      {
+        $unwind: {
+          path: '$items.productDetails',
+          preserveNullAndEmptyArrays: true
+        }
+      },
+      {
+        $unwind: {
+          path: '$userDetails',
+          preserveNullAndEmptyArrays: true
+        }
+      },
+      {
+        $addFields: {
+          user: '$userDetails.email'
+        }
+      },
+      {
+        $addFields: {
+          'items.productDetails': '$items.productDetails'
+        }
       },
       {
         $project: {
@@ -126,8 +167,12 @@ class OrderService {
           'items.price': 1,
           totalAmount: 1,
           status: 1,
-          createdAt: 1
+          createdAt: 1,
+          paymentId: 1
         }
+      },
+      {
+        $match: filterConditions
       },
       {
         $sort: sortConditions
@@ -137,9 +182,6 @@ class OrderService {
       },
       {
         $limit: Number(limit)
-      },
-      {
-        $match: filterConditions
       }
     ]);
 
@@ -147,16 +189,16 @@ class OrderService {
   };
 
   /**
-   * cancel order before approved
+   * update order before approved
    * @param {ObjectId} id - order id
    * @param {ObjectId} userId - user id
    */
-  static cancelOrderService = async (id, userId) => {
+  static updateOrderService = async (filter = {}, payload = {}) => {
     const order = await Order.findOneAndUpdate(
-      { _id: id, user: userId, status: ORDER_STAT.PENDING },
+      filter,
 
       {
-        status: ORDER_STAT.CANCELED
+        ...payload
       },
 
       {

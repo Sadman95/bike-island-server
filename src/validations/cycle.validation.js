@@ -33,6 +33,14 @@ const createCycleValidation = [
     .isString()
     .withMessage('Product brand should be string')
     .escape(),
+  body('stock')
+    .trim()
+    .notEmpty()
+    .exists({ checkFalsy: true })
+    .withMessage('Stock is required')
+    .isNumeric()
+    .withMessage('Stock should be number')
+    .escape(),
   body('type')
     .trim()
     .notEmpty()
@@ -70,14 +78,6 @@ const updateCycleValidation = [
     .isString()
     .withMessage('Product description should be string')
     .escape(),
-  body('productImg')
-    .optional()
-    .trim()
-    .notEmpty()
-    .exists({ checkFalsy: true })
-    .withMessage('Product image is required')
-    .isString()
-    .withMessage('Product image should be string'),
   body('productPrice')
     .optional()
     .trim()
@@ -94,6 +94,15 @@ const updateCycleValidation = [
     .withMessage('Product brand is required')
     .isString()
     .withMessage('Product brand should be string')
+    .escape(),
+  body('stock')
+    .optional()
+    .trim()
+    .notEmpty()
+    .exists({ checkFalsy: true })
+    .withMessage('Stock is required')
+    .isNumeric()
+    .withMessage('Stock should be number')
     .escape(),
   body('type')
     .optional()

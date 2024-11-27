@@ -20,7 +20,7 @@ const { env, jwtoken, salt_round } = require('../config/env');
 const ApiError = require('../error/ApiError');
 const sendResponse = require('../utils/send-response');
 const { ResponseStatus } = require('../enums');
-const { encrypt } = require('../utils/encrypt-decrypt');
+const { encrypt, decrypt } = require('../utils/encrypt-decrypt');
 const { catchAsyncHandler, jwtHelper } = require('../helper');
 
 class AuthController {
@@ -31,34 +31,32 @@ class AuthController {
    * @body {firstName: string, lastName: string, email: string, password: string, confirmPassword: string} - Request Body
    */
   static signUp = catchAsyncHandler(async (req, res) => {
-    const { firstName, lastName, email, password } = req.body;
-    const existUser = await findUser({ email });
+    const { ...payload } = req.body;
+    const existUser = await findUser({ email: payload.email });
 
     if (existUser) {
       throw new ApiError(httpStatus.CONFLICT, 'User already exists');
     }
 
-    const result = await userSignUpService({
-      firstName,
-      lastName,
-      email,
-      password
-    });
+    const result = await userSignUpService(payload);
 
     if (!result) {
       throw new ApiError(httpStatus.BAD_REQUEST, 'Sign-up failed!');
     }
 
-    const otp = await getEmailOtpService(result._id, result.email);
+    const {otp} = await getEmailOtpService(result._id, result.email);
 
     sendResponse(res, {
       success: true,
       statusCode: httpStatus.CREATED,
       status: ResponseStatus.SUCCESS,
       message: 'User created successfully!',
-      data: otp,
+      data: {
+        otp: decrypt(otp),
+        email: result.email
+      },
       links: {
-        login: '/auth/verify'
+        verify: '/auth/verify'
       }
     });
   });
@@ -85,15 +83,13 @@ class AuthController {
       throw new ApiError(httpStatus.CONFLICT, "Password doesn't match");
     }
 
-    if (!isExistUser.isVerified)
-      throw new ApiError(httpStatus.BAD_REQUEST, "User isn't verified!");
-
-    const { email, _id, role } = isExistUser;
+    const { email, _id, role, isVerified } = isExistUser;
 
     const data = {
       email,
       id: _id,
-      role
+      role,
+      isVerified
     };
 
     const { token, refresh_token } = await loginService(data);

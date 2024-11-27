@@ -6,18 +6,7 @@ const addressSchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
-  street: {
-    type: String,
-    required: true
-  },
   city: {
-    type: String,
-    required: true
-  },
-  state: {
-    type: String
-  },
-  postalCode: {
     type: String,
     required: true
   },
@@ -25,6 +14,22 @@ const addressSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  line1: {
+    type: String,
+    required: true
+  },
+  line2: {
+    type: String,
+    required: true
+  },
+  postal_code: {
+    type: String,
+    required: true
+  },
+  state: {
+    type: String
+  },
+
   createdAt: { type: Date, default: Date.now }
 });
 

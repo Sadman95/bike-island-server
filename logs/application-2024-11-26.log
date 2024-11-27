@@ -1,0 +1,454 @@
+2024-11-25T19:12:15.719Z info: GET /api/v2/services 304 1239ms
+2024-11-25T19:12:18.494Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 1927ms
+2024-11-25T19:12:19.674Z info: GET /api/v2/cycles? 304 5161ms
+2024-11-25T19:12:23.173Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 552ms
+2024-11-25T19:12:23.772Z info: GET /api/v2/reviews/pending 200 1121ms
+2024-11-25T19:12:43.723Z info: GET /api/v2/cycles/671d17382916251aba9ee0a0 304 306ms
+2024-11-25T19:12:44.531Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 757ms
+2024-11-25T19:12:45.524Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 507ms
+2024-11-25T19:12:45.546Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:12:46.020Z info: GET /api/v2/cycles?searchTerm=&productId=671d17382916251aba9ee0a0&type=Mountain 304 1107ms
+2024-11-25T19:12:47.227Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 540ms
+2024-11-25T19:12:47.252Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:12:49.907Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 516ms
+2024-11-25T19:12:50.085Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:12:54.469Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 512ms
+2024-11-25T19:12:54.483Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:14:18.582Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 508ms
+2024-11-25T19:14:18.913Z info: GET /api/v2/reviews/pending 304 824ms
+2024-11-25T19:14:30.417Z info: GET /api/v2/cycles/671d17382916251aba9ee0a0 304 265ms
+2024-11-25T19:14:30.426Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 269ms
+2024-11-25T19:14:33.440Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 502ms
+2024-11-25T19:14:33.449Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:14:33.922Z info: GET /api/v2/cycles?searchTerm=&productId=671d17382916251aba9ee0a0&type=Mountain 304 1004ms
+2024-11-25T19:14:36.417Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 764ms
+2024-11-25T19:14:36.668Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:14:39.202Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 514ms
+2024-11-25T19:14:39.209Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:14:43.747Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 502ms
+2024-11-25T19:14:43.749Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:15:03.224Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 579ms
+2024-11-25T19:15:03.343Z info: GET /api/v2/reviews/pending 304 748ms
+2024-11-25T19:15:06.347Z info: GET /api/v2/cycles/671d17382916251aba9ee0a0 304 252ms
+2024-11-25T19:15:07.170Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 522ms
+2024-11-25T19:15:07.309Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:15:07.762Z info: GET /api/v2/cycles?searchTerm=&productId=671d17382916251aba9ee0a0&type=Mountain 304 1347ms
+2024-11-25T19:15:09.490Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 494ms
+2024-11-25T19:15:09.506Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:15:12.077Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 532ms
+2024-11-25T19:15:12.111Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:15:16.627Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 514ms
+2024-11-25T19:15:16.725Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-25T19:17:04.915Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 502ms
+2024-11-25T19:17:05.180Z info: GET /api/v2/reviews/pending 304 761ms
+2024-11-25T19:17:58.246Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 254ms
+2024-11-25T19:18:03.069Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 730ms
+2024-11-25T19:18:03.145Z info: GET /api/v2/reviews/pending 304 804ms
+2024-11-25T19:21:05.733Z info: POST /api/v2/cycles 400 69ms
+2024-11-25T19:21:06.488Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T19:21:12.966Z info: POST /api/v2/auth/signup 201 7307ms
+2024-11-25T19:21:15.314Z info: POST /api/v2/auth/login 200 1156ms
+2024-11-25T19:21:38.204Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 410ms
+2024-11-25T19:21:41.618Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 658ms
+2024-11-25T19:21:42.269Z info: GET /api/v2/reviews/pending 304 1189ms
+2024-11-25T19:33:57.898Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 532ms
+2024-11-25T19:34:02.026Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 1421ms
+2024-11-25T19:34:03.730Z info: GET /api/v2/reviews/pending 304 2531ms
+2024-11-25T19:34:37.267Z info: POST /api/v2/cycles 400 49ms
+2024-11-25T19:34:37.300Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T19:34:37.846Z info: GET /api/v2/cycles 404 223ms
+2024-11-25T19:34:37.854Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T19:34:42.291Z info: POST /api/v2/auth/signup 201 4859ms
+2024-11-25T19:34:43.556Z info: POST /api/v2/auth/login 200 519ms
+2024-11-25T19:41:04.688Z info: POST /api/v2/auth/signup 201 4405ms
+2024-11-25T19:41:06.126Z info: POST /api/v2/auth/login 200 552ms
+2024-11-25T19:41:35.156Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 921ms
+2024-11-25T19:41:38.108Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 721ms
+2024-11-25T19:41:38.824Z info: GET /api/v2/reviews/pending 304 1230ms
+2024-11-25T19:42:30.832Z info: POST /api/v2/cycles 400 48ms
+2024-11-25T19:42:30.859Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T19:42:31.317Z info: GET /api/v2/cycles 404 188ms
+2024-11-25T19:42:31.325Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T19:43:16.806Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 949ms
+2024-11-25T19:43:19.885Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 680ms
+2024-11-25T19:43:20.253Z info: GET /api/v2/reviews/pending 304 872ms
+2024-11-25T19:43:30.420Z info: POST /api/v2/cycles 400 122ms
+2024-11-25T19:43:30.590Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T19:43:31.090Z info: GET /api/v2/cycles 404 166ms
+2024-11-25T19:43:31.097Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T19:43:34.471Z info: POST /api/v2/auth/signup 201 4285ms
+2024-11-25T19:43:35.727Z info: POST /api/v2/auth/login 200 500ms
+2024-11-25T19:45:35.123Z info: POST /api/v2/cycles 400 50ms
+2024-11-25T19:45:35.164Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T19:45:35.596Z info: GET /api/v2/cycles 404 220ms
+2024-11-25T19:45:35.602Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T19:45:39.098Z info: POST /api/v2/auth/signup 201 3953ms
+2024-11-25T19:45:40.230Z info: POST /api/v2/auth/login 200 481ms
+2024-11-25T19:45:56.216Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 497ms
+2024-11-25T19:45:59.620Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 529ms
+2024-11-25T19:45:59.972Z info: GET /api/v2/reviews/pending 304 1058ms
+2024-11-25T19:46:33.894Z info: POST /api/v2/cycles 400 67ms
+2024-11-25T19:46:33.917Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T19:46:34.319Z info: GET /api/v2/cycles 404 149ms
+2024-11-25T19:46:34.325Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T19:46:38.274Z info: POST /api/v2/auth/signup 201 4672ms
+2024-11-25T19:46:39.964Z info: POST /api/v2/auth/login 200 650ms
+2024-11-25T19:51:42.639Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 544ms
+2024-11-25T19:51:45.896Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 651ms
+2024-11-25T19:51:46.359Z info: GET /api/v2/reviews/pending 200 1095ms
+2024-11-25T19:53:13.375Z info: POST /api/v2/cycles 400 36ms
+2024-11-25T19:53:13.406Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T19:53:13.844Z info: GET /api/v2/cycles 404 208ms
+2024-11-25T19:53:13.857Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T19:53:16.504Z info: POST /api/v2/auth/signup 201 3969ms
+2024-11-25T19:53:17.954Z info: POST /api/v2/auth/login 200 631ms
+2024-11-25T19:59:22.898Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 565ms
+2024-11-25T19:59:23.191Z info: GET /api/v2/reviews/pending 304 805ms
+2024-11-25T20:04:47.496Z info: GET /api/v2/reviews/pending 304 773ms
+2024-11-25T20:06:02.594Z info: GET /api/v2/reviews/pending 304 827ms
+2024-11-25T20:06:26.574Z info: GET /api/v2/reviews/pending 304 773ms
+2024-11-25T20:11:25.462Z info: GET /api/v2/reviews/pending 304 761ms
+2024-11-25T20:17:50.460Z info: GET /api/v2/reviews/pending 304 762ms
+2024-11-25T20:17:56.165Z info: GET /api/v2/reviews/pending 304 757ms
+2024-11-25T20:18:06.567Z info: GET /api/v2/reviews/pending 304 757ms
+2024-11-25T20:30:00.781Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 517ms
+2024-11-25T20:30:02.820Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 2002ms
+2024-11-25T20:30:05.253Z info: GET /api/v2/orders/67423880a6ca85c44be9ad64 304 509ms
+2024-11-25T20:30:09.137Z info: GET /api/v2/orders/67444dc53d8de45ff5ef15f2 200 502ms
+2024-11-25T20:47:44.173Z info: POST /api/v2/cycles 400 115ms
+2024-11-25T20:47:44.204Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T20:47:44.410Z info: GET /api/v2/cycles 404 70ms
+2024-11-25T20:47:44.417Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T20:47:48.130Z info: POST /api/v2/auth/signup 201 4150ms
+2024-11-25T20:47:49.277Z info: POST /api/v2/auth/login 200 390ms
+2024-11-25T20:48:28.323Z info: POST /api/v2/cycles 400 24ms
+2024-11-25T20:48:28.348Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-25T20:48:28.662Z info: GET /api/v2/cycles 404 118ms
+2024-11-25T20:48:28.669Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-25T20:48:31.478Z info: POST /api/v2/auth/signup 201 3648ms
+2024-11-25T20:48:32.388Z info: POST /api/v2/auth/login 200 405ms
+2024-11-25T20:49:21.329Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 326ms
+2024-11-25T20:49:29.745Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 295ms
+2024-11-25T20:50:02.794Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 266ms
+2024-11-25T20:50:52.394Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 265ms
+2024-11-25T20:51:04.192Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 261ms
+2024-11-25T20:51:08.438Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 262ms
+2024-11-25T20:51:20.153Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 264ms
+2024-11-25T20:52:05.704Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 314ms
+2024-11-25T20:52:08.286Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 278ms
+2024-11-25T20:52:11.136Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 264ms
+2024-11-25T20:52:37.798Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 262ms
+2024-11-25T20:52:44.817Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 265ms
+2024-11-25T20:52:55.196Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 264ms
+2024-11-25T20:54:55.144Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 288ms
+2024-11-25T20:55:20.887Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 258ms
+2024-11-25T20:55:24.040Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 259ms
+2024-11-25T20:59:10.355Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 261ms
+2024-11-26T04:29:46.825Z info: GET /api/v2/services 304 2081ms
+2024-11-26T04:29:48.508Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 376ms
+2024-11-26T04:29:49.056Z info: GET /api/v2/cycles? 304 3620ms
+2024-11-26T04:30:05.606Z info: GET /api/v2/address 200 540ms
+2024-11-26T04:40:17.875Z info: GET /api/v2/address 304 686ms
+2024-11-26T04:44:50.252Z info: GET /api/v2/address 304 307ms
+2024-11-26T04:51:04.670Z info: GET /api/v2/address 304 306ms
+2024-11-26T04:55:03.018Z info: GET /api/v2/address 304 308ms
+2024-11-26T04:55:11.746Z info: GET /api/v2/address 304 305ms
+2024-11-26T04:55:16.334Z info: GET /api/v2/address 304 302ms
+2024-11-26T04:55:27.052Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 361ms
+2024-11-26T04:55:30.186Z info: GET /api/v2/address 304 304ms
+2024-11-26T04:58:39.144Z info: GET /api/v2/address 304 306ms
+2024-11-26T06:26:03.543Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 800ms
+2024-11-26T06:30:24.198Z info: PATCH /api/v2/users/6741a8bd4d28c4ca0c39a5a6 201 603ms
+2024-11-26T06:31:17.623Z info: GET /api/v2/address 304 320ms
+2024-11-26T06:32:36.608Z info: GET /api/v2/address 304 328ms
+2024-11-26T06:35:10.642Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 200 370ms
+2024-11-26T06:44:24.278Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 378ms
+2024-11-26T06:45:46.745Z info: GET /api/v2/address 304 316ms
+2024-11-26T06:45:53.422Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 200 657ms
+2024-11-26T06:45:53.987Z info: GET /api/v2/reviews/pending 304 1202ms
+2024-11-26T06:46:02.570Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 648ms
+2024-11-26T06:46:03.358Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 726ms
+2024-11-26T06:56:17.822Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 372ms
+2024-11-26T06:57:53.340Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 451ms
+2024-11-26T06:59:22.140Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 314ms
+2024-11-26T06:59:24.051Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 346ms
+2024-11-26T07:02:05.853Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 667ms
+2024-11-26T07:46:18.136Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 2152ms
+2024-11-26T08:37:02.501Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 2888ms
+2024-11-26T08:37:21.789Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 322ms
+2024-11-26T08:45:12.581Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 340ms
+2024-11-26T08:45:19.577Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 444ms
+2024-11-26T08:46:38.274Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 319ms
+2024-11-26T08:50:41.724Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 314ms
+2024-11-26T09:00:02.040Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 312ms
+2024-11-26T09:00:43.142Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 316ms
+2024-11-26T09:04:35.399Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 307ms
+2024-11-26T09:06:51.369Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 311ms
+2024-11-26T09:08:01.500Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 310ms
+2024-11-26T09:08:10.172Z info: GET /api/v2/services 304 367ms
+2024-11-26T09:08:12.630Z info: GET /api/v2/cycles? 304 2751ms
+2024-11-26T09:08:22.046Z info: GET /api/v2/address 304 294ms
+2024-11-26T09:08:34.860Z info: GET /api/v2/address 304 301ms
+2024-11-26T09:08:37.845Z info: GET /api/v2/address 304 300ms
+2024-11-26T09:09:16.848Z info: GET /api/v2/address 304 307ms
+2024-11-26T09:09:45.380Z info: GET /api/v2/address 304 295ms
+2024-11-26T09:09:47.150Z info: GET /api/v2/address 304 310ms
+2024-11-26T09:11:10.165Z info: GET /api/v2/address 304 295ms
+2024-11-26T09:11:11.836Z info: GET /api/v2/address 304 294ms
+2024-11-26T09:11:30.597Z info: GET /api/v2/address 304 303ms
+2024-11-26T09:11:35.865Z info: GET /api/v2/address 304 308ms
+2024-11-26T09:11:52.497Z info: GET /api/v2/address 304 686ms
+2024-11-26T09:35:29.647Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 727ms
+2024-11-26T09:36:08.151Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 436ms
+2024-11-26T09:38:00.859Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 309ms
+2024-11-26T09:38:20.634Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 294ms
+2024-11-26T09:47:23.922Z info: GET /api/v2/address 304 313ms
+2024-11-26T09:47:29.175Z info: GET /api/v2/address 304 303ms
+2024-11-26T09:47:54.233Z info: GET /api/v2/services 304 296ms
+2024-11-26T09:47:55.269Z info: GET /api/v2/cycles? 304 1325ms
+2024-11-26T09:48:04.634Z info: GET /api/v2/cycles/67155c135c041208ea7f31ce 200 323ms
+2024-11-26T09:48:05.462Z info: GET /api/v2/reviews/67155c135c041208ea7f31ce? 404 594ms
+2024-11-26T09:48:05.464Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:06.130Z info: GET /api/v2/cycles?searchTerm=&productId=67155c135c041208ea7f31ce&type=Gear 404 1273ms
+2024-11-26T09:48:06.133Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:82:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:07.146Z info: GET /api/v2/reviews/67155c135c041208ea7f31ce? 404 665ms
+2024-11-26T09:48:07.149Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:08.555Z info: GET /api/v2/cycles?searchTerm=&productId=67155c135c041208ea7f31ce&type=Gear 404 1390ms
+2024-11-26T09:48:08.560Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:82:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:09.883Z info: GET /api/v2/reviews/67155c135c041208ea7f31ce? 404 654ms
+2024-11-26T09:48:09.885Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:11.906Z info: GET /api/v2/cycles?searchTerm=&productId=67155c135c041208ea7f31ce&type=Gear 404 1315ms
+2024-11-26T09:48:11.909Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:82:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:14.563Z info: GET /api/v2/reviews/67155c135c041208ea7f31ce? 404 630ms
+2024-11-26T09:48:14.568Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:17.247Z info: GET /api/v2/cycles?searchTerm=&productId=67155c135c041208ea7f31ce&type=Gear 404 1309ms
+2024-11-26T09:48:17.254Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":"Error: No cycles found\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\cycle.controller.js:82:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T09:48:38.070Z info: GET /api/v2/services 304 333ms
+2024-11-26T09:48:38.936Z info: GET /api/v2/cycles? 304 1196ms
+2024-11-26T09:49:55.206Z info: POST /api/v2/payment/create-intent 200 728ms
+2024-11-26T09:49:58.677Z info: POST /api/v2/orders 201 1418ms
+2024-11-26T09:49:59.801Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 200 636ms
+2024-11-26T09:50:00.514Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 675ms
+2024-11-26T09:50:06.617Z info: GET /api/v2/orders/674599c6f23f9fb3cb1e6525 200 653ms
+2024-11-26T09:50:32.618Z info: GET /api/v2/orders/674599c6f23f9fb3cb1e6525 304 660ms
+2024-11-26T09:58:02.331Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 397ms
+2024-11-26T09:58:04.456Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 667ms
+2024-11-26T09:58:05.151Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 650ms
+2024-11-26T09:58:20.224Z info: GET /api/v2/orders/674599c6f23f9fb3cb1e6525 304 657ms
+2024-11-26T10:00:42.255Z info: GET /api/v2/orders/674599c6f23f9fb3cb1e6525 304 661ms
+2024-11-26T10:01:22.205Z info: PUT /api/v2/orders/674599c6f23f9fb3cb1e6525 200 370ms
+2024-11-26T10:01:23.484Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 200 641ms
+2024-11-26T10:01:24.449Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 707ms
+2024-11-26T10:01:24.478Z info: GET /api/v2/orders/674599c6f23f9fb3cb1e6525 200 2197ms
+2024-11-26T10:06:37.813Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 811ms
+2024-11-26T10:06:40.030Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 657ms
+2024-11-26T10:06:41.100Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 912ms
+2024-11-26T10:15:51.648Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 1007ms
+2024-11-26T10:15:53.262Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 1132ms
+2024-11-26T10:15:53.645Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 602ms
+2024-11-26T10:15:54.304Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 1037ms
+2024-11-26T10:16:22.015Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 545ms
+2024-11-26T10:16:22.688Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 1105ms
+2024-11-26T10:16:23.737Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 927ms
+2024-11-26T10:16:56.132Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 574ms
+2024-11-26T10:42:09.478Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 2084ms
+2024-11-26T10:42:27.929Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 285ms
+2024-11-26T10:42:45.251Z info: GET /api/v2/services 304 375ms
+2024-11-26T10:42:47.249Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 2094ms
+2024-11-26T10:42:47.888Z info: GET /api/v2/cycles? 304 3001ms
+2024-11-26T10:53:10.822Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 597ms
+2024-11-26T10:53:11.461Z info: GET /api/v2/orders/self?user=6741a8bd4d28c4ca0c39a5a6&sortBy=createdAt&sortOrder=asc 304 593ms
+2024-11-26T10:57:55.857Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 300ms
+2024-11-26T10:57:56.153Z info: GET /api/v2/orders/self?status=canceled 200 599ms
+2024-11-26T10:58:53.706Z info: GET /api/v2/orders/self?status=canceled 304 608ms
+2024-11-26T10:59:02.087Z info: GET /api/v2/orders/self?status=canceled 304 596ms
+2024-11-26T10:59:55.245Z info: GET /api/v2/orders/self?status=canceled 304 606ms
+2024-11-26T11:00:41.556Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 300ms
+2024-11-26T11:00:41.924Z info: GET /api/v2/orders/self?status=canceled 304 673ms
+2024-11-26T11:02:35.400Z info: GET /api/v2/orders/self?status=canceled 304 597ms
+2024-11-26T11:10:47.074Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 632ms
+2024-11-26T11:10:47.338Z info: GET /api/v2/reviews/pending 304 889ms
+2024-11-26T11:10:49.316Z info: GET /api/v2/orders/self?status=canceled 304 592ms
+2024-11-26T11:10:57.608Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 602ms
+2024-11-26T11:10:57.871Z info: GET /api/v2/reviews/pending 304 860ms
+2024-11-26T11:11:12.366Z info: GET /api/v2/orders/self?status=canceled 304 575ms
+2024-11-26T11:14:00.263Z info: GET /api/v2/orders/self?status=canceled 304 614ms
+2024-11-26T11:16:35.777Z info: GET /api/v2/orders/self?status=canceled 304 599ms
+2024-11-26T11:17:02.018Z info: GET /api/v2/orders/self?status=canceled 304 586ms
+2024-11-26T11:19:56.331Z info: GET /api/v2/orders/self?status=canceled 304 595ms
+2024-11-26T11:19:59.303Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 608ms
+2024-11-26T11:19:59.570Z info: GET /api/v2/reviews/pending 304 865ms
+2024-11-26T11:20:00.790Z info: GET /api/v2/orders/self?status=canceled 304 584ms
+2024-11-26T11:37:32.605Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 2668ms
+2024-11-26T11:37:34.803Z info: GET /api/v2/orders/self?status=canceled 304 2410ms
+2024-11-26T11:40:28.830Z info: GET /api/v2/orders/self?status=canceled 304 589ms
+2024-11-26T11:46:17.890Z info: GET /api/v2/orders/self?status=canceled 304 599ms
+2024-11-26T11:46:20.642Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 589ms
+2024-11-26T11:46:20.991Z info: GET /api/v2/reviews/pending 304 932ms
+2024-11-26T11:46:22.668Z info: GET /api/v2/orders/self?status=canceled 304 580ms
+2024-11-26T11:46:29.142Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 291ms
+2024-11-26T11:46:31.390Z info: GET /api/v2/orders/self?status=canceled 304 615ms
+2024-11-26T11:52:26.492Z info: GET /api/v2/orders/self?status=canceled 304 619ms
+2024-11-26T11:53:11.557Z info: GET /api/v2/orders/self?status=canceled 304 592ms
+2024-11-26T11:54:16.276Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 341ms
+2024-11-26T11:54:18.493Z info: GET /api/v2/orders/self?status=canceled 304 2564ms
+2024-11-26T11:56:06.979Z info: GET /api/v2/orders/self?status=canceled 304 625ms
+2024-11-26T11:57:05.364Z info: GET /api/v2/orders/self?status=canceled 304 1798ms
+2024-11-26T11:57:45.107Z info: GET /api/v2/orders/self?status=canceled 304 1023ms
+2024-11-26T11:58:21.623Z info: GET /api/v2/orders/self?status=canceled 304 592ms
+2024-11-26T11:58:36.174Z info: GET /api/v2/orders/self?status=canceled 304 624ms
+2024-11-26T11:58:41.435Z info: GET /api/v2/orders/self?status=canceled 304 798ms
+2024-11-26T11:58:52.035Z info: GET /api/v2/orders/self?status=canceled 304 680ms
+2024-11-26T11:59:11.965Z info: GET /api/v2/orders/self?status=canceled 304 576ms
+2024-11-26T11:59:31.875Z info: GET /api/v2/orders/self?status=canceled 304 586ms
+2024-11-26T11:59:58.944Z info: GET /api/v2/orders/self?status=canceled 304 589ms
+2024-11-26T12:01:29.360Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 586ms
+2024-11-26T12:01:29.642Z info: GET /api/v2/reviews/pending 304 862ms
+2024-11-26T12:01:35.578Z info: GET /api/v2/cycles/671d17382916251aba9ee0a0 304 310ms
+2024-11-26T12:01:36.377Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 580ms
+2024-11-26T12:01:36.379Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:01:36.918Z info: GET /api/v2/cycles?searchTerm=&productId=671d17382916251aba9ee0a0&type=Mountain 304 1138ms
+2024-11-26T12:01:38.020Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 592ms
+2024-11-26T12:01:38.022Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:01:40.757Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 713ms
+2024-11-26T12:01:40.760Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:01:45.386Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 597ms
+2024-11-26T12:01:45.388Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:02:04.873Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 645ms
+2024-11-26T12:02:05.207Z info: GET /api/v2/reviews/pending 304 974ms
+2024-11-26T12:03:03.076Z info: GET /api/v2/reviews/pending 304 1494ms
+2024-11-26T12:05:50.428Z info: GET /api/v2/cycles/671d17382916251aba9ee0a0 304 294ms
+2024-11-26T12:05:50.953Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 584ms
+2024-11-26T12:05:50.956Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:05:51.516Z info: GET /api/v2/cycles?searchTerm=&productId=671d17382916251aba9ee0a0&type=Mountain 304 1165ms
+2024-11-26T12:05:52.558Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 570ms
+2024-11-26T12:05:52.565Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:05:55.159Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 576ms
+2024-11-26T12:05:55.162Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:05:59.903Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 571ms
+2024-11-26T12:05:59.906Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:06:43.602Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 576ms
+2024-11-26T12:06:43.603Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:06:45.234Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 608ms
+2024-11-26T12:06:45.236Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:06:47.876Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 615ms
+2024-11-26T12:06:47.879Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:06:52.484Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 571ms
+2024-11-26T12:06:52.486Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:07:07.437Z info: GET /api/v2/cycles/671d17382916251aba9ee0a0 304 298ms
+2024-11-26T12:07:07.456Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 304 302ms
+2024-11-26T12:07:09.395Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 619ms
+2024-11-26T12:07:09.405Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:07:09.991Z info: GET /api/v2/cycles?searchTerm=&productId=671d17382916251aba9ee0a0&type=Mountain 304 1222ms
+2024-11-26T12:07:11.656Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 1199ms
+2024-11-26T12:07:11.658Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:07:14.486Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 668ms
+2024-11-26T12:07:14.488Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:07:19.087Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 578ms
+2024-11-26T12:07:19.088Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:27.134Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 593ms
+2024-11-26T12:12:27.139Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:28.728Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 575ms
+2024-11-26T12:12:28.730Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:31.330Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 580ms
+2024-11-26T12:12:31.337Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:35.957Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 593ms
+2024-11-26T12:12:35.959Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:45.613Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 573ms
+2024-11-26T12:12:45.620Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:47.216Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 580ms
+2024-11-26T12:12:47.218Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:54.084Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 582ms
+2024-11-26T12:12:54.089Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:12:59.644Z info: GET /api/v2/reviews?user=6741a8bd4d28c4ca0c39a5a6 304 655ms
+2024-11-26T12:12:59.953Z info: GET /api/v2/reviews/pending 304 958ms
+2024-11-26T12:13:07.139Z info: GET /api/v2/cycles/671d17382916251aba9ee0a0 304 369ms
+2024-11-26T12:13:07.763Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 590ms
+2024-11-26T12:13:07.764Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:13:08.316Z info: GET /api/v2/cycles?searchTerm=&productId=671d17382916251aba9ee0a0&type=Mountain 304 1160ms
+2024-11-26T12:13:09.353Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 568ms
+2024-11-26T12:13:09.355Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:13:11.965Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 582ms
+2024-11-26T12:13:11.966Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:13:16.585Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 587ms
+2024-11-26T12:13:16.589Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:11.221Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 591ms
+2024-11-26T12:14:11.226Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:12.842Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 585ms
+2024-11-26T12:14:12.859Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:15.556Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 654ms
+2024-11-26T12:14:15.586Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:20.272Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 668ms
+2024-11-26T12:14:20.277Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:24.724Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 592ms
+2024-11-26T12:14:24.726Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:26.355Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 590ms
+2024-11-26T12:14:26.358Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:28.954Z info: GET /api/v2/reviews/671d17382916251aba9ee0a0? 404 581ms
+2024-11-26T12:14:28.956Z error: {"success":false,"statusCode":404,"message":"Reviews not found!","errorMessages":[{"path":"","message":"Reviews not found!"}],"status":"failed","stack":"Error: Reviews not found!\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\controllers\\review.controller.js:48:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\helper\\index.js:47:9"}
+2024-11-26T12:14:31.156Z info: GET /api/v2/services 304 295ms
+2024-11-26T12:14:32.036Z info: GET /api/v2/cycles? 304 1166ms
+2024-11-26T12:14:43.202Z info: GET /api/v2/services 304 291ms
+2024-11-26T12:14:44.199Z info: GET /api/v2/cycles? 304 1283ms
+2024-11-26T12:26:02.286Z info: GET /api/v2/cycles? 304 1243ms
+2024-11-26T12:26:18.661Z info: GET /api/v2/cycles? 304 1204ms
+2024-11-26T12:29:35.449Z info: GET /api/v2/cycles?searchTerm= 200 1240ms
+2024-11-26T12:29:48.884Z info: GET /api/v2/cycles?searchTerm=&type=Road 200 1161ms
+2024-11-26T12:30:58.561Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 218ms
+2024-11-26T12:30:58.711Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:30:59.916Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 1ms
+2024-11-26T12:30:59.926Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:31:00.102Z info: GET /api/v2/cycles?searchTerm= 304 1816ms
+2024-11-26T12:31:02.208Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 1ms
+2024-11-26T12:31:02.269Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:31:06.242Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 1ms
+2024-11-26T12:31:06.254Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:31:42.145Z info: GET /api/v2/cycles?searchTerm=&type=Road 304 1186ms
+2024-11-26T12:38:41.738Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 7ms
+2024-11-26T12:38:42.092Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:38:42.879Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 1ms
+2024-11-26T12:38:42.890Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:38:43.128Z info: GET /api/v2/cycles?searchTerm= 304 1995ms
+2024-11-26T12:38:45.365Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 1ms
+2024-11-26T12:38:45.374Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:38:49.412Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 2ms
+2024-11-26T12:38:49.417Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T12:39:13.931Z info: GET /api/v2/cycles?searchTerm=&type=Mountain 200 1255ms
+2024-11-26T12:39:25.740Z info: POST /api/v2/cycles 400 83ms
+2024-11-26T12:39:26.037Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-26T12:39:26.395Z info: GET /api/v2/cycles 404 99ms
+2024-11-26T12:39:26.422Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-26T12:39:30.497Z info: POST /api/v2/auth/signup 201 4843ms
+2024-11-26T12:39:30.750Z info: GET /api/v2/cycles?searchTerm=&type=Gear 200 1295ms
+2024-11-26T12:39:33.131Z info: POST /api/v2/auth/login 200 662ms
+2024-11-26T12:39:35.022Z info: GET /api/v2/cycles?searchTerm=&type=Road 200 1278ms
+2024-11-26T12:39:42.332Z info: GET /api/v2/cycles?searchTerm=&type=Gear 304 1248ms
+2024-11-26T12:39:44.689Z info: GET /api/v2/cycles?searchTerm=&type=Mountain 304 1216ms
+2024-11-26T12:40:06.158Z info: GET /api/v2/cycles?searchTerm=&type=Mountain&sortBy=productPrice&sortOrder=asc 200 1235ms
+2024-11-26T12:40:21.255Z info: GET /api/v2/services 304 361ms
+2024-11-26T12:40:22.184Z info: GET /api/v2/cycles? 304 1286ms
+2024-11-26T12:49:30.707Z info: GET /api/v2/cycles?searchTerm= 304 1206ms
+2024-11-26T12:51:52.702Z info: POST /api/v2/auth/refresh 400 11ms
+2024-11-26T12:51:52.706Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","msg":"Refresh token is required","path":"refresh_token","location":"cookies","message":"Refresh token is required"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:12:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2024-11-26T12:51:52.805Z info: POST /api/v2/auth/refresh 400 47ms
+2024-11-26T12:51:52.830Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","msg":"Refresh token is required","path":"refresh_token","location":"cookies","message":"Refresh token is required"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:12:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2024-11-26T12:51:53.029Z info: POST /api/v2/auth/refresh 400 21ms
+2024-11-26T12:51:53.056Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","msg":"Refresh token is required","path":"refresh_token","location":"cookies","message":"Refresh token is required"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:12:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2024-11-26T12:51:53.089Z info: POST /api/v2/auth/refresh 400 6ms
+2024-11-26T12:51:53.188Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","msg":"Refresh token is required","path":"refresh_token","location":"cookies","message":"Refresh token is required"}],"status":"failed","stack":"ValidationError: Something went wrong! Try again later.\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-request.js:12:23\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+2024-11-26T12:54:59.056Z info: POST /api/v2/cycles 400 60ms
+2024-11-26T12:54:59.111Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-26T12:54:59.539Z info: GET /api/v2/cycles 404 227ms
+2024-11-26T12:54:59.547Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-26T12:55:04.203Z info: POST /api/v2/auth/signup 201 4730ms
+2024-11-26T12:55:05.053Z info: POST /api/v2/auth/login 200 390ms
+2024-11-26T12:55:31.086Z info: POST /api/v2/cycles 400 54ms
+2024-11-26T12:55:31.135Z error: {"success":false,"statusCode":400,"message":"Something went wrong! Try again later.","errorMessages":[{"type":"field","value":"","msg":"Invalid value","path":"stock","location":"body","message":"Invalid value"},{"type":"field","value":"","msg":"Stock is required","path":"stock","location":"body","message":"Stock is required"},{"type":"field","value":"","msg":"Stock should be number","path":"stock","location":"body","message":"Stock should be number"}],"status":"failed","stack":{}}
+2024-11-26T12:55:31.614Z info: GET /api/v2/cycles 404 254ms
+2024-11-26T12:55:31.620Z error: {"success":false,"statusCode":404,"message":"No cycles found","errorMessages":[{"path":"","message":"No cycles found"}],"status":"failed","stack":{}}
+2024-11-26T12:55:36.044Z info: POST /api/v2/auth/signup 201 4764ms
+2024-11-26T12:55:37.351Z info: POST /api/v2/auth/login 200 401ms
+2024-11-26T13:02:27.409Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 17ms
+2024-11-26T13:02:27.656Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}
+2024-11-26T13:02:28.410Z info: GET /api/v2/users/6741a8bd4d28c4ca0c39a5a6 401 1ms
+2024-11-26T13:02:28.474Z error: {"success":false,"statusCode":401,"message":"Unauthorized access!","errorMessages":[{"path":"","message":"Unauthorized access!"}],"status":"failed","stack":"Error: Unauthorized access!\n    at authenticate (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\src\\middlewares\\validate-user.js:17:13)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\Complete Web Development with Jhankar Mahbub Vai\\Node\\MongoDB\\bike-island-server\\node_modules\\express\\lib\\router\\index.js:328:13)"}

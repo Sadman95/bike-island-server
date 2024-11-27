@@ -6,12 +6,6 @@ const createReviewValidation = [
     .withMessage('Product ID is required')
     .isMongoId()
     .withMessage('Invalid Product ID'),
-  // Validate user ID
-  body('user')
-    .notEmpty()
-    .withMessage('User ID is required')
-    .isMongoId()
-    .withMessage('Invalid User ID'),
 
   // Validate rating
   body('rating')

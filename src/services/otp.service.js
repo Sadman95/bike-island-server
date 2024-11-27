@@ -11,7 +11,14 @@ class OtpService{
  * @returns {Promise<Document>}
  */
 static async findOtp (filter) {
-  const otp = await OTP.findOne(filter).lean()
+  const otp = await OTP.findOne(filter)
+    .populate([
+      {
+        path: 'userId',
+        select: 'email',       
+      }
+    ])
+    .lean();
   return otp
 }
 

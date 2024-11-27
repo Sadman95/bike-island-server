@@ -12,7 +12,6 @@ const { findUser } = require('../services/user.service');
  */
 const authenticate = async (req, res, next) => {
   const token = req.headers.authorization?.split(' ')[1];
-
   try {
     if (!token) {
       throw new ApiError(httpStatus.UNAUTHORIZED, 'Unauthorized access!');
@@ -22,6 +21,7 @@ const authenticate = async (req, res, next) => {
     if (!decodedToken) {
       throw new ApiError(httpStatus.BAD_REQUEST, 'Token is invalidated!');
     }
+
 
     req.user = decodedToken;
     next();
@@ -43,11 +43,10 @@ const authenticate_roles = (...roles) => {
       }
 
       // Check if the user role matches one of the allowed roles
-      if (
-        !roles
-          .map((role) => role.toLowerCase())
-          .includes(req.user.role.toLowerCase())
-      ) {
+      const isValidRole = roles
+        .map((role) => role.toLowerCase())
+        .some((r) => r == req.user.role.toLowerCase());
+      if (!isValidRole) {
         throw new ApiError(httpStatus.FORBIDDEN, 'Access denied!');
       }
 
@@ -64,31 +63,19 @@ const authenticate_roles = (...roles) => {
  * @param {Response} res
  * @param {NextFunction} next
  */
-const isVerified = (req, res, next) => {
-  authenticate(
-    req,
-    res,
-    async () => {
-      try {
-        if (!req.user) {
-          throw new ApiError(httpStatus.UNAUTHORIZED, 'Unauthorized access!');
-        }
+const isVerified = async (req, res, next) => {
+  try {
+    const existUser = await findUser({ _id: req.user.id });
 
-        const existUser = await findUser({ _id: req.user.id });
-
-        if (!existUser || !existUser.isVerified) {
-          throw new ApiError(
-            httpStatus.NOT_ACCEPTABLE,
-            'User is not verified!'
-          );
-        }
-        next();
-      } catch (error) {
-        next(error);
-      }
+    if (!existUser.isVerified) {
+      throw new ApiError(httpStatus.NOT_ACCEPTABLE, 'User is not verified!');
     }
-  );
+    next();
+  } catch (error) {
+    next(error);
+  }
 };
+
 
 module.exports = {
   authenticate,

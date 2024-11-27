@@ -13,7 +13,7 @@ const validateRequest = (validations) => {
         error.statusCode = httpStatus.BAD_REQUEST;
         error.name = 'ValidationError';
         error.message = 'Something went wrong! Try again later.';
-        error.errorMessages = result.array();
+        error.errorMessages = result.array().map(e => ({...e, message: e.msg}));
         if (req.file) {
           const filePath = path.join(
             __dirname,

@@ -31,11 +31,6 @@ const updateUserValidation = [
     .isMobilePhone()
     .withMessage('Please provide a valid contact number'),
 
-  body('avatar')
-    .optional()
-    .isURL()
-    .withMessage('Avatar must be a valid URL')
-    .default(`${server.baseURL}/images/avatar/demo-Male.png`)
 ];
 
 module.exports = {

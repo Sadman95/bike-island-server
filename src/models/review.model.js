@@ -26,16 +26,24 @@ const reviewSchema = new mongoose.Schema({
     min: 1,
     max: 5
   },
+  likes: {
+    type: Number,
+    required: true,
+    default: 0
+  },
   comment: {
     type: String,
     required: true,
     minlength: 10,
     maxlength: 500
   },
-  createdAt: {
-    type: Date,
-    default: Date.now
-  }
+  reviewImages: {
+    type: [String],
+    max: 5
+  },
+
+}, {
+  timestamps: true
 });
 
 // Add indexes for performance

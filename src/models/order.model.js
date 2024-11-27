@@ -9,36 +9,46 @@ const { ORDER_STAT } = require('../enums');
  * @property {string} totalAmount - Total amount of a order
  * @property {number} status - Order status
  */
-const orderSchema = new mongoose.Schema({
-  user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
-    required: true
-  },
-  items: [
-    {
-      product: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Cycle',
-        required: true
-      },
-      quantity: { type: Number, required: true },
-      price: { type: Number, required: true }
+const orderSchema = new mongoose.Schema(
+  {
+    paymentId: {
+      type: String
+    },
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: true
+    },
+    items: [
+      {
+        product: {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: 'Cycle',
+          required: true
+        },
+        quantity: { type: Number, required: true },
+        price: { type: Number, required: true }
+      }
+    ],
+    totalAmount: { type: Number, required: true },
+    status: {
+      type: String,
+      enum: ORDER_STATUS,
+      default: ORDER_STAT.PENDING
+    },
+    createdAt: { type: Date, default: Date.now },
+    address: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Address',
+      required: true
     }
-  ],
-  totalAmount: { type: Number, required: true },
-  status: {
-    type: String,
-    enum: ORDER_STATUS,
-    default: ORDER_STAT.PENDING
   },
-  createdAt: { type: Date, default: Date.now },
-  address: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Address',
-    required: true
+  {
+    toJSON: {
+      virtuals: true
+    }
   }
-});
+);
 
 const Order = mongoose.model('Order', orderSchema);
 

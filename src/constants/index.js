@@ -6,17 +6,25 @@ const STACKHOLDERS = ['admin', 'user']
 
 const ORDER_STATUS = ['pending', 'approved', 'canceled']
 
-const CYCLE_FILTERABLE_FILEDS = ['productPrice', 'type', 'createdAt', 'searchTerm'];
+const CYCLE_FILTERABLE_FILEDS = ['productPrice', 'type', 'createdAt', 'searchTerm', '_id'];
 
-const USER_FILTERABLE_FILEDS = ['createdAt', 'isVerified', 'firstName', 'lastName', 'searchTerm'];
+const USER_FILTERABLE_FILEDS = ['createdAt', 'isVerified', 'firstName', 'lastName', 'isTeamMember','searchTerm'];
 
-const CYCLE_SEARCHABLE_FIELDS = ['productTitle', 'productDesc'];
+const CYCLE_SEARCHABLE_FIELDS = ['productTitle', 'productDesc', 'brand', 'type'];
 
 const USER_SEARCHABLE_FIELDS = ['firstName', 'lastName', 'email'];
 
 const ORDER_FILTERABLE_FILEDS = ['status', 'totalNumber', 'searchTerm']
 
-const ORDER_SEARCHABLE_FIELDS = ['user.email', 'product.productTitle', 'product.productDesc']
+const ORDER_SEARCHABLE_FIELDS = [
+  '_id',
+  'user',
+  'paymentId',
+  'status'
+];
+
+const REVIEW_FILTERABLE_FILEDS = ['rating', 'createdAt', 'user', 'searchTerm']
+const REVIEW_SEARCHABLE_FILEDS = ['rating', 'user']
 
 /**
  * @type {Record<string, string>}
@@ -116,5 +124,7 @@ module.exports = {
   USER_SEARCHABLE_FIELDS,
   ORDER_FILTERABLE_FILEDS,
   ORDER_SEARCHABLE_FIELDS,
+  REVIEW_FILTERABLE_FILEDS,
+  REVIEW_SEARCHABLE_FILEDS,
   PRICE_RANGE
 };

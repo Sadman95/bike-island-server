@@ -1,3 +1,9 @@
+/* 
+TODO:get-user-address
+*/
+
+
+
 const Address = require('../models/address.model');
 
 /**
@@ -22,6 +28,15 @@ class AddressService {
     const address = new Address(payload);
 
     return await address.save();
+  };
+
+  /**
+   * get user addresses
+  */
+  static getAddressService = async (userId) => {
+    const address = await Address.find({user: userId});
+
+    return address;
   };
 }
 

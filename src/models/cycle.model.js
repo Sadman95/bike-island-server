@@ -22,12 +22,12 @@ const cycleSchema = new mongoose.Schema({
   //   required: true
   // },
   type: { type: String, required: true },
+  stock: { type: Number, required: true },
   productImg: { type: String, required: true },
   productPrice: { type: Number, required: true },
-  createdAt: {
-    type: Date,
-    default: Date.now
-  }
+  
+}, {
+  timestamps: true
 });
 
 const CycleModel = mongoose.model('Cycle', cycleSchema);

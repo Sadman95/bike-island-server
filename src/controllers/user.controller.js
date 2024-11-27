@@ -9,7 +9,16 @@ const { catchAsyncHandler, pick, queryHelper } = require('../helper');
 
 const sendResponse = require('../utils/send-response');
 const { ResponseStatus } = require('../enums');
-const { findUsers, getUsers, findUser, deleteUserByIdService, deleteBulkUsersByIdService, userUpdateService } = require('../services/user.service');
+const {
+  findUsers,
+  getUsers,
+  findUser,
+  deleteUserByIdService,
+  deleteBulkUsersByIdService,
+  userUpdateService,
+  getCustomers,
+  findCustomer
+} = require('../services/user.service');
 
 /**
  * @class UserController
@@ -38,7 +47,11 @@ class UserController {
     };
     const { pagination, links, ...restOptions } = queryHelper(options);
 
-    const users = await getUsers(restOptions);
+    /* GET ALL USERS SERVICE */
+    // const users = await getUsers(restOptions);
+
+    /* GET ALL CUSTOMERS SERVICE */
+    const users = await getCustomers(restOptions);
 
     if (users.length === 0)
       throw new ApiError(httpStatus.NOT_FOUND, 'No users found');
@@ -48,7 +61,8 @@ class UserController {
       status: ResponseStatus.SUCCESS,
       data: users,
       meta: {
-        pagination
+        pagination,
+        total: totalUsers.length
       },
       links
     });
@@ -62,7 +76,21 @@ class UserController {
    */
   static getUserById = catchAsyncHandler(async (req, res) => {
     const { id } = req.params;
-    const user = await findUser({_id: id});
+
+    /* 
+    GET USER
+    =========
+     */
+    const user = await findUser({ _id: id });
+
+    /* 
+    GET CUSTOEMR
+    ============
+     */
+    // const user = await findCustomer({_id: id});
+
+    if (!user) throw new ApiError(httpStatus.NOT_FOUND, 'User not found!');
+
     sendResponse(res, {
       success: true,
       statusCode: httpStatus.OK,
@@ -79,7 +107,7 @@ class UserController {
   static deleteUserById = catchAsyncHandler(async (req, res) => {
     const { id } = req.params;
     const user = await deleteUserByIdService(id);
-    if(!user) throw new ApiError(httpStatus.NOT_FOUND, "Item not found!")
+    if (!user) throw new ApiError(httpStatus.NOT_FOUND, 'Failed to delete!');
     sendResponse(res, {
       success: true,
       statusCode: httpStatus.OK,
@@ -105,25 +133,6 @@ class UserController {
   });
 
   /**
-   * !future_impl
-   * Add a new user
-   * @param {Request} req - Express request object
-   * @param {Response} res - Express response object
-   * @returns {Promise<void>} - Returns the new user
-   */
-  // static createUser = catchAsyncHandler(async (req, res) => {
-  //   const user = await createUserService(req.body);
-
-  //   sendResponse(res, {
-  //     success: true,
-  //     statusCode: httpStatus.CREATED,
-  //     status: ResponseStatus.SUCCESS,
-  //     data: user,
-  //     message: 'New user added!'
-  //   });
-  // });
-
-  /**
    * update a user
    * @param {Request} req - Express request object
    * @param {Response} res - Express response object
@@ -132,7 +141,13 @@ class UserController {
   static updateteUser = catchAsyncHandler(async (req, res) => {
     const { id } = req.params;
 
-    if(id !== req.user.id) throw new ApiError(httpStatus.CONFLICT, "User id not matched!")
+    if (req.file) {
+      // req.body.productImg = fileToUrl(req);
+      req.body.avatar = req.file.fieldname + '/' + req.file.filename;
+    }
+
+    if (id !== req.user.id)
+      throw new ApiError(httpStatus.CONFLICT, 'User id not matched!');
 
     const user = await userUpdateService(id, req.body);
 

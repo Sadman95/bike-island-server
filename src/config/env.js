@@ -35,7 +35,7 @@ module.exports = {
     port: process.env.PORT,
     test_port: process.env.TEST_PORT,
     baseURL: process.env.BASE_URL,
-    ciBaseUrl: process.env.CI_BASE_URL
+    ciBaseUrl: process.env.CI_BASE_URL,
   },
   auth0: {
     issuerBaseURL: process.env.AUTH0_ISSUER_BASE_URL,
@@ -46,6 +46,9 @@ module.exports = {
   google: {
     client_id: process.env.GOOGLE_CLIENT_ID,
     client_secret: process.env.GOOGLE_CLIENT_SECRET
+  },
+  stripeKeys: {
+    secret: process.env.STRIPE_SECRET_KEY
   },
   client_url:
     process.env.NODE_ENV == 'development'

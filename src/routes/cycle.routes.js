@@ -55,10 +55,11 @@ router
     validateRequest(bulkItemsIdValidation),
     deleteBulkCyclesById
   )
-  .put(
+  .patch(
     '/:id',
     authenticate,
     authenticate_roles(STACKHOLDER.ADMIN),
+    upload.single('productImg'),
     validateRequest(updateCycleValidation),
     updateteCycle
   );

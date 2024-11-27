@@ -3,7 +3,6 @@ const {
   PAGINATION,
   CYCLE_FILTERABLE_FILEDS,
   CYCLE_SEARCHABLE_FIELDS,
-  PRICE_RANGE
 } = require('../constants');
 const ApiError = require('../error/ApiError');
 const { catchAsyncHandler, pick, queryHelper } = require('../helper');
@@ -18,7 +17,7 @@ const {
 } = require('../services/cycle.service');
 const sendResponse = require('../utils/send-response');
 const { ResponseStatus } = require('../enums');
-const fileToUrl = require('../utils/file-to-url');
+const { default: mongoose } = require('mongoose');
 
 /**
  * @class CycleController
@@ -35,7 +34,18 @@ class CycleController {
     const filterableOptions = pick(req.query, CYCLE_FILTERABLE_FILEDS);
     const paginationOptions = pick(req.query, PAGINATION);
     const { url, query, path } = req;
-    const totalCycles = await findAllCycles();
+
+    let fixedFilters = {};
+    if (query.productId && query.type) {
+      fixedFilters._id = {
+        $ne: new mongoose.Types.ObjectId(query.productId)
+      };
+      fixedFilters.type = query.type;
+    };
+    
+    if (query.minPrice) fixedFilters.productPrice = { $gte: query.minPrice };
+    if (query.maxPrice) fixedFilters.productPrice = { $lte: query.maxPrice };
+    const totalCycles = await findAllCycles(fixedFilters);
 
     const minPricedItem = await findAllCycles(
       {},
@@ -79,6 +89,7 @@ class CycleController {
       status: ResponseStatus.SUCCESS,
       data: cycles,
       meta: {
+        total: totalCycles.length,
         pagination,
         filters,
         minPrice: minPricedItem[0].productPrice,
@@ -168,6 +179,11 @@ class CycleController {
    */
   static updateteCycle = catchAsyncHandler(async (req, res) => {
     const { id } = req.params;
+
+    if (req.file) {
+      // req.body.productImg = fileToUrl(req);
+      req.body.productImg = req.file.fieldname + '/' + req.file.filename;
+    }
 
     const cycle = await updateCycleService(id, req.body);
 

@@ -150,6 +150,13 @@ static async getEmailOtpService (userId, email) {
   let savedOtp = null;
   await transport.sendMail(mailOptions).then(async () => {
     savedOtp = await newOtpVerification.save();
+
+    savedOtp = await OTP.findById(savedOtp._id)
+      .populate('userId', 'email')
+      .lean();
+
+    savedOtp.user = savedOtp.userId;
+    delete savedOtp.userId;
   });
 
   return savedOtp;

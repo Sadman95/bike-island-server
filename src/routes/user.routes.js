@@ -13,8 +13,9 @@ const {
   bulkItemsIdValidation
 } = require('../validations/common.validation');
 const { STACKHOLDER } = require('../enums');
-const { authenticate_roles } = require('../middlewares/validate-user');
+const { authenticate_roles, authenticate } = require('../middlewares/validate-user');
 const { updateUserValidation } = require('../validations/user.validation');
+const upload = require('../middlewares/upload');
 
 /**
  * ===========
@@ -24,7 +25,6 @@ const { updateUserValidation } = require('../validations/user.validation');
 
 router
   .get('/', authenticate_roles(STACKHOLDER.ADMIN), getAllUsers)
-  // .put('/', UsersController.makeAdmin)
   .get('/:id', validateRequest(idParamValidation), getUserById)
   .delete('/:id', validateRequest(idParamValidation), deleteUserById)
   .post(
@@ -33,6 +33,6 @@ router
     validateRequest(bulkItemsIdValidation),
     deleteBulkUsersById
   )
-  .put('/:id', validateRequest(updateUserValidation), updateteUser);
+  .patch('/:id', authenticate, validateRequest(updateUserValidation), upload.single('avatar') , updateteUser);
 
 module.exports = router;
