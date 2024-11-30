@@ -38,6 +38,24 @@ class AddressService {
 
     return address;
   };
+
+  /**
+   * get an address
+  */
+  static getAnAddressService = async (filter = null) => {
+    const address = await Address.findOne(filter);
+
+    return address;
+  };
+
+  /**
+   * delete an address
+  */
+  static deleteAddressService = async (filter = null) => {
+    const address = await Address.findOneAndDelete(filter);
+
+    return address;
+  };
 }
 
 module.exports = AddressService;

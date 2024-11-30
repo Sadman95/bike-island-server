@@ -1,5 +1,7 @@
 const express = require('express');
-const { getUserAddress } = require('../controllers/address.controller');
+const { getUserAddress, deleteUserAddress } = require('../controllers/address.controller');
+const validateRequest = require('../middlewares/validate-request');
+const { idParamValidation } = require('../validations/common.validation');
 const router = express.Router();
 
 /**
@@ -10,5 +12,6 @@ const router = express.Router();
 
 
 router.get('/', getUserAddress);
+router.delete('/:id', validateRequest(idParamValidation), deleteUserAddress);
 
 module.exports = router;

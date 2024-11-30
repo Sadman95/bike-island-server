@@ -2,6 +2,7 @@ const { default: mongoose } = require('mongoose');
 const { ORDER_STAT } = require('../enums');
 const Address = require('../models/address.model');
 const Order = require('../models/order.model');
+const { getAnAddressService } = require('./address.service');
 
 /**
  * order service
@@ -82,14 +83,21 @@ class OrderService {
    * @returns Promise<Document>
    */
   static createOrderService = async ({ address, ...orderData }) => {
+    const { _id, ...rest} = address;
     const session = await mongoose.startSession();
-
+    let existAddress = null;
     try {
       session.startTransaction();
 
-      const userAddress = await Address.create([address], { session });
+      if (_id)
+        existAddress = await getAnAddressService({ _id });
+      else {
+        const newAddress = await Address.create([rest], { session });
+        existAddress = newAddress[0];
+      }
 
-      orderData.address = userAddress[0]._id;
+
+      orderData.address = existAddress._id;
 
       const newOrder = await Order.create([orderData], { session });
 
